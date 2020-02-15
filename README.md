@@ -10,7 +10,7 @@ The main intent of this app is to enable especially little transit agencies offe
 In general this project is intended for little transport agencies looking for a simple way of passenger information where money is a limiting factor. Due to the ability to add
 tenants to the data, it can also be used from more than one transport agency at one time.
 
-Need some preview? [Look at the set of screenshots](docs/SCREENSHOT.md)!
+Need some preview? [Look at the set of screenshots](docs/SCREENSHOTS.md)!
 
 All you need to run is a standard web server and a MySQL database where you can upload and run the app.
 
