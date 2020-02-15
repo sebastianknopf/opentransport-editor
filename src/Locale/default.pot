@@ -1,0 +1,2206 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2020-02-13 21:03+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/InstallController.php:116
+msgid "Unable to connect to the database server!"
+msgstr ""
+
+#: Controller/InstallController.php:205
+msgid "Unable to save admin user!"
+msgstr ""
+
+#: Controller/Admin/AgenciesController.php:44
+#: Template/Admin/Agencies/index.ctp:10
+#: Template/Admin/System/manual.ctp:75
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:53
+msgid "Agencies"
+msgstr ""
+
+#: Controller/Admin/AgenciesController.php:100;129
+msgid "The agency has been saved."
+msgstr ""
+
+#: Controller/Admin/AgenciesController.php:105;134
+msgid "The agency could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/AgenciesController.php:157
+msgid "The agency has been deleted."
+msgstr ""
+
+#: Controller/Admin/AgenciesController.php:160
+msgid "The agency could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ApiLogsController.php:74
+msgid "The log entry has been deleted."
+msgstr ""
+
+#: Controller/Admin/ApiLogsController.php:76
+msgid "The log entry could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ClientsController.php:29
+#: Template/Admin/Clients/index.ctp:8
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:16
+msgid "Clients"
+msgstr ""
+
+#: Controller/Admin/ClientsController.php:80;107
+msgid "The client has been saved."
+msgstr ""
+
+#: Controller/Admin/ClientsController.php:84;111
+msgid "The client could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ClientsController.php:132
+msgid "The client has been deleted."
+msgstr ""
+
+#: Controller/Admin/ClientsController.php:134
+msgid "The client could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ClientsController.php:193
+msgid "The clientship has been transferred."
+msgstr ""
+
+#: Controller/Admin/ClientsController.php:199
+msgid "The clientship could not be transferred. Please, try again."
+msgstr ""
+
+#: Controller/Admin/GroupsController.php:37
+#: Template/Admin/Groups/index.ctp:8
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:19
+msgid "Groups"
+msgstr ""
+
+#: Controller/Admin/GroupsController.php:90;120
+msgid "The group has been saved."
+msgstr ""
+
+#: Controller/Admin/GroupsController.php:94;124
+msgid "The group could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/GroupsController.php:145
+msgid "The group has been deleted."
+msgstr ""
+
+#: Controller/Admin/GroupsController.php:147
+msgid "The group could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/RoutesController.php:37
+#: Template/Admin/Routes/index.ctp:10
+#: Template/Admin/System/manual.ctp:87
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:56
+msgid "Routes"
+msgstr ""
+
+#: Controller/Admin/RoutesController.php:110;142
+msgid "The route has been saved."
+msgstr ""
+
+#: Controller/Admin/RoutesController.php:116;148
+msgid "The route could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/RoutesController.php:172
+msgid "The route has been deleted."
+msgstr ""
+
+#: Controller/Admin/RoutesController.php:175
+msgid "The route could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ServicesController.php:39
+#: Template/Admin/Services/index.ctp:10
+#: Template/Admin/System/manual.ctp:63
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:50
+msgid "Services"
+msgstr ""
+
+#: Controller/Admin/ServicesController.php:101;131
+msgid "The service has been saved."
+msgstr ""
+
+#: Controller/Admin/ServicesController.php:107;137
+msgid "The service could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ServicesController.php:159
+msgid "The service has been deleted."
+msgstr ""
+
+#: Controller/Admin/ServicesController.php:162
+msgid "The service could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ShapesController.php:48
+#: Template/Admin/Shapes/index.ctp:10
+#: Template/Admin/System/manual.ctp:51
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:39
+msgid "Shapes"
+msgstr ""
+
+#: Controller/Admin/ShapesController.php:104;138
+msgid "The shape has been saved."
+msgstr ""
+
+#: Controller/Admin/ShapesController.php:109;143
+msgid "The shape could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ShapesController.php:164
+msgid "The shape has been copied."
+msgstr ""
+
+#: Controller/Admin/ShapesController.php:167
+msgid "The shape could not be copied. Please, try again."
+msgstr ""
+
+#: Controller/Admin/ShapesController.php:188
+msgid "The shape has been deleted."
+msgstr ""
+
+#: Controller/Admin/ShapesController.php:191
+msgid "The shape could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/StopsController.php:41
+#: Template/Admin/Stops/index.ctp:8
+#: Template/Admin/System/manual.ctp:39
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:36
+msgid "Stations"
+msgstr ""
+
+#: Controller/Admin/StopsController.php:100;147
+msgid "The stop has been saved."
+msgstr ""
+
+#: Controller/Admin/StopsController.php:117;152
+msgid "The stop could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/StopsController.php:175
+msgid "The stop has been deleted."
+msgstr ""
+
+#: Controller/Admin/StopsController.php:178
+msgid "The stop could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/StopsController.php:181
+msgid "Unable to delete the stop! The stop is still referenced by some other objects."
+msgstr ""
+
+#: Controller/Admin/SystemController.php:19
+#: Template/Admin/System/manual.ctp:27
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:11
+msgid "System"
+msgstr ""
+
+#: Controller/Admin/SystemController.php:74
+msgid "The message could not be ignored!"
+msgstr ""
+
+#: Controller/Admin/TripsController.php:45
+#: Template/Admin/System/manual.ctp:99
+#: Template/Admin/Trips/index.ctp:10
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:59
+msgid "Trips"
+msgstr ""
+
+#: Controller/Admin/TripsController.php:125;175
+msgid "The trip has been saved."
+msgstr ""
+
+#: Controller/Admin/TripsController.php:131;181
+msgid "The trip could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/TripsController.php:278
+msgid "The trip has been copied."
+msgstr ""
+
+#: Controller/Admin/TripsController.php:281;284
+msgid "The trip could not be copied. Please, try again."
+msgstr ""
+
+#: Controller/Admin/TripsController.php:307
+msgid "The trip has been deleted."
+msgstr ""
+
+#: Controller/Admin/TripsController.php:310
+msgid "The trip could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:25
+#: Template/Admin/Users/index.ctp:8
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:22
+msgid "Users"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:102
+msgid "{0} | User Registration"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:106;136
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:111;140
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:165
+msgid "The user has been deleted."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:167
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:192
+msgid "The user account has been activated."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:194
+msgid "The user account could not be activated."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:222;285
+msgid "The password has been changed."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:224
+msgid "The password could not be changed. Please, try again."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:255
+msgid "{0} | Password Reset"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:258
+msgid "A mail with next instructions has been sent! If you didn't receive any mail, you can try it again or contact our support."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:260
+msgid "Invalid username or E-Mail!"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:265
+msgid "Password Forgot"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:289
+msgid "The password could not be reset!"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:293;352
+msgid "Invalid username or password!"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:297
+#: Template/Admin/Users/pwforgot.ctp:2
+#: Template/Admin/Users/pwreset.ctp:3
+msgid "Password Reset"
+msgstr ""
+
+#: Controller/Admin/UsersController.php:320
+msgid "The settings have been saved."
+msgstr ""
+
+#: Controller/Admin/UsersController.php:324
+msgid "The settings could not be saved. Please, try again."
+msgstr ""
+
+#: Model/Entity/Message.php:58
+msgid "Active"
+msgstr ""
+
+#: Model/Entity/Message.php:59
+msgid "Ignored"
+msgstr ""
+
+#: Model/Entity/Service.php:93
+msgid "Never"
+msgstr ""
+
+#: Model/Entity/Service.php:95
+msgid "Everyday"
+msgstr ""
+
+#: Model/Entity/Service.php:99
+msgid "Mon"
+msgstr ""
+
+#: Model/Entity/Service.php:100
+msgid "Tue"
+msgstr ""
+
+#: Model/Entity/Service.php:101
+msgid "Wed"
+msgstr ""
+
+#: Model/Entity/Service.php:102
+msgid "Thu"
+msgstr ""
+
+#: Model/Entity/Service.php:103
+msgid "Fri"
+msgstr ""
+
+#: Model/Entity/Service.php:104
+msgid "Sat"
+msgstr ""
+
+#: Model/Entity/Service.php:105
+msgid "Sun"
+msgstr ""
+
+#: Model/Entity/Service.php:146
+msgid "additionally on"
+msgstr ""
+
+#: Model/Entity/Service.php:150
+msgid "not on"
+msgstr ""
+
+#: Model/Entity/Trip.php:129
+#: Template/Admin/Routes/view.ctp:121
+#: Template/Admin/Trips/index.ctp:31
+msgid "Outbound"
+msgstr ""
+
+#: Model/Entity/Trip.php:130
+#: Template/Admin/Routes/view.ctp:121
+#: Template/Admin/Trips/index.ctp:31
+msgid "Inbound"
+msgstr ""
+
+#: Model/Entity/Route/Type.php:35
+msgid "Tram"
+msgstr ""
+
+#: Model/Entity/Route/Type.php:36
+msgid "Subway"
+msgstr ""
+
+#: Model/Entity/Route/Type.php:37
+msgid "Railway"
+msgstr ""
+
+#: Model/Entity/Route/Type.php:38
+msgid "Bus"
+msgstr ""
+
+#: Model/Entity/Route/Type.php:39
+msgid "Ferry"
+msgstr ""
+
+#: Model/Entity/Route/Type.php:40
+msgid "Cable Car"
+msgstr ""
+
+#: Model/Entity/Route/Type.php:41
+msgid "Gondola"
+msgstr ""
+
+#: Model/Entity/Route/Type.php:42
+msgid "Funicular"
+msgstr ""
+
+#: Model/Table/ShapesTable.php:86;87
+msgid "You must specify at least two shape points!"
+msgstr ""
+
+#: Model/Table/StopsTable.php:110;115
+msgid "Please specify a GPS position"
+msgstr ""
+
+#: Model/Table/TripsTable.php:146
+msgid "Please select a valid direction id!"
+msgstr ""
+
+#: Model/Table/UsersTable.php:91
+msgid "The password must be at least 8 chars long!"
+msgstr ""
+
+#: Model/Table/UsersTable.php:95
+msgid "The password must contain at least one number!"
+msgstr ""
+
+#: Model/Table/UsersTable.php:99
+msgid "The password must contain at least one lower-case char!"
+msgstr ""
+
+#: Model/Table/UsersTable.php:103
+msgid "The password must contain at leas one upper-case char!"
+msgstr ""
+
+#: Model/Table/UsersTable.php:110
+msgid "The passwords are not equal!"
+msgstr ""
+
+#: Model/Table/UsersTable.php:115
+msgid "The password is invalid!"
+msgstr ""
+
+#: Shell/Task/QueueDataMonitorTask.php:96
+msgid "stop #{0} does not specify a platform code"
+msgstr ""
+
+#: Shell/Task/QueueDataMonitorTask.php:100
+msgid "stop #{0} is never used in any trip"
+msgstr ""
+
+#: Shell/Task/QueueDataMonitorTask.php:118
+msgid "shape #{0} is never used in any trip"
+msgstr ""
+
+#: Shell/Task/QueueDataMonitorTask.php:137
+msgid "service #{0} is never used in any trip"
+msgstr ""
+
+#: Shell/Task/QueueDataMonitorTask.php:144
+msgid "service exception #{0} causes a conflict with another service exception"
+msgstr ""
+
+#: Shell/Task/QueueDataMonitorTask.php:166
+msgid "agency #{0} has no routes assigned"
+msgstr ""
+
+#: Shell/Task/QueueDataMonitorTask.php:184
+msgid "route #{0} has no trips assigned"
+msgstr ""
+
+#: Shell/Task/QueueDataMonitorTask.php:189
+msgid "route #{0} uses a mismatching color scheme"
+msgstr ""
+
+#: Shell/Task/QueueDataMonitorTask.php:209
+msgid "trip #{0} does not specify a short name"
+msgstr ""
+
+#: Shell/Task/QueueDataMonitorTask.php:213
+msgid "trip #{0} does not specify a shape"
+msgstr ""
+
+#: Shell/Task/QueueDataMonitorTask.php:223
+msgid "two or more stop times in trip #{0} are overlapping each other"
+msgstr ""
+
+#: Shell/Task/QueueDataMonitorTask.php:228;232
+msgid "two or more stop times in trip #{0} are inconsistent"
+msgstr ""
+
+#: Shell/Task/QueueDataMonitorTask.php:242
+msgid "two or more frequencies in trip #{0} are overlapping each other"
+msgstr ""
+
+#: Shell/Task/QueueDataMonitorTask.php:247
+msgid "two or more frequencies in trip #{0} are inconsistent"
+msgstr ""
+
+#: Template/Admin/Agencies/add.ctp:7
+msgid "Add Agency"
+msgstr ""
+
+#: Template/Admin/Agencies/add.ctp:21
+#: Template/Admin/Agencies/edit.ctp:21
+#: Template/Admin/Agencies/view.ctp:21
+#: Template/Admin/ApiLogs/view.ctp:17
+#: Template/Admin/Clients/add.ctp:20
+#: Template/Admin/Clients/edit.ctp:18
+#: Template/Admin/Clients/view.ctp:17
+#: Template/Admin/Groups/add.ctp:26
+#: Template/Admin/Groups/edit.ctp:26
+#: Template/Admin/Groups/view.ctp:25
+#: Template/Admin/Routes/add.ctp:21
+#: Template/Admin/Routes/edit.ctp:21
+#: Template/Admin/Routes/view.ctp:21
+#: Template/Admin/Services/add.ctp:16
+#: Template/Admin/Services/edit.ctp:16
+#: Template/Admin/Services/view.ctp:15
+#: Template/Admin/Shapes/add.ctp:20
+#: Template/Admin/Shapes/edit.ctp:20
+#: Template/Admin/Shapes/view.ctp:15
+#: Template/Admin/Stops/add.ctp:26
+#: Template/Admin/Stops/edit.ctp:26
+#: Template/Admin/Stops/view.ctp:21
+#: Template/Admin/Trips/add.ctp:16
+#: Template/Admin/Trips/edit.ctp:16
+#: Template/Admin/Trips/view.ctp:21
+#: Template/Admin/Users/add.ctp:18
+#: Template/Admin/Users/edit.ctp:18
+#: Template/Admin/Users/view.ctp:17
+msgid "Basedata"
+msgstr ""
+
+#: Template/Admin/Agencies/add.ctp:27
+#: Template/Admin/Agencies/edit.ctp:27
+#: Template/Admin/Agencies/index.ctp:31;59
+#: Template/Admin/Agencies/view.ctp:30
+#: Template/Admin/Groups/view.ctp:35
+#: Template/Admin/Services/add.ctp:23
+#: Template/Admin/Services/edit.ctp:24
+#: Template/Admin/Services/index.ctp:31;60
+#: Template/Admin/Services/view.ctp:24
+#: Template/Admin/Shapes/add.ctp:26
+#: Template/Admin/Shapes/edit.ctp:26
+#: Template/Admin/Shapes/index.ctp:31;60
+#: Template/Admin/Shapes/view.ctp:24
+#: Template/Admin/Stops/edit.ctp:63
+#: Template/Admin/Stops/index.ctp:61
+#: Template/Admin/Stops/view.ctp:37;83
+msgid "Name"
+msgstr ""
+
+#: Template/Admin/Agencies/add.ctp:28
+#: Template/Admin/Agencies/edit.ctp:28
+#: Template/Admin/Agencies/index.ctp:60
+#: Template/Admin/Agencies/view.ctp:34;122
+#: Template/Admin/Routes/add.ctp:30
+#: Template/Admin/Routes/edit.ctp:30
+#: Template/Admin/Routes/index.ctp:70
+#: Template/Admin/Routes/view.ctp:50
+msgid "URL"
+msgstr ""
+
+#: Template/Admin/Agencies/add.ctp:29
+#: Template/Admin/Agencies/edit.ctp:29
+#: Template/Admin/Agencies/view.ctp:42
+msgid "Fare URL"
+msgstr ""
+
+#: Template/Admin/Agencies/add.ctp:30
+#: Template/Admin/Agencies/edit.ctp:30
+#: Template/Admin/Agencies/index.ctp:61
+#: Template/Admin/Agencies/view.ctp:50
+msgid "Phone"
+msgstr ""
+
+#: Template/Admin/Agencies/add.ctp:41
+#: Template/Admin/Agencies/edit.ctp:41
+#: Template/Admin/Agencies/view.ctp:58
+#: Template/Admin/Users/settings.ctp:73
+msgid "Timezone"
+msgstr ""
+
+#: Template/Admin/Agencies/add.ctp:42
+#: Template/Admin/Agencies/edit.ctp:42
+#: Template/Admin/Agencies/view.ctp:54
+msgid "Language"
+msgstr ""
+
+#: Template/Admin/Agencies/add.ctp:51
+#: Template/Admin/Agencies/edit.ctp:51
+#: Template/Admin/Clients/add.ctp:34
+#: Template/Admin/Clients/edit.ctp:30
+#: Template/Admin/Clients/transfer.ctp:33;35
+#: Template/Admin/Groups/add.ctp:51
+#: Template/Admin/Groups/edit.ctp:51
+#: Template/Admin/Routes/add.ctp:62
+#: Template/Admin/Routes/edit.ctp:62
+#: Template/Admin/Services/add.ctp:98
+#: Template/Admin/Services/edit.ctp:94
+#: Template/Admin/Shapes/add.ctp:45
+#: Template/Admin/Shapes/edit.ctp:45
+#: Template/Admin/Stops/add.ctp:61
+#: Template/Admin/Stops/edit.ctp:116
+#: Template/Admin/Trips/add.ctp:162
+#: Template/Admin/Trips/edit.ctp:162
+#: Template/Admin/Trips/index.ctp:167
+#: Template/Admin/Users/add.ctp:42
+#: Template/Admin/Users/edit.ctp:41
+#: Template/Element/modal/delete-confirm.ctp:12
+#: Template/Frontend/index.ctp:243;290
+msgid "Cancel"
+msgstr ""
+
+#: Template/Admin/Agencies/add.ctp:52
+#: Template/Admin/Agencies/edit.ctp:52
+#: Template/Admin/Clients/add.ctp:35
+#: Template/Admin/Clients/edit.ctp:31
+#: Template/Admin/Clients/transfer.ctp:37
+#: Template/Admin/Groups/add.ctp:52
+#: Template/Admin/Groups/edit.ctp:52
+#: Template/Admin/Routes/add.ctp:63
+#: Template/Admin/Routes/edit.ctp:63
+#: Template/Admin/Services/add.ctp:99
+#: Template/Admin/Services/edit.ctp:95
+#: Template/Admin/Shapes/add.ctp:46
+#: Template/Admin/Shapes/edit.ctp:46
+#: Template/Admin/Stops/add.ctp:62
+#: Template/Admin/Stops/edit.ctp:117
+#: Template/Admin/Trips/add.ctp:163
+#: Template/Admin/Trips/edit.ctp:163
+#: Template/Admin/Users/add.ctp:43
+#: Template/Admin/Users/edit.ctp:42
+#: Template/Admin/Users/pwchange.ctp:22
+#: Template/Admin/Users/settings.ctp:140
+msgid "Submit"
+msgstr ""
+
+#: Template/Admin/Agencies/edit.ctp:7
+msgid "Edit Agency"
+msgstr ""
+
+#: Template/Admin/Agencies/index.ctp:19
+#: Template/Admin/Routes/index.ctp:19
+#: Template/Admin/Services/index.ctp:19
+#: Template/Admin/Shapes/index.ctp:19
+#: Template/Admin/Stops/index.ctp:17
+#: Template/Admin/Trips/index.ctp:19
+msgid "Filter Options"
+msgstr ""
+
+#: Template/Admin/Agencies/index.ctp:28
+msgid "Agency ID"
+msgstr ""
+
+#: Template/Admin/Agencies/index.ctp:37
+#: Template/Admin/Routes/index.ctp:44
+#: Template/Admin/Services/index.ctp:38
+#: Template/Admin/Shapes/index.ctp:38
+#: Template/Admin/Stops/index.ctp:38
+#: Template/Admin/Trips/index.ctp:49
+msgid "Reset"
+msgstr ""
+
+#: Template/Admin/Agencies/index.ctp:39
+#: Template/Admin/Routes/index.ctp:46
+#: Template/Admin/Services/index.ctp:40
+#: Template/Admin/Shapes/index.ctp:40
+#: Template/Admin/Stops/index.ctp:40
+#: Template/Admin/Trips/index.ctp:51
+msgid "Apply"
+msgstr ""
+
+#: Template/Admin/Agencies/index.ctp:62
+#: Template/Admin/Agencies/view.ctp:123
+#: Template/Admin/ApiLogs/index.ctp:53
+#: Template/Admin/Clients/index.ctp:27
+#: Template/Admin/Groups/index.ctp:26
+#: Template/Admin/Routes/index.ctp:71
+#: Template/Admin/Routes/view.ctp:144
+#: Template/Admin/Services/index.ctp:62
+#: Template/Admin/Shapes/index.ctp:61
+#: Template/Admin/Stops/index.ctp:63
+#: Template/Admin/Stops/view.ctp:86
+#: Template/Admin/System/index.ctp:77
+#: Template/Admin/Trips/add.ctp:71
+#: Template/Admin/Trips/edit.ctp:71
+#: Template/Admin/Trips/index.ctp:79
+#: Template/Admin/Users/index.ctp:28
+msgid "Actions"
+msgstr ""
+
+#: Template/Admin/Agencies/index.ctp:79
+#: Template/Admin/Agencies/view.ctp:141
+#: Template/Admin/ApiLogs/index.ctp:65
+#: Template/Admin/Clients/index.ctp:39
+#: Template/Admin/Groups/index.ctp:37
+#: Template/Admin/Routes/index.ctp:90
+#: Template/Admin/Routes/view.ctp:178
+#: Template/Admin/Services/index.ctp:74
+#: Template/Admin/Shapes/index.ctp:72
+#: Template/Admin/Stops/edit.ctp:94
+#: Template/Admin/Stops/index.ctp:84
+#: Template/Admin/Stops/view.ctp:107
+#: Template/Admin/Trips/index.ctp:113
+#: Template/Admin/Users/index.ctp:41
+#: Template/Element/permissions/permissions-add.ctp:11
+#: Template/Element/permissions/permissions-edit.ctp:17
+#: Template/Element/permissions/permissions-view.ctp:17
+msgid "View"
+msgstr ""
+
+#: Template/Admin/Agencies/index.ctp:82
+#: Template/Admin/Clients/index.ctp:42
+#: Template/Admin/Groups/index.ctp:40
+#: Template/Admin/Routes/index.ctp:93
+#: Template/Admin/Services/index.ctp:77
+#: Template/Admin/Shapes/index.ctp:78
+#: Template/Admin/Stops/edit.ctp:97
+#: Template/Admin/Stops/index.ctp:87
+#: Template/Admin/Trips/index.ctp:119
+#: Template/Admin/Users/index.ctp:44
+#: Template/Element/permissions/permissions-add.ctp:17
+#: Template/Element/permissions/permissions-edit.ctp:23
+#: Template/Element/permissions/permissions-view.ctp:23
+msgid "Edit"
+msgstr ""
+
+#: Template/Admin/Agencies/index.ctp:85
+#: Template/Admin/ApiLogs/index.ctp:68
+#: Template/Admin/Clients/index.ctp:45
+#: Template/Admin/Groups/index.ctp:43
+#: Template/Admin/Routes/index.ctp:96
+#: Template/Admin/Services/index.ctp:80
+#: Template/Admin/Shapes/index.ctp:81
+#: Template/Admin/Stops/edit.ctp:100
+#: Template/Admin/Stops/index.ctp:90
+#: Template/Admin/Trips/index.ctp:122
+#: Template/Admin/Users/index.ctp:47
+#: Template/Element/modal/delete-confirm.ctp:13
+#: Template/Element/permissions/permissions-add.ctp:20
+#: Template/Element/permissions/permissions-edit.ctp:26
+#: Template/Element/permissions/permissions-view.ctp:26
+#: Template/Element/services/exception.ctp:24;26
+#: Template/Element/trips/frequency.ctp:25;27
+#: Template/Element/trips/stop-time.ctp:45;47
+msgid "Delete"
+msgstr ""
+
+#: Template/Admin/Agencies/view.ctp:8
+msgid "View Agency"
+msgstr ""
+
+#: Template/Admin/Agencies/view.ctp:22
+#: Template/Admin/Clients/view.ctp:18
+#: Template/Admin/Groups/view.ctp:27
+#: Template/Admin/Routes/view.ctp:22
+#: Template/Admin/Services/view.ctp:16
+#: Template/Admin/Shapes/view.ctp:16
+#: Template/Admin/Stops/view.ctp:25
+#: Template/Admin/Trips/view.ctp:23
+#: Template/Admin/Users/view.ctp:18
+msgid "Meta"
+msgstr ""
+
+#: Template/Admin/Agencies/view.ctp:70
+#: Template/Admin/Clients/view.ctp:42
+#: Template/Admin/Groups/view.ctp:64
+#: Template/Admin/Routes/view.ctp:76
+#: Template/Admin/Services/view.ctp:79
+#: Template/Admin/Shapes/view.ctp:41
+#: Template/Admin/Stops/view.ctp:124
+#: Template/Admin/Trips/view.ctp:159
+#: Template/Admin/Users/view.ctp:54
+msgid "ID"
+msgstr ""
+
+#: Template/Admin/Agencies/view.ctp:74
+#: Template/Admin/Clients/view.ctp:46
+#: Template/Admin/Groups/view.ctp:68
+#: Template/Admin/Routes/view.ctp:80
+#: Template/Admin/Services/view.ctp:83
+#: Template/Admin/Shapes/view.ctp:45
+#: Template/Admin/Stops/view.ctp:128
+#: Template/Admin/Trips/view.ctp:163
+#: Template/Admin/Users/view.ctp:58
+msgid "Created"
+msgstr ""
+
+#: Template/Admin/Agencies/view.ctp:78
+#: Template/Admin/Clients/view.ctp:50
+#: Template/Admin/Groups/view.ctp:72
+#: Template/Admin/Routes/view.ctp:84
+#: Template/Admin/Services/view.ctp:87
+#: Template/Admin/Shapes/view.ctp:49
+#: Template/Admin/Stops/view.ctp:132
+#: Template/Admin/Trips/view.ctp:167
+#: Template/Admin/Users/view.ctp:62
+msgid "Modified"
+msgstr ""
+
+#: Template/Admin/Agencies/view.ctp:82
+#: Template/Admin/Routes/view.ctp:88
+#: Template/Admin/Services/view.ctp:91
+#: Template/Admin/Trips/view.ctp:171
+#: Template/Admin/Users/view.ctp:35
+msgid "Client"
+msgstr ""
+
+#: Template/Admin/Agencies/view.ctp:101
+msgid "Related Routes"
+msgstr ""
+
+#: Template/Admin/Agencies/view.ctp:119
+#: Template/Admin/Routes/add.ctp:27
+#: Template/Admin/Routes/edit.ctp:27
+#: Template/Admin/Routes/index.ctp:67
+#: Template/Admin/Routes/view.ctp:34
+msgid "Type"
+msgstr ""
+
+#: Template/Admin/Agencies/view.ctp:120
+#: Template/Admin/Clients/index.ctp:25
+#: Template/Admin/Clients/view.ctp:26
+#: Template/Admin/Routes/add.ctp:28
+#: Template/Admin/Routes/edit.ctp:28
+#: Template/Admin/Routes/index.ctp:34;68
+#: Template/Admin/Routes/view.ctp:38;140
+msgid "Shortname"
+msgstr ""
+
+#: Template/Admin/Agencies/view.ctp:121
+#: Template/Admin/Clients/index.ctp:26
+#: Template/Admin/Clients/view.ctp:30
+#: Template/Admin/Routes/add.ctp:29
+#: Template/Admin/Routes/edit.ctp:29
+#: Template/Admin/Routes/index.ctp:37;69
+#: Template/Admin/Routes/view.ctp:42
+msgid "Longname"
+msgstr ""
+
+#: Template/Admin/Agencies/view.ctp:150
+msgid "No related routes found!"
+msgstr ""
+
+#: Template/Admin/ApiLogs/index.ctp:9
+#: Template/Admin/System/index.ctp:44
+#: Template/Admin/System/manual.ctp:111
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:68
+msgid "REST API"
+msgstr ""
+
+#: Template/Admin/ApiLogs/index.ctp:18
+msgid "Request Statistics"
+msgstr ""
+
+#: Template/Admin/ApiLogs/index.ctp:18;39
+msgid "last 8 days"
+msgstr ""
+
+#: Template/Admin/ApiLogs/index.ctp:29;78
+#: Template/Admin/System/index.ctp:55
+msgid "RestAPI requests are not logged! Enable RestAPI request log to view this panel!"
+msgstr ""
+
+#: Template/Admin/ApiLogs/index.ctp:39
+msgid "Error Logs"
+msgstr ""
+
+#: Template/Admin/ApiLogs/index.ctp:50
+#: Template/Admin/Services/edit.ctp:68
+#: Template/Admin/Services/view.ctp:49
+msgid "Date"
+msgstr ""
+
+#: Template/Admin/ApiLogs/index.ctp:51
+#: Template/Admin/ApiLogs/view.ctp:41
+msgid "Response Code"
+msgstr ""
+
+#: Template/Admin/ApiLogs/index.ctp:52
+#: Template/Admin/ApiLogs/view.ctp:29
+msgid "Endpoint"
+msgstr ""
+
+#: Template/Admin/ApiLogs/index.ctp:108
+msgid "Success Requests"
+msgstr ""
+
+#: Template/Admin/ApiLogs/index.ctp:112
+msgid "Error Requests"
+msgstr ""
+
+#: Template/Admin/ApiLogs/view.ctp:3
+msgid "View Log Entry"
+msgstr ""
+
+#: Template/Admin/ApiLogs/view.ctp:25
+msgid "Method"
+msgstr ""
+
+#: Template/Admin/ApiLogs/view.ctp:33
+msgid "Query Params"
+msgstr ""
+
+#: Template/Admin/ApiLogs/view.ctp:37
+msgid "Request Data"
+msgstr ""
+
+#: Template/Admin/ApiLogs/view.ctp:45
+msgid "Response Data"
+msgstr ""
+
+#: Template/Admin/ApiLogs/view.ctp:49
+msgid "Exception"
+msgstr ""
+
+#: Template/Admin/Clients/add.ctp:3
+msgid "Add Client"
+msgstr ""
+
+#: Template/Admin/Clients/edit.ctp:3
+msgid "Edit Client"
+msgstr ""
+
+#: Template/Admin/Clients/index.ctp:62
+#: Template/Admin/Clients/transfer.ctp:3
+msgid "Transfer Clientship"
+msgstr ""
+
+#: Template/Admin/Clients/transfer.ctp:15
+#: Template/Admin/Routes/view.ctp:127;139
+#: Template/Admin/Trips/add.ctp:26
+#: Template/Admin/Trips/edit.ctp:26
+#: Template/Admin/Trips/index.ctp:34;73;150
+#: Template/Admin/Trips/view.ctp:41
+msgid "Service"
+msgstr ""
+
+#: Template/Admin/Clients/transfer.ctp:15
+#: Template/Admin/Routes/add.ctp:34
+#: Template/Admin/Routes/edit.ctp:34
+#: Template/Admin/Routes/index.ctp:66
+#: Template/Admin/Routes/view.ctp:30
+msgid "Agency"
+msgstr ""
+
+#: Template/Admin/Clients/transfer.ctp:15
+#: Template/Admin/Trips/add.ctp:25
+#: Template/Admin/Trips/edit.ctp:25
+#: Template/Admin/Trips/index.ctp:37;74
+#: Template/Admin/Trips/view.ctp:31
+msgid "Route"
+msgstr ""
+
+#: Template/Admin/Clients/transfer.ctp:15
+msgid "Trip"
+msgstr ""
+
+#: Template/Admin/Clients/transfer.ctp:15
+msgid "Entity Class"
+msgstr ""
+
+#: Template/Admin/Clients/transfer.ctp:18
+msgid "Entity ID"
+msgstr ""
+
+#: Template/Admin/Clients/transfer.ctp:24
+msgid "Override Associations"
+msgstr ""
+
+#: Template/Admin/Clients/transfer.ctp:25
+msgid "If you don't override associations, this can lead to incorrect behaviour! We recommend strictly to override associations!"
+msgstr ""
+
+#: Template/Admin/Clients/transfer.ctp:26
+msgid "Don't Override"
+msgstr ""
+
+#: Template/Admin/Clients/transfer.ctp:26
+msgid "Override"
+msgstr ""
+
+#: Template/Admin/Clients/view.ctp:3
+msgid "View Client"
+msgstr ""
+
+#: Template/Admin/Groups/add.ctp:11
+msgid "Add Group"
+msgstr ""
+
+#: Template/Admin/Groups/add.ctp:27
+#: Template/Admin/Groups/edit.ctp:27
+#: Template/Admin/Groups/view.ctp:26
+msgid "Permissions"
+msgstr ""
+
+#: Template/Admin/Groups/edit.ctp:11
+msgid "Edit Group"
+msgstr ""
+
+#: Template/Admin/Groups/view.ctp:11
+msgid "View Group"
+msgstr ""
+
+#: Template/Admin/Help/index.ctp:5
+msgid "Home"
+msgstr ""
+
+#: Template/Admin/Help/index.ctp:6
+msgid "Help"
+msgstr ""
+
+#: Template/Admin/Help/index.ctp:8;12
+msgid "Help overview"
+msgstr ""
+
+#: Template/Admin/Help/index.ctp:13
+msgid "Overview about important features and FAQs"
+msgstr ""
+
+#: Template/Admin/Help/index.ctp:17;32
+msgid "System info"
+msgstr ""
+
+#: Template/Admin/Help/index.ctp:26
+msgid "Latest features and updates"
+msgstr ""
+
+#: Template/Admin/Help/index.ctp:27
+msgid "Latest added features and changes"
+msgstr ""
+
+#: Template/Admin/Routes/add.ctp:7
+msgid "Add Route"
+msgstr ""
+
+#: Template/Admin/Routes/add.ctp:31
+#: Template/Admin/Routes/edit.ctp:31
+#: Template/Admin/Routes/view.ctp:58
+#: Template/Admin/Services/index.ctp:61
+#: Template/Admin/Stops/add.ctp:37
+#: Template/Admin/Stops/edit.ctp:40
+msgid "Description"
+msgstr ""
+
+#: Template/Admin/Routes/add.ctp:37
+#: Template/Admin/Routes/edit.ctp:37
+msgid "Color"
+msgstr ""
+
+#: Template/Admin/Routes/add.ctp:44
+#: Template/Admin/Routes/edit.ctp:44
+msgid "Text Color"
+msgstr ""
+
+#: Template/Admin/Routes/edit.ctp:7
+msgid "Edit Route"
+msgstr ""
+
+#: Template/Admin/Routes/index.ctp:28
+msgid "Route ID"
+msgstr ""
+
+#: Template/Admin/Routes/index.ctp:31
+msgid "Route Type"
+msgstr ""
+
+#: Template/Admin/Routes/view.ctp:8
+msgid "View Route"
+msgstr ""
+
+#: Template/Admin/Routes/view.ctp:46
+msgid "Num Variations"
+msgstr ""
+
+#: Template/Admin/Routes/view.ctp:62
+msgid "Colors"
+msgstr ""
+
+#: Template/Admin/Routes/view.ctp:105
+msgid "Related Trips"
+msgstr ""
+
+#: Template/Admin/Routes/view.ctp:121
+#: Template/Admin/Trips/add.ctp:27
+#: Template/Admin/Trips/edit.ctp:27
+#: Template/Admin/Trips/index.ctp:31
+#: Template/Admin/Trips/view.ctp:45
+msgid "Direction"
+msgstr ""
+
+#: Template/Admin/Routes/view.ctp:124;136
+#: Template/Admin/Trips/view.ctp:37
+msgid "Variation"
+msgstr ""
+
+#: Template/Admin/Routes/view.ctp:137
+#: Template/Admin/Trips/add.ctp:126
+#: Template/Admin/Trips/edit.ctp:126
+#: Template/Admin/Trips/index.ctp:71
+#: Template/Admin/Trips/view.ctp:135
+msgid "Start Time"
+msgstr ""
+
+#: Template/Admin/Routes/view.ctp:138
+#: Template/Admin/Trips/add.ctp:127
+#: Template/Admin/Trips/edit.ctp:127
+#: Template/Admin/Trips/index.ctp:72
+#: Template/Admin/Trips/view.ctp:136
+msgid "End Time"
+msgstr ""
+
+#: Template/Admin/Routes/view.ctp:141
+#: Template/Admin/Trips/add.ctp:30
+#: Template/Admin/Trips/edit.ctp:30
+#: Template/Admin/Trips/index.ctp:43;76;152
+#: Template/Admin/Trips/view.ctp:57
+msgid "Headsign"
+msgstr ""
+
+#: Template/Admin/Routes/view.ctp:142
+#: Template/Admin/Stops/add.ctp:38
+#: Template/Admin/Stops/edit.ctp:41;65
+#: Template/Admin/Stops/index.ctp:62
+#: Template/Admin/Stops/view.ctp:51;85
+#: Template/Admin/Trips/add.ctp:34
+#: Template/Admin/Trips/edit.ctp:34
+#: Template/Admin/Trips/index.ctp:77
+#: Template/Admin/Trips/view.ctp:65
+msgid "Wheelchair"
+msgstr ""
+
+#: Template/Admin/Routes/view.ctp:143
+#: Template/Admin/Trips/add.ctp:38
+#: Template/Admin/Trips/edit.ctp:38
+#: Template/Admin/Trips/index.ctp:78
+#: Template/Admin/Trips/view.ctp:77
+msgid "Bikes"
+msgstr ""
+
+#: Template/Admin/Routes/view.ctp:159;168
+#: Template/Admin/Stops/add.ctp:39
+#: Template/Admin/Stops/edit.ctp:42;84
+#: Template/Admin/Stops/index.ctp:74
+#: Template/Admin/Stops/view.ctp:54;98
+#: Template/Admin/Trips/add.ctp:35;39
+#: Template/Admin/Trips/edit.ctp:35;39
+#: Template/Admin/Trips/index.ctp:94;103
+#: Template/Admin/Trips/view.ctp:68;80
+msgid "N/A"
+msgstr ""
+
+#: Template/Admin/Routes/view.ctp:161;170
+#: Template/Admin/Stops/add.ctp:39
+#: Template/Admin/Stops/edit.ctp:42;86
+#: Template/Admin/Stops/index.ctp:76
+#: Template/Admin/Stops/view.ctp:56;100
+#: Template/Admin/Trips/add.ctp:35;39
+#: Template/Admin/Trips/edit.ctp:35;39
+#: Template/Admin/Trips/index.ctp:96;105
+#: Template/Admin/Trips/view.ctp:70;82;126;127;146
+#: Template/Element/trips/stop-time.ctp:35;40
+msgid "Yes"
+msgstr ""
+
+#: Template/Admin/Routes/view.ctp:163;172
+#: Template/Admin/Stops/add.ctp:39
+#: Template/Admin/Stops/edit.ctp:42;88
+#: Template/Admin/Stops/index.ctp:78
+#: Template/Admin/Stops/view.ctp:58;102
+#: Template/Admin/Trips/add.ctp:35;39
+#: Template/Admin/Trips/edit.ctp:35;39
+#: Template/Admin/Trips/index.ctp:98;107
+#: Template/Admin/Trips/view.ctp:72;84;126;127;146
+#: Template/Element/trips/stop-time.ctp:35;40
+msgid "No"
+msgstr ""
+
+#: Template/Admin/Routes/view.ctp:188
+msgid "No related trips found!"
+msgstr ""
+
+#: Template/Admin/Services/add.ctp:2
+msgid "Add Service"
+msgstr ""
+
+#: Template/Admin/Services/add.ctp:17
+#: Template/Admin/Services/edit.ctp:17
+#: Template/Admin/Services/view.ctp:45
+msgid "Deviations"
+msgstr ""
+
+#: Template/Admin/Services/add.ctp:26
+msgid "Start Date"
+msgstr ""
+
+#: Template/Admin/Services/add.ctp:35
+msgid "End Date"
+msgstr ""
+
+#: Template/Admin/Services/add.ctp:46
+#: Template/Admin/Services/edit.ctp:40
+msgid "Monday"
+msgstr ""
+
+#: Template/Admin/Services/add.ctp:49
+#: Template/Admin/Services/edit.ctp:43
+msgid "Tuesday"
+msgstr ""
+
+#: Template/Admin/Services/add.ctp:52
+#: Template/Admin/Services/edit.ctp:46
+msgid "Wednesday"
+msgstr ""
+
+#: Template/Admin/Services/add.ctp:55
+#: Template/Admin/Services/edit.ctp:49
+msgid "Thursday"
+msgstr ""
+
+#: Template/Admin/Services/add.ctp:58
+#: Template/Admin/Services/edit.ctp:52
+msgid "Friday"
+msgstr ""
+
+#: Template/Admin/Services/add.ctp:61
+#: Template/Admin/Services/edit.ctp:55
+msgid "Saturday"
+msgstr ""
+
+#: Template/Admin/Services/add.ctp:64
+#: Template/Admin/Services/edit.ctp:58
+msgid "Sunday"
+msgstr ""
+
+#: Template/Admin/Services/edit.ctp:2
+msgid "Edit Service"
+msgstr ""
+
+#: Template/Admin/Services/edit.ctp:69
+#: Template/Admin/Services/view.ctp:50
+msgid "Deviation"
+msgstr ""
+
+#: Template/Admin/Services/index.ctp:28
+msgid "Service ID"
+msgstr ""
+
+#: Template/Admin/Services/view.ctp:2
+msgid "View Service"
+msgstr ""
+
+#: Template/Admin/Services/view.ctp:28
+msgid "Start"
+msgstr ""
+
+#: Template/Admin/Services/view.ctp:32
+msgid "End"
+msgstr ""
+
+#: Template/Admin/Services/view.ctp:36
+msgid "Service Days"
+msgstr ""
+
+#: Template/Admin/Services/view.ctp:61
+#: Template/Element/services/exception.ctp:19
+msgid "additional"
+msgstr ""
+
+#: Template/Admin/Services/view.ctp:63
+#: Template/Element/services/exception.ctp:19
+msgid "exceptional"
+msgstr ""
+
+#: Template/Admin/Shapes/add.ctp:2
+msgid "Add Shape"
+msgstr ""
+
+#: Template/Admin/Shapes/add.ctp:31
+#: Template/Admin/Shapes/edit.ctp:31
+#: Template/Admin/Trips/add.ctp:28
+#: Template/Admin/Trips/edit.ctp:28
+#: Template/Admin/Trips/view.ctp:49
+msgid "Shape"
+msgstr ""
+
+#: Template/Admin/Shapes/add.ctp:84;111
+#: Template/Admin/Shapes/edit.ctp:83;107
+msgid "Click Strg+Point to continue the line."
+msgstr ""
+
+#: Template/Admin/Shapes/add.ctp:86
+msgid "Click on the map to start a new line."
+msgstr ""
+
+#: Template/Admin/Shapes/add.ctp:99
+#: Template/Admin/Shapes/edit.ctp:95
+msgid "Click on the map to continue line."
+msgstr ""
+
+#: Template/Admin/Shapes/add.ctp:101;106
+#: Template/Admin/Shapes/edit.ctp:97;102
+msgid "Click on last point to finish line."
+msgstr ""
+
+#: Template/Admin/Shapes/edit.ctp:2
+msgid "Edit Shape"
+msgstr ""
+
+#: Template/Admin/Shapes/index.ctp:28
+msgid "Shape ID"
+msgstr ""
+
+#: Template/Admin/Shapes/index.ctp:75
+#: Template/Admin/Trips/index.ctp:116;168
+msgid "Copy"
+msgstr ""
+
+#: Template/Admin/Shapes/view.ctp:2
+msgid "View Shape"
+msgstr ""
+
+#: Template/Admin/Stops/add.ctp:4
+msgid "Add Station"
+msgstr ""
+
+#: Template/Admin/Stops/add.ctp:6
+msgid "Add Stop"
+msgstr ""
+
+#: Template/Admin/Stops/add.ctp:35
+#: Template/Admin/Stops/edit.ctp:38
+#: Template/Admin/Stops/view.ctp:42
+msgid "Platform Code"
+msgstr ""
+
+#: Template/Admin/Stops/add.ctp:41
+msgid "Stop Pair"
+msgstr ""
+
+#: Template/Admin/Stops/add.ctp:42
+msgid "Create Stops"
+msgstr ""
+
+#: Template/Admin/Stops/add.ctp:46
+#: Template/Admin/Stops/edit.ctp:45
+msgid "Position"
+msgstr ""
+
+#: Template/Admin/Stops/add.ctp:111
+#: Template/Admin/Stops/edit.ctp:180
+msgid "Click on the map to set the position."
+msgstr ""
+
+#: Template/Admin/Stops/edit.ctp:4
+msgid "Edit Station"
+msgstr ""
+
+#: Template/Admin/Stops/edit.ctp:6
+msgid "Edit Stop"
+msgstr ""
+
+#: Template/Admin/Stops/edit.ctp:28
+#: Template/Admin/Stops/view.ctp:23
+msgid "Stops"
+msgstr ""
+
+#: Template/Admin/Stops/edit.ctp:62
+#: Template/Admin/Stops/index.ctp:60
+#: Template/Admin/Stops/view.ctp:33;82
+msgid "Code"
+msgstr ""
+
+#: Template/Admin/Stops/edit.ctp:64
+#: Template/Admin/Stops/view.ctp:84
+msgid "Platform"
+msgstr ""
+
+#: Template/Admin/Stops/index.ctp:26
+msgid "Stop ID"
+msgstr ""
+
+#: Template/Admin/Stops/index.ctp:29
+msgid "Stop Code"
+msgstr ""
+
+#: Template/Admin/Stops/index.ctp:32
+#: Template/Admin/Trips/add.ctp:54
+#: Template/Admin/Trips/edit.ctp:54
+msgid "Stop Name"
+msgstr ""
+
+#: Template/Admin/Stops/view.ctp:4
+msgid "View Station"
+msgstr ""
+
+#: Template/Admin/Stops/view.ctp:6
+msgid "View Stop"
+msgstr ""
+
+#: Template/Admin/Stops/view.ctp:47
+msgid "Desc"
+msgstr ""
+
+#: Template/Admin/Stops/view.ctp:64
+msgid "Num Stops"
+msgstr ""
+
+#: Template/Admin/Stops/view.ctp:115
+msgid "No assigned stops where found!"
+msgstr ""
+
+#: Template/Admin/System/index.ctp:9
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:5
+msgid "Dashboard"
+msgstr ""
+
+#: Template/Admin/System/index.ctp:18
+msgid "Latest Features"
+msgstr ""
+
+#: Template/Admin/System/index.ctp:32
+msgid "Current Version"
+msgstr ""
+
+#: Template/Admin/System/index.ctp:65
+msgid "Data Errors"
+msgstr ""
+
+#: Template/Admin/System/index.ctp:75
+msgid "Level"
+msgstr ""
+
+#: Template/Admin/System/index.ctp:76
+msgid "Text"
+msgstr ""
+
+#: Template/Admin/System/index.ctp:84
+msgid "Info"
+msgstr ""
+
+#: Template/Admin/System/index.ctp:87
+msgid "Warning"
+msgstr ""
+
+#: Template/Admin/System/index.ctp:90
+#: Template/Admin/Users/pwreset.ctp:11
+#: Template/Layout/error.ctp:35
+msgid "Error"
+msgstr ""
+
+#: Template/Admin/System/index.ctp:99
+msgid "Ignore"
+msgstr ""
+
+#: Template/Admin/System/index.ctp:108
+msgid "No data errors found."
+msgstr ""
+
+#: Template/Admin/System/index.ctp:132
+msgid "Requests"
+msgstr ""
+
+#: Template/Admin/System/license.ctp:3
+#: Template/Plugin/AdminLTE/Element/footer.ctp:6
+msgid "License Information"
+msgstr ""
+
+#: Template/Admin/System/license.ctp:9
+msgid "SYSTEM_LICENSE_INFO"
+msgstr ""
+
+#: Template/Admin/System/manual.ctp:8
+msgid "User Manual"
+msgstr ""
+
+#: Template/Admin/System/manual.ctp:15
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:2
+msgid "General"
+msgstr ""
+
+#: Template/Admin/System/manual.ctp:18
+msgid "MANUAL_GENERAL_INFO"
+msgstr ""
+
+#: Template/Admin/System/manual.ctp:30
+msgid "MANUAL_SYSTEM_INFO"
+msgstr ""
+
+#: Template/Admin/System/manual.ctp:42
+msgid "MANUAL_STOPS_INFO"
+msgstr ""
+
+#: Template/Admin/System/manual.ctp:54
+msgid "MANUAL_SHAPES_INFO"
+msgstr ""
+
+#: Template/Admin/System/manual.ctp:66
+msgid "MANUAL_SERVICES_INFO"
+msgstr ""
+
+#: Template/Admin/System/manual.ctp:78
+msgid "MANUAL_AGENCIES_INFO"
+msgstr ""
+
+#: Template/Admin/System/manual.ctp:90
+msgid "MANUAL_ROUTES_INFO"
+msgstr ""
+
+#: Template/Admin/System/manual.ctp:102
+msgid "MANUAL_TRIPS_INFO"
+msgstr ""
+
+#: Template/Admin/System/manual.ctp:114
+msgid "MANUAL_REST_INFO"
+msgstr ""
+
+#: Template/Admin/System/privacy.ctp:3
+#: Template/Api/OpenTransportApi/index.ctp:60
+msgid "Privacy Information"
+msgstr ""
+
+#: Template/Admin/System/privacy.ctp:9
+#: Template/Api/OpenTransportApi/index.ctp:61
+#: Template/Frontend/index.ctp:229
+msgid "SYSTEM_PRIVACY_INFO"
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:2
+msgid "Add Trip"
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:17
+#: Template/Admin/Trips/edit.ctp:17
+#: Template/Admin/Trips/view.ctp:96
+msgid "Stop Times"
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:18
+#: Template/Admin/Trips/edit.ctp:18
+msgid "Graphic Times"
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:19
+#: Template/Admin/Trips/edit.ctp:19
+#: Template/Admin/Trips/view.ctp:132
+msgid "Frequencies"
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:27;28
+#: Template/Admin/Trips/edit.ctp:27;28
+#: Template/Admin/Trips/index.ctp:150
+msgid "Select..."
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:29
+#: Template/Admin/Trips/edit.ctp:29
+#: Template/Admin/Trips/index.ctp:40;75;151
+#: Template/Admin/Trips/view.ctp:53
+msgid "Trip Shortname"
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:31
+#: Template/Admin/Trips/edit.ctp:31
+#: Template/Admin/Trips/view.ctp:61
+msgid "Block ID"
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:57
+#: Template/Admin/Trips/edit.ctp:57
+msgid "Add"
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:66
+#: Template/Admin/Trips/edit.ctp:66
+#: Template/Admin/Trips/view.ctp:101
+msgid "Stop"
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:67
+#: Template/Admin/Trips/edit.ctp:67
+#: Template/Admin/Trips/view.ctp:102
+msgid "Arrival Time"
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:68
+#: Template/Admin/Trips/edit.ctp:68
+#: Template/Admin/Trips/view.ctp:103
+msgid "Departure Time"
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:69
+#: Template/Admin/Trips/edit.ctp:69
+#: Template/Admin/Trips/view.ctp:104
+msgid "Entry"
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:70
+#: Template/Admin/Trips/edit.ctp:70
+#: Template/Admin/Trips/view.ctp:105
+msgid "Exit"
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:108;378
+#: Template/Admin/Trips/edit.ctp:108;407
+msgid "Graph Zoomlevel {0}%"
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:128
+#: Template/Admin/Trips/edit.ctp:128
+#: Template/Admin/Trips/view.ctp:137
+msgid "Headway"
+msgstr ""
+
+#: Template/Admin/Trips/add.ctp:129
+#: Template/Admin/Trips/edit.ctp:129
+#: Template/Admin/Trips/view.ctp:138
+msgid "Exact Times"
+msgstr ""
+
+#: Template/Admin/Trips/edit.ctp:2
+msgid "Edit Trip"
+msgstr ""
+
+#: Template/Admin/Trips/index.ctp:28
+msgid "Trip ID"
+msgstr ""
+
+#: Template/Admin/Trips/index.ctp:146
+msgid "Copy Options"
+msgstr ""
+
+#: Template/Admin/Trips/index.ctp:155
+msgid "Reference"
+msgstr ""
+
+#: Template/Admin/Trips/index.ctp:159
+msgid "Stop Order"
+msgstr ""
+
+#: Template/Admin/Trips/index.ctp:160
+msgid "Leave"
+msgstr ""
+
+#: Template/Admin/Trips/index.ctp:160
+msgid "Reverse"
+msgstr ""
+
+#: Template/Admin/Trips/view.ctp:8
+msgid "View Trip"
+msgstr ""
+
+#: Template/Admin/Trips/view.ctp:22
+msgid "Travel Times"
+msgstr ""
+
+#: Template/Admin/Trips/view.ctp:126;127
+#: Template/Element/trips/stop-time.ctp:35;40
+msgid "Demand"
+msgstr ""
+
+#: Template/Admin/Users/add.ctp:3
+msgid "Add User"
+msgstr ""
+
+#: Template/Admin/Users/add.ctp:27
+#: Template/Admin/Users/pwreset.ctp:5
+msgid "Password (Match)"
+msgstr ""
+
+#: Template/Admin/Users/add.ctp:32
+msgid "Registration E-Mail"
+msgstr ""
+
+#: Template/Admin/Users/add.ctp:33
+msgid "Don't Send"
+msgstr ""
+
+#: Template/Admin/Users/add.ctp:33
+msgid "Send"
+msgstr ""
+
+#: Template/Admin/Users/edit.ctp:3
+msgid "Edit User"
+msgstr ""
+
+#: Template/Admin/Users/edit.ctp:39
+#: Template/Admin/Users/pwchange.ctp:3
+#: Template/Admin/Users/settings.ctp:139
+msgid "Change Password"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:2
+msgid "Login Form"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:3
+#: Template/Admin/Users/pwforgot.ctp:3
+#: Template/Admin/Users/view.ctp:26
+#: Template/Install/database.ctp:22
+#: Template/Install/email.ctp:22
+#: Template/Install/user.ctp:20
+msgid "Username"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:4
+#: Template/Admin/Users/pwreset.ctp:4
+#: Template/Install/database.ctp:23
+#: Template/Install/email.ctp:23
+#: Template/Install/user.ctp:22
+msgid "Password"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:5
+msgid "Forgot your password?"
+msgstr ""
+
+#: Template/Admin/Users/login.ctp:7
+msgid "Login"
+msgstr ""
+
+#: Template/Admin/Users/pwchange.ctp:13;17
+msgid "New Password"
+msgstr ""
+
+#: Template/Admin/Users/pwchange.ctp:16
+msgid "Old Password"
+msgstr ""
+
+#: Template/Admin/Users/pwchange.ctp:18
+msgid "New Password (Match)"
+msgstr ""
+
+#: Template/Admin/Users/pwchange.ctp:31
+msgid "Security Hint"
+msgstr ""
+
+#: Template/Admin/Users/pwchange.ctp:34
+msgid "To ensure the system security, your password should comply with the following requirements"
+msgstr ""
+
+#: Template/Admin/Users/pwchange.ctp:36
+msgid "your password should use at least 8 characters"
+msgstr ""
+
+#: Template/Admin/Users/pwchange.ctp:37
+msgid "mix upper-case with lower-case letters and other special chars"
+msgstr ""
+
+#: Template/Admin/Users/pwchange.ctp:38
+msgid "do not use any kind of content related words"
+msgstr ""
+
+#: Template/Admin/Users/pwforgot.ctp:4
+msgid "Proceed"
+msgstr ""
+
+#: Template/Admin/Users/pwreset.ctp:7
+msgid "Change"
+msgstr ""
+
+#: Template/Admin/Users/pwreset.ctp:12
+msgid "The supplied token seems to be invalid!"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:8
+msgid "User Settings"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:34
+msgid "Date Format"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:54
+msgid "Time Format"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:89
+msgid "Preferred Language"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:103
+msgid "Max. Results / Page"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:112
+msgid "Blue"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:113
+msgid "Blue Light"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:114
+msgid "Yellow"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:115
+msgid "Yellow Light"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:116
+msgid "Green"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:117
+msgid "Green Light"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:118
+msgid "Purple"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:119
+msgid "Purple Light"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:120
+msgid "Red"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:121
+msgid "Red Light"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:122
+msgid "Minimal Black"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:123
+msgid "Minimal Light"
+msgstr ""
+
+#: Template/Admin/Users/settings.ctp:132
+msgid "Theme"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:3
+msgid "View User"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:30
+msgid "Email"
+msgstr ""
+
+#: Template/Admin/Users/view.ctp:41
+msgid "Group"
+msgstr ""
+
+#: Template/Api/OpenTransportApi/index.ctp:49
+msgid "REST_API_INFO_TEXT"
+msgstr ""
+
+#: Template/Api/OpenTransportApi/index.ctp:70
+#: Template/Frontend/index.ctp:228;252
+#: Template/Plugin/AdminLTE/Element/footer.ctp:6
+msgid "Privacy"
+msgstr ""
+
+#: Template/Element/modal/delete-confirm.ctp:6
+msgid "Confirmation"
+msgstr ""
+
+#: Template/Element/modal/delete-confirm.ctp:9
+msgid "Are you sure you want to delete this item? This cannot be undone!"
+msgstr ""
+
+#: Template/Element/permissions/permissions-add.ctp:14
+#: Template/Element/permissions/permissions-edit.ctp:20
+#: Template/Element/permissions/permissions-view.ctp:20
+msgid "Create"
+msgstr ""
+
+#: Template/Email/html/users_pwreset.ctp:7
+msgid "EMAIL_HTML_USERS_PWRESET"
+msgstr ""
+
+#: Template/Email/html/users_registration.ctp:7
+msgid "EMAIL_HTML_USERS_REGISTRATION"
+msgstr ""
+
+#: Template/Email/text/users_pwreset.ctp:2
+msgid "EMAIL_TEXT_USERS_PWRESET"
+msgstr ""
+
+#: Template/Email/text/users_registration.ctp:2
+msgid "EMAIL_TEXT_USERS_REGISTRATION"
+msgstr ""
+
+#: Template/Frontend/index.ctp:111
+msgid "Map"
+msgstr ""
+
+#: Template/Frontend/index.ctp:112;153
+msgid "Search"
+msgstr ""
+
+#: Template/Frontend/index.ctp:113
+msgid "Alerts"
+msgstr ""
+
+#: Template/Frontend/index.ctp:123
+msgid "Overview Map"
+msgstr ""
+
+#: Template/Frontend/index.ctp:124;150;213
+msgid "Route Search"
+msgstr ""
+
+#: Template/Frontend/index.ctp:125;217
+msgid "Service Alerts"
+msgstr ""
+
+#: Template/Frontend/index.ctp:126
+msgid "Current Location"
+msgstr ""
+
+#: Template/Frontend/index.ctp:145;205
+msgid "Departures"
+msgstr ""
+
+#: Template/Frontend/index.ctp:152
+msgid "Route Name"
+msgstr ""
+
+#: Template/Frontend/index.ctp:159;209;544
+msgid "Trip Details"
+msgstr ""
+
+#: Template/Frontend/index.ctp:166
+msgid "There are no currently active service alerts"
+msgstr ""
+
+#: Template/Frontend/index.ctp:168
+msgid "Reload"
+msgstr ""
+
+#: Template/Frontend/index.ctp:172;221
+#: Template/Plugin/AdminLTE/Element/nav-top.ctp:192
+msgid "Settings"
+msgstr ""
+
+#: Template/Frontend/index.ctp:173
+msgid "Set up your preferences for searching, map display and application behaviour here."
+msgstr ""
+
+#: Template/Frontend/index.ctp:177
+msgid "Search Preferences"
+msgstr ""
+
+#: Template/Frontend/index.ctp:180
+msgid "Wheelchair Accessible"
+msgstr ""
+
+#: Template/Frontend/index.ctp:182
+msgid "Bikes Allowed"
+msgstr ""
+
+#: Template/Frontend/index.ctp:186
+msgid "Map Display"
+msgstr ""
+
+#: Template/Frontend/index.ctp:189
+msgid "Stops / POIs"
+msgstr ""
+
+#: Template/Frontend/index.ctp:191
+msgid "Vehicle Positions"
+msgstr ""
+
+#: Template/Frontend/index.ctp:199
+msgid "Application Info"
+msgstr ""
+
+#: Template/Frontend/index.ctp:200
+msgid "Thank your for using {0} application! In this section you can find some basic instructions."
+msgstr ""
+
+#: Template/Frontend/index.ctp:201
+msgid "Map View"
+msgstr ""
+
+#: Template/Frontend/index.ctp:203
+msgid "FRONTEND_INFO_TEXT_MAP_VIEW"
+msgstr ""
+
+#: Template/Frontend/index.ctp:207
+msgid "FRONTEND_INFO_TEXT_DEPARTURES"
+msgstr ""
+
+#: Template/Frontend/index.ctp:211
+msgid "FRONTEND_INFO_TEXT_TRIP_DETAILS"
+msgstr ""
+
+#: Template/Frontend/index.ctp:215
+msgid "FRONTEND_INFO_TEXT_ROUTE_SEARCH"
+msgstr ""
+
+#: Template/Frontend/index.ctp:219
+msgid "FRONTEND_INFO_TEXT_SERVICE_ALERTS"
+msgstr ""
+
+#: Template/Frontend/index.ctp:223
+msgid "FRONTEND_INFO_TEXT_SETTINGS"
+msgstr ""
+
+#: Template/Frontend/index.ctp:242
+msgid "Close"
+msgstr ""
+
+#: Template/Frontend/index.ctp:251
+msgid "Information"
+msgstr ""
+
+#: Template/Frontend/index.ctp:289;293
+msgid "OK"
+msgstr ""
+
+#: Template/Frontend/index.ctp:364;367
+msgid "Location Error"
+msgstr ""
+
+#: Template/Frontend/index.ctp:364
+msgid "An error occurred while requesting your current location!"
+msgstr ""
+
+#: Template/Frontend/index.ctp:367
+msgid "Geolocation is not supported by this browser!"
+msgstr ""
+
+#: Template/Frontend/index.ctp:422;533
+msgid "departs every "
+msgstr ""
+
+#: Template/Frontend/index.ctp:465
+msgid "No matching trip results found!"
+msgstr ""
+
+#: Template/Frontend/index.ctp:491
+msgid "Trip Overview"
+msgstr ""
+
+#: Template/Frontend/index.ctp:499
+msgid "No matching route results found!"
+msgstr ""
+
+#: Template/Frontend/index.ctp:552
+msgid "No departure results found!"
+msgstr ""
+
+#: Template/Install/conclusion.ctp:12
+#: Template/Install/database.ctp:12
+#: Template/Install/email.ctp:12
+#: Template/Install/index.ctp:11
+#: Template/Install/user.ctp:12
+msgid "Installation"
+msgstr ""
+
+#: Template/Install/conclusion.ctp:12
+msgid "Conclusion"
+msgstr ""
+
+#: Template/Install/conclusion.ctp:16
+msgid "Great! The installation ran successfully."
+msgstr ""
+
+#: Template/Install/conclusion.ctp:23
+msgid "Finish & Login"
+msgstr ""
+
+#: Template/Install/database.ctp:12
+msgid "Database"
+msgstr ""
+
+#: Template/Install/database.ctp:17
+msgid "To store your data anywhere we need access to a database. Please enter credentials for your database here."
+msgstr ""
+
+#: Template/Install/database.ctp:20
+#: Template/Install/email.ctp:20
+msgid "Host"
+msgstr ""
+
+#: Template/Install/database.ctp:21
+#: Template/Install/email.ctp:21
+msgid "Port"
+msgstr ""
+
+#: Template/Install/database.ctp:24
+msgid "Database Name"
+msgstr ""
+
+#: Template/Install/database.ctp:28
+#: Template/Install/email.ctp:29
+#: Template/Install/index.ctp:114
+#: Template/Install/user.ctp:26
+msgid "Next"
+msgstr ""
+
+#: Template/Install/email.ctp:12
+msgid "SMPT / E-Mail"
+msgstr ""
+
+#: Template/Install/email.ctp:17
+msgid "If you want to send emails, you must enter your SMTP credentials here. You can also skip this part of installation and change the credentials in the config file manually."
+msgstr ""
+
+#: Template/Install/email.ctp:28
+msgid "Skip"
+msgstr ""
+
+#: Template/Install/index.ctp:11
+msgid "Requirements"
+msgstr ""
+
+#: Template/Install/index.ctp:16
+msgid "Welcome to **{0}** installation! This wizard will guide you through the whole installation process."
+msgstr ""
+
+#: Template/Install/index.ctp:54
+msgid "installed PHP version >= 5.6"
+msgstr ""
+
+#: Template/Install/index.ctp:58
+msgid "installed CakePHP core >= 3.8"
+msgstr ""
+
+#: Template/Install/index.ctp:62;66;71;79;87;95
+msgid "extension {0} for PHP loaded"
+msgstr ""
+
+#: Template/Install/index.ctp:73;81;89;97
+msgid "extension {0} for PHP NOT loaded"
+msgstr ""
+
+#: Template/Install/index.ctp:103
+msgid "function set_time_limit not locked"
+msgstr ""
+
+#: Template/Install/index.ctp:105
+msgid "function set_time_limit is locked! Current max execution time limit is {0} seconds"
+msgstr ""
+
+#: Template/Install/user.ctp:12
+msgid "Admin User"
+msgstr ""
+
+#: Template/Install/user.ctp:17
+msgid "You have to create at least one admin user! Enter your preferred credentials in the boxes below."
+msgstr ""
+
+#: Template/Install/user.ctp:21
+msgid "E-Mail"
+msgstr ""
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr ""
+
+#: Template/Layout/Email/html/default.ctp:23
+msgid "System Email"
+msgstr ""
+
+#: Template/Plugin/AdminLTE/Element/nav-top.ctp:195
+msgid "Logout"
+msgstr ""
+
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:28
+msgid "Data Management"
+msgstr ""
+
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:31
+msgid "Network"
+msgstr ""
+
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:45
+msgid "Trip Data"
+msgstr ""
+
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:65
+msgid "Data Exchange"
+msgstr ""
+

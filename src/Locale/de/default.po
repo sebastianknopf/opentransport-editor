@@ -1,0 +1,3713 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenTransport - Deutsch\n"
+"POT-Creation-Date: 2020-02-13 21:03+0000\n"
+"PO-Revision-Date: 2020-02-13 22:05+0100\n"
+"Last-Translator: \n"
+"Language-Team: sebastianknopf (@github)\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Controller/InstallController.php:116
+msgid "Unable to connect to the database server!"
+msgstr "Verbindung zum Datenbank-Server fehlgeschlagen!"
+
+#: Controller/InstallController.php:205
+msgid "Unable to save admin user!"
+msgstr "Der Administrator konnte nicht gespeichert werden!"
+
+#: Controller/Admin/AgenciesController.php:44
+#: Template/Admin/Agencies/index.ctp:10 Template/Admin/System/manual.ctp:75
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:53
+msgid "Agencies"
+msgstr "Unternehmen"
+
+#: Controller/Admin/AgenciesController.php:100;129
+msgid "The agency has been saved."
+msgstr "Das Unternehmen wurde gespeichert."
+
+#: Controller/Admin/AgenciesController.php:105;134
+msgid "The agency could not be saved. Please, try again."
+msgstr ""
+"Das Unternehmen konnte nicht gespeichert werden. Bitte versuchen Sie es "
+"erneut."
+
+#: Controller/Admin/AgenciesController.php:157
+msgid "The agency has been deleted."
+msgstr "Das Unternehmen wurde gelöscht."
+
+#: Controller/Admin/AgenciesController.php:160
+msgid "The agency could not be deleted. Please, try again."
+msgstr ""
+"Das Unternehmen konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/ApiLogsController.php:74
+msgid "The log entry has been deleted."
+msgstr "Der Log-Eintrag wurde gelöscht."
+
+#: Controller/Admin/ApiLogsController.php:76
+msgid "The log entry could not be deleted. Please, try again."
+msgstr ""
+"Der Log-Eintrag konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/ClientsController.php:29 Template/Admin/Clients/index.ctp:8
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:16
+msgid "Clients"
+msgstr "Mandanten"
+
+#: Controller/Admin/ClientsController.php:80;107
+msgid "The client has been saved."
+msgstr "Der Mandant wurde gespeichert."
+
+#: Controller/Admin/ClientsController.php:84;111
+msgid "The client could not be saved. Please, try again."
+msgstr ""
+"Der Mandant konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/ClientsController.php:132
+msgid "The client has been deleted."
+msgstr "Der Mandant wurde gelöscht."
+
+#: Controller/Admin/ClientsController.php:134
+msgid "The client could not be deleted. Please, try again."
+msgstr ""
+"Der Mandant konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/ClientsController.php:193
+msgid "The clientship has been transferred."
+msgstr "Die Eigentümerschaft wurde übertragen."
+
+#: Controller/Admin/ClientsController.php:199
+msgid "The clientship could not be transferred. Please, try again."
+msgstr ""
+"Die Eigentümerschaft konnte nicht übertragen werden. Bitte versuchen Sie es "
+"erneut."
+
+#: Controller/Admin/GroupsController.php:37 Template/Admin/Groups/index.ctp:8
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:19
+msgid "Groups"
+msgstr "Gruppen"
+
+#: Controller/Admin/GroupsController.php:90;120
+msgid "The group has been saved."
+msgstr "Die Gruppe wurde gespeichert."
+
+#: Controller/Admin/GroupsController.php:94;124
+msgid "The group could not be saved. Please, try again."
+msgstr ""
+"Die Gruppe konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/GroupsController.php:145
+msgid "The group has been deleted."
+msgstr "Die Gruppe wurde gelöscht."
+
+#: Controller/Admin/GroupsController.php:147
+msgid "The group could not be deleted. Please, try again."
+msgstr ""
+"Die Gruppe konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/RoutesController.php:37 Template/Admin/Routes/index.ctp:10
+#: Template/Admin/System/manual.ctp:87
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:56
+msgid "Routes"
+msgstr "Linien"
+
+#: Controller/Admin/RoutesController.php:110;142
+msgid "The route has been saved."
+msgstr "Die Linie wurde gespeichert."
+
+#: Controller/Admin/RoutesController.php:116;148
+msgid "The route could not be saved. Please, try again."
+msgstr ""
+"Die Linie konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/RoutesController.php:172
+msgid "The route has been deleted."
+msgstr "Die Linie wurde gelöscht."
+
+#: Controller/Admin/RoutesController.php:175
+msgid "The route could not be deleted. Please, try again."
+msgstr "Die Linie konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/ServicesController.php:39
+#: Template/Admin/Services/index.ctp:10 Template/Admin/System/manual.ctp:63
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:50
+msgid "Services"
+msgstr "Tagesarten"
+
+#: Controller/Admin/ServicesController.php:101;131
+msgid "The service has been saved."
+msgstr "Die Tagesart wurde gespeichert."
+
+#: Controller/Admin/ServicesController.php:107;137
+msgid "The service could not be saved. Please, try again."
+msgstr ""
+"Die Tagesart konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/ServicesController.php:159
+msgid "The service has been deleted."
+msgstr "Die Tagesart wurde gelöscht."
+
+#: Controller/Admin/ServicesController.php:162
+msgid "The service could not be deleted. Please, try again."
+msgstr ""
+"Die Tagesart konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/ShapesController.php:48 Template/Admin/Shapes/index.ctp:10
+#: Template/Admin/System/manual.ctp:51
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:39
+msgid "Shapes"
+msgstr "Fahrwege"
+
+#: Controller/Admin/ShapesController.php:104;138
+msgid "The shape has been saved."
+msgstr "Der Fahrweg wurde gespeichert."
+
+#: Controller/Admin/ShapesController.php:109;143
+msgid "The shape could not be saved. Please, try again."
+msgstr ""
+"Der Fahrweg konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/ShapesController.php:164
+msgid "The shape has been copied."
+msgstr "Der Fahrweg wurde kopiert."
+
+#: Controller/Admin/ShapesController.php:167
+msgid "The shape could not be copied. Please, try again."
+msgstr ""
+"Der Fahrweg konnte nicht kopiert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/ShapesController.php:188
+msgid "The shape has been deleted."
+msgstr "Der Fahrweg wurde gelöscht."
+
+#: Controller/Admin/ShapesController.php:191
+msgid "The shape could not be deleted. Please, try again."
+msgstr ""
+"Der Fahrweg konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/StopsController.php:41 Template/Admin/Stops/index.ctp:8
+#: Template/Admin/System/manual.ctp:39
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:36
+msgid "Stations"
+msgstr "Stationen"
+
+#: Controller/Admin/StopsController.php:100;147
+msgid "The stop has been saved."
+msgstr "Die Station wurde gespeichert."
+
+#: Controller/Admin/StopsController.php:117;152
+msgid "The stop could not be saved. Please, try again."
+msgstr ""
+"Die Station konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/StopsController.php:175
+msgid "The stop has been deleted."
+msgstr "Die Station wurde gelöscht."
+
+#: Controller/Admin/StopsController.php:178
+msgid "The stop could not be deleted. Please, try again."
+msgstr ""
+"Die Station konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/StopsController.php:181
+msgid ""
+"Unable to delete the stop! The stop is still referenced by some other "
+"objects."
+msgstr ""
+"Die Station konnte nicht gelöscht werden! Sie wird noch von anderen Objekten "
+"referenziert."
+
+#: Controller/Admin/SystemController.php:19 Template/Admin/System/manual.ctp:27
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:11
+msgid "System"
+msgstr "System"
+
+#: Controller/Admin/SystemController.php:74
+msgid "The message could not be ignored!"
+msgstr "Die Meldung konnte nicht ignoriert werden!"
+
+#: Controller/Admin/TripsController.php:45 Template/Admin/System/manual.ctp:99
+#: Template/Admin/Trips/index.ctp:10
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:59
+msgid "Trips"
+msgstr "Fahrten"
+
+#: Controller/Admin/TripsController.php:125;175
+msgid "The trip has been saved."
+msgstr "Die Fahrt wurde gespeichert."
+
+#: Controller/Admin/TripsController.php:131;181
+msgid "The trip could not be saved. Please, try again."
+msgstr ""
+"Die Fahrt konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/TripsController.php:278
+msgid "The trip has been copied."
+msgstr "Die Fahrt wurde kopiert."
+
+#: Controller/Admin/TripsController.php:281;284
+msgid "The trip could not be copied. Please, try again."
+msgstr "Die Fahrt konnte nicht kopiert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/TripsController.php:307
+msgid "The trip has been deleted."
+msgstr "Die Fahrt wurde gelöscht."
+
+#: Controller/Admin/TripsController.php:310
+msgid "The trip could not be deleted. Please, try again."
+msgstr "Die Fahrt konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/UsersController.php:25 Template/Admin/Users/index.ctp:8
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:22
+msgid "Users"
+msgstr "Benutzer"
+
+#: Controller/Admin/UsersController.php:102
+msgid "{0} | User Registration"
+msgstr "{0} | Benutzer Registrierung"
+
+#: Controller/Admin/UsersController.php:106;136
+msgid "The user has been saved."
+msgstr "Der Benutzer wurde gespeichert."
+
+#: Controller/Admin/UsersController.php:111;140
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+"Der Benutzer konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/UsersController.php:165
+msgid "The user has been deleted."
+msgstr "Der Benutzer wurde gelöscht."
+
+#: Controller/Admin/UsersController.php:167
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+"Der Benutzer konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/UsersController.php:192
+msgid "The user account has been activated."
+msgstr "Der Account wurde aktiviert."
+
+#: Controller/Admin/UsersController.php:194
+msgid "The user account could not be activated."
+msgstr "Der Account konnte nicht aktiviert werden."
+
+#: Controller/Admin/UsersController.php:222;285
+msgid "The password has been changed."
+msgstr "Das Passwort wurde geändert."
+
+#: Controller/Admin/UsersController.php:224
+msgid "The password could not be changed. Please, try again."
+msgstr ""
+"Das Passwort konnte nicht geändert werden. Bitte versuchen Sie es erneut."
+
+#: Controller/Admin/UsersController.php:255
+msgid "{0} | Password Reset"
+msgstr "{0} | Passwort Zurücksetzen"
+
+#: Controller/Admin/UsersController.php:258
+msgid ""
+"A mail with next instructions has been sent! If you didn't receive any mail, "
+"you can try it again or contact our support."
+msgstr ""
+"Eine E-Mail mit weiteren Informationen wurde an Ihre E-Mailadresse versandt! "
+"Wenn Sie keine E-Mail erhalten haben, kontaktieren Sie bitte unseren Support."
+
+#: Controller/Admin/UsersController.php:260
+msgid "Invalid username or E-Mail!"
+msgstr "Ungültiger Benutzername oder E-Mailadresse!"
+
+#: Controller/Admin/UsersController.php:265
+msgid "Password Forgot"
+msgstr "Passwort vergessen"
+
+#: Controller/Admin/UsersController.php:289
+msgid "The password could not be reset!"
+msgstr "Das Passwort konnte nicht zurückgesetzt werden!"
+
+#: Controller/Admin/UsersController.php:293;352
+msgid "Invalid username or password!"
+msgstr "Ungültiger Benutzername oder Passwort!"
+
+#: Controller/Admin/UsersController.php:297 Template/Admin/Users/pwforgot.ctp:2
+#: Template/Admin/Users/pwreset.ctp:3
+msgid "Password Reset"
+msgstr "Passwort Zurücksetzen"
+
+#: Controller/Admin/UsersController.php:320
+msgid "The settings have been saved."
+msgstr "Die Einstellungen wurden gespeichert."
+
+#: Controller/Admin/UsersController.php:324
+msgid "The settings could not be saved. Please, try again."
+msgstr ""
+"Die Einstellungen konnte nicht gespeichert werden. Bitte versuchen Sie es "
+"erneut."
+
+#: Model/Entity/Message.php:58
+msgid "Active"
+msgstr "Aktiv"
+
+#: Model/Entity/Message.php:59
+msgid "Ignored"
+msgstr "Ignoriert"
+
+#: Model/Entity/Service.php:93
+msgid "Never"
+msgstr "Nie"
+
+#: Model/Entity/Service.php:95
+msgid "Everyday"
+msgstr "Täglich"
+
+#: Model/Entity/Service.php:99
+msgid "Mon"
+msgstr "Mo"
+
+#: Model/Entity/Service.php:100
+msgid "Tue"
+msgstr "Di"
+
+#: Model/Entity/Service.php:101
+msgid "Wed"
+msgstr "Mi"
+
+#: Model/Entity/Service.php:102
+msgid "Thu"
+msgstr "Do"
+
+#: Model/Entity/Service.php:103
+msgid "Fri"
+msgstr "Fr"
+
+#: Model/Entity/Service.php:104
+msgid "Sat"
+msgstr "Sa"
+
+#: Model/Entity/Service.php:105
+msgid "Sun"
+msgstr "So"
+
+#: Model/Entity/Service.php:146
+msgid "additionally on"
+msgstr "auch am"
+
+#: Model/Entity/Service.php:150
+msgid "not on"
+msgstr "nicht am"
+
+#: Model/Entity/Trip.php:129 Template/Admin/Routes/view.ctp:121
+#: Template/Admin/Trips/index.ctp:31
+msgid "Outbound"
+msgstr "Hinfahrt"
+
+#: Model/Entity/Trip.php:130 Template/Admin/Routes/view.ctp:121
+#: Template/Admin/Trips/index.ctp:31
+msgid "Inbound"
+msgstr "Rückfahrt"
+
+#: Model/Entity/Route/Type.php:35
+msgid "Tram"
+msgstr "Straßenbahn"
+
+#: Model/Entity/Route/Type.php:36
+msgid "Subway"
+msgstr "U-Bahn"
+
+#: Model/Entity/Route/Type.php:37
+msgid "Railway"
+msgstr "Eisenbahn"
+
+#: Model/Entity/Route/Type.php:38
+msgid "Bus"
+msgstr "Bus"
+
+#: Model/Entity/Route/Type.php:39
+msgid "Ferry"
+msgstr "Fähre/Schiff"
+
+#: Model/Entity/Route/Type.php:40
+msgid "Cable Car"
+msgstr "Cable Car"
+
+#: Model/Entity/Route/Type.php:41
+msgid "Gondola"
+msgstr "Seilbahn"
+
+#: Model/Entity/Route/Type.php:42
+msgid "Funicular"
+msgstr "Standseilbahn"
+
+#: Model/Table/ShapesTable.php:86;87
+msgid "You must specify at least two shape points!"
+msgstr "Für einen Fahrweg müssen mindestens zwei Punkte definiert werden!"
+
+#: Model/Table/StopsTable.php:110;115
+msgid "Please specify a GPS position"
+msgstr "Bitte wählen Sie eine GPS-Position"
+
+#: Model/Table/TripsTable.php:146
+msgid "Please select a valid direction id!"
+msgstr "Bitte wählen Sie eine gültige Fahrtrichtung!"
+
+#: Model/Table/UsersTable.php:91
+msgid "The password must be at least 8 chars long!"
+msgstr "Das Passwort muss mindestens 8 Zeichen lang sein!"
+
+#: Model/Table/UsersTable.php:95
+msgid "The password must contain at least one number!"
+msgstr "Das Passwort muss mindestens eine Zahl enthalten!"
+
+#: Model/Table/UsersTable.php:99
+msgid "The password must contain at least one lower-case char!"
+msgstr "Das Passwort muss mindestens einen Großbuchstaben enthalten!"
+
+#: Model/Table/UsersTable.php:103
+msgid "The password must contain at leas one upper-case char!"
+msgstr "Das Passwort muss mindestens einen Kleinbuchstaben enthalten!"
+
+#: Model/Table/UsersTable.php:110
+msgid "The passwords are not equal!"
+msgstr "Die Passwörter stimmen nicht überein!"
+
+#: Model/Table/UsersTable.php:115
+msgid "The password is invalid!"
+msgstr "Das Passwort ist ungültig!"
+
+#: Shell/Task/QueueDataMonitorTask.php:96
+msgid "stop #{0} does not specify a platform code"
+msgstr "Die Haltepositionen #{0} definiert keinen Steig"
+
+#: Shell/Task/QueueDataMonitorTask.php:100
+msgid "stop #{0} is never used in any trip"
+msgstr "Die Station #{0} wird in keiner Fahrt referenziert"
+
+#: Shell/Task/QueueDataMonitorTask.php:118
+msgid "shape #{0} is never used in any trip"
+msgstr "Der Fahrweg #{0} wird in keiner Fahrt referenziert"
+
+#: Shell/Task/QueueDataMonitorTask.php:137
+msgid "service #{0} is never used in any trip"
+msgstr "Die Tagesart #{0} wird in keiner Fahrt referenziert"
+
+#: Shell/Task/QueueDataMonitorTask.php:144
+msgid "service exception #{0} causes a conflict with another service exception"
+msgstr ""
+"Die Einzeltagesart #{0} steht im Konflikt mit einer anderen Einzeltagesart"
+
+#: Shell/Task/QueueDataMonitorTask.php:166
+msgid "agency #{0} has no routes assigned"
+msgstr "Das Unternehmen #{0} besitzt keine Linien"
+
+#: Shell/Task/QueueDataMonitorTask.php:184
+msgid "route #{0} has no trips assigned"
+msgstr "Die Linie #{0} besitzt keine Fahrten"
+
+#: Shell/Task/QueueDataMonitorTask.php:189
+msgid "route #{0} uses a mismatching color scheme"
+msgstr "Die Linie #{0} verwendet ein ungünstiges Farbschema"
+
+#: Shell/Task/QueueDataMonitorTask.php:209
+msgid "trip #{0} does not specify a short name"
+msgstr "Die Fahrt #{0} definiert keine Fahrt-Nummer"
+
+#: Shell/Task/QueueDataMonitorTask.php:213
+msgid "trip #{0} does not specify a shape"
+msgstr "Die Fahrt #{0} definiert keinen Fahrweg"
+
+#: Shell/Task/QueueDataMonitorTask.php:223
+msgid "two or more stop times in trip #{0} are overlapping each other"
+msgstr ""
+"Zwei oder mehr Fahrzeiten in der Fahrt #{0} überlappen sich gegenseitig"
+
+#: Shell/Task/QueueDataMonitorTask.php:228;232
+msgid "two or more stop times in trip #{0} are inconsistent"
+msgstr "Zwei oder mehr Fahrzeiten in der Fahrt #{0} sind inkonsistent"
+
+#: Shell/Task/QueueDataMonitorTask.php:242
+msgid "two or more frequencies in trip #{0} are overlapping each other"
+msgstr ""
+"Zwei oder mehr Taktzeiten in der Fahrt #{0} überlappen sich gegenseitig"
+
+#: Shell/Task/QueueDataMonitorTask.php:247
+msgid "two or more frequencies in trip #{0} are inconsistent"
+msgstr "Zwei oder mehr Taktzeiten in der Fahrt #{0} sind inkonsistent"
+
+#: Template/Admin/Agencies/add.ctp:7
+msgid "Add Agency"
+msgstr "Neues Unternehmen"
+
+#: Template/Admin/Agencies/add.ctp:21 Template/Admin/Agencies/edit.ctp:21
+#: Template/Admin/Agencies/view.ctp:21 Template/Admin/ApiLogs/view.ctp:17
+#: Template/Admin/Clients/add.ctp:20 Template/Admin/Clients/edit.ctp:18
+#: Template/Admin/Clients/view.ctp:17 Template/Admin/Groups/add.ctp:26
+#: Template/Admin/Groups/edit.ctp:26 Template/Admin/Groups/view.ctp:25
+#: Template/Admin/Routes/add.ctp:21 Template/Admin/Routes/edit.ctp:21
+#: Template/Admin/Routes/view.ctp:21 Template/Admin/Services/add.ctp:16
+#: Template/Admin/Services/edit.ctp:16 Template/Admin/Services/view.ctp:15
+#: Template/Admin/Shapes/add.ctp:20 Template/Admin/Shapes/edit.ctp:20
+#: Template/Admin/Shapes/view.ctp:15 Template/Admin/Stops/add.ctp:26
+#: Template/Admin/Stops/edit.ctp:26 Template/Admin/Stops/view.ctp:21
+#: Template/Admin/Trips/add.ctp:16 Template/Admin/Trips/edit.ctp:16
+#: Template/Admin/Trips/view.ctp:21 Template/Admin/Users/add.ctp:18
+#: Template/Admin/Users/edit.ctp:18 Template/Admin/Users/view.ctp:17
+msgid "Basedata"
+msgstr "Basisdaten"
+
+#: Template/Admin/Agencies/add.ctp:27 Template/Admin/Agencies/edit.ctp:27
+#: Template/Admin/Agencies/index.ctp:31;59 Template/Admin/Agencies/view.ctp:30
+#: Template/Admin/Groups/view.ctp:35 Template/Admin/Services/add.ctp:23
+#: Template/Admin/Services/edit.ctp:24 Template/Admin/Services/index.ctp:31;60
+#: Template/Admin/Services/view.ctp:24 Template/Admin/Shapes/add.ctp:26
+#: Template/Admin/Shapes/edit.ctp:26 Template/Admin/Shapes/index.ctp:31;60
+#: Template/Admin/Shapes/view.ctp:24 Template/Admin/Stops/edit.ctp:63
+#: Template/Admin/Stops/index.ctp:61 Template/Admin/Stops/view.ctp:37;83
+msgid "Name"
+msgstr "Name"
+
+#: Template/Admin/Agencies/add.ctp:28 Template/Admin/Agencies/edit.ctp:28
+#: Template/Admin/Agencies/index.ctp:60 Template/Admin/Agencies/view.ctp:34;122
+#: Template/Admin/Routes/add.ctp:30 Template/Admin/Routes/edit.ctp:30
+#: Template/Admin/Routes/index.ctp:70 Template/Admin/Routes/view.ctp:50
+msgid "URL"
+msgstr "URL"
+
+#: Template/Admin/Agencies/add.ctp:29 Template/Admin/Agencies/edit.ctp:29
+#: Template/Admin/Agencies/view.ctp:42
+msgid "Fare URL"
+msgstr "Tarif-URL"
+
+#: Template/Admin/Agencies/add.ctp:30 Template/Admin/Agencies/edit.ctp:30
+#: Template/Admin/Agencies/index.ctp:61 Template/Admin/Agencies/view.ctp:50
+msgid "Phone"
+msgstr "Telefon"
+
+#: Template/Admin/Agencies/add.ctp:41 Template/Admin/Agencies/edit.ctp:41
+#: Template/Admin/Agencies/view.ctp:58 Template/Admin/Users/settings.ctp:73
+msgid "Timezone"
+msgstr "Zeitzone"
+
+#: Template/Admin/Agencies/add.ctp:42 Template/Admin/Agencies/edit.ctp:42
+#: Template/Admin/Agencies/view.ctp:54
+msgid "Language"
+msgstr "Sprache"
+
+#: Template/Admin/Agencies/add.ctp:51 Template/Admin/Agencies/edit.ctp:51
+#: Template/Admin/Clients/add.ctp:34 Template/Admin/Clients/edit.ctp:30
+#: Template/Admin/Clients/transfer.ctp:33;35 Template/Admin/Groups/add.ctp:51
+#: Template/Admin/Groups/edit.ctp:51 Template/Admin/Routes/add.ctp:62
+#: Template/Admin/Routes/edit.ctp:62 Template/Admin/Services/add.ctp:98
+#: Template/Admin/Services/edit.ctp:94 Template/Admin/Shapes/add.ctp:45
+#: Template/Admin/Shapes/edit.ctp:45 Template/Admin/Stops/add.ctp:61
+#: Template/Admin/Stops/edit.ctp:116 Template/Admin/Trips/add.ctp:162
+#: Template/Admin/Trips/edit.ctp:162 Template/Admin/Trips/index.ctp:167
+#: Template/Admin/Users/add.ctp:42 Template/Admin/Users/edit.ctp:41
+#: Template/Element/modal/delete-confirm.ctp:12
+#: Template/Frontend/index.ctp:243;290
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: Template/Admin/Agencies/add.ctp:52 Template/Admin/Agencies/edit.ctp:52
+#: Template/Admin/Clients/add.ctp:35 Template/Admin/Clients/edit.ctp:31
+#: Template/Admin/Clients/transfer.ctp:37 Template/Admin/Groups/add.ctp:52
+#: Template/Admin/Groups/edit.ctp:52 Template/Admin/Routes/add.ctp:63
+#: Template/Admin/Routes/edit.ctp:63 Template/Admin/Services/add.ctp:99
+#: Template/Admin/Services/edit.ctp:95 Template/Admin/Shapes/add.ctp:46
+#: Template/Admin/Shapes/edit.ctp:46 Template/Admin/Stops/add.ctp:62
+#: Template/Admin/Stops/edit.ctp:117 Template/Admin/Trips/add.ctp:163
+#: Template/Admin/Trips/edit.ctp:163 Template/Admin/Users/add.ctp:43
+#: Template/Admin/Users/edit.ctp:42 Template/Admin/Users/pwchange.ctp:22
+#: Template/Admin/Users/settings.ctp:140
+msgid "Submit"
+msgstr "Speichern"
+
+#: Template/Admin/Agencies/edit.ctp:7
+msgid "Edit Agency"
+msgstr "Bearbeite Unternehmen"
+
+#: Template/Admin/Agencies/index.ctp:19 Template/Admin/Routes/index.ctp:19
+#: Template/Admin/Services/index.ctp:19 Template/Admin/Shapes/index.ctp:19
+#: Template/Admin/Stops/index.ctp:17 Template/Admin/Trips/index.ctp:19
+msgid "Filter Options"
+msgstr "Filter-Optionen"
+
+#: Template/Admin/Agencies/index.ctp:28
+msgid "Agency ID"
+msgstr "Unternehmens-ID"
+
+#: Template/Admin/Agencies/index.ctp:37 Template/Admin/Routes/index.ctp:44
+#: Template/Admin/Services/index.ctp:38 Template/Admin/Shapes/index.ctp:38
+#: Template/Admin/Stops/index.ctp:38 Template/Admin/Trips/index.ctp:49
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: Template/Admin/Agencies/index.ctp:39 Template/Admin/Routes/index.ctp:46
+#: Template/Admin/Services/index.ctp:40 Template/Admin/Shapes/index.ctp:40
+#: Template/Admin/Stops/index.ctp:40 Template/Admin/Trips/index.ctp:51
+msgid "Apply"
+msgstr "Anwenden"
+
+#: Template/Admin/Agencies/index.ctp:62 Template/Admin/Agencies/view.ctp:123
+#: Template/Admin/ApiLogs/index.ctp:53 Template/Admin/Clients/index.ctp:27
+#: Template/Admin/Groups/index.ctp:26 Template/Admin/Routes/index.ctp:71
+#: Template/Admin/Routes/view.ctp:144 Template/Admin/Services/index.ctp:62
+#: Template/Admin/Shapes/index.ctp:61 Template/Admin/Stops/index.ctp:63
+#: Template/Admin/Stops/view.ctp:86 Template/Admin/System/index.ctp:77
+#: Template/Admin/Trips/add.ctp:71 Template/Admin/Trips/edit.ctp:71
+#: Template/Admin/Trips/index.ctp:79 Template/Admin/Users/index.ctp:28
+msgid "Actions"
+msgstr "Aktionen"
+
+#: Template/Admin/Agencies/index.ctp:79 Template/Admin/Agencies/view.ctp:141
+#: Template/Admin/ApiLogs/index.ctp:65 Template/Admin/Clients/index.ctp:39
+#: Template/Admin/Groups/index.ctp:37 Template/Admin/Routes/index.ctp:90
+#: Template/Admin/Routes/view.ctp:178 Template/Admin/Services/index.ctp:74
+#: Template/Admin/Shapes/index.ctp:72 Template/Admin/Stops/edit.ctp:94
+#: Template/Admin/Stops/index.ctp:84 Template/Admin/Stops/view.ctp:107
+#: Template/Admin/Trips/index.ctp:113 Template/Admin/Users/index.ctp:41
+#: Template/Element/permissions/permissions-add.ctp:11
+#: Template/Element/permissions/permissions-edit.ctp:17
+#: Template/Element/permissions/permissions-view.ctp:17
+msgid "View"
+msgstr "Anzeigen"
+
+#: Template/Admin/Agencies/index.ctp:82 Template/Admin/Clients/index.ctp:42
+#: Template/Admin/Groups/index.ctp:40 Template/Admin/Routes/index.ctp:93
+#: Template/Admin/Services/index.ctp:77 Template/Admin/Shapes/index.ctp:78
+#: Template/Admin/Stops/edit.ctp:97 Template/Admin/Stops/index.ctp:87
+#: Template/Admin/Trips/index.ctp:119 Template/Admin/Users/index.ctp:44
+#: Template/Element/permissions/permissions-add.ctp:17
+#: Template/Element/permissions/permissions-edit.ctp:23
+#: Template/Element/permissions/permissions-view.ctp:23
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: Template/Admin/Agencies/index.ctp:85 Template/Admin/ApiLogs/index.ctp:68
+#: Template/Admin/Clients/index.ctp:45 Template/Admin/Groups/index.ctp:43
+#: Template/Admin/Routes/index.ctp:96 Template/Admin/Services/index.ctp:80
+#: Template/Admin/Shapes/index.ctp:81 Template/Admin/Stops/edit.ctp:100
+#: Template/Admin/Stops/index.ctp:90 Template/Admin/Trips/index.ctp:122
+#: Template/Admin/Users/index.ctp:47
+#: Template/Element/modal/delete-confirm.ctp:13
+#: Template/Element/permissions/permissions-add.ctp:20
+#: Template/Element/permissions/permissions-edit.ctp:26
+#: Template/Element/permissions/permissions-view.ctp:26
+#: Template/Element/services/exception.ctp:24;26
+#: Template/Element/trips/frequency.ctp:25;27
+#: Template/Element/trips/stop-time.ctp:45;47
+msgid "Delete"
+msgstr "Löschen"
+
+#: Template/Admin/Agencies/view.ctp:8
+msgid "View Agency"
+msgstr "Zeige Unternehmen"
+
+#: Template/Admin/Agencies/view.ctp:22 Template/Admin/Clients/view.ctp:18
+#: Template/Admin/Groups/view.ctp:27 Template/Admin/Routes/view.ctp:22
+#: Template/Admin/Services/view.ctp:16 Template/Admin/Shapes/view.ctp:16
+#: Template/Admin/Stops/view.ctp:25 Template/Admin/Trips/view.ctp:23
+#: Template/Admin/Users/view.ctp:18
+msgid "Meta"
+msgstr "Meta-Daten"
+
+#: Template/Admin/Agencies/view.ctp:70 Template/Admin/Clients/view.ctp:42
+#: Template/Admin/Groups/view.ctp:64 Template/Admin/Routes/view.ctp:76
+#: Template/Admin/Services/view.ctp:79 Template/Admin/Shapes/view.ctp:41
+#: Template/Admin/Stops/view.ctp:124 Template/Admin/Trips/view.ctp:159
+#: Template/Admin/Users/view.ctp:54
+msgid "ID"
+msgstr "ID"
+
+#: Template/Admin/Agencies/view.ctp:74 Template/Admin/Clients/view.ctp:46
+#: Template/Admin/Groups/view.ctp:68 Template/Admin/Routes/view.ctp:80
+#: Template/Admin/Services/view.ctp:83 Template/Admin/Shapes/view.ctp:45
+#: Template/Admin/Stops/view.ctp:128 Template/Admin/Trips/view.ctp:163
+#: Template/Admin/Users/view.ctp:58
+msgid "Created"
+msgstr "Erstellt"
+
+#: Template/Admin/Agencies/view.ctp:78 Template/Admin/Clients/view.ctp:50
+#: Template/Admin/Groups/view.ctp:72 Template/Admin/Routes/view.ctp:84
+#: Template/Admin/Services/view.ctp:87 Template/Admin/Shapes/view.ctp:49
+#: Template/Admin/Stops/view.ctp:132 Template/Admin/Trips/view.ctp:167
+#: Template/Admin/Users/view.ctp:62
+msgid "Modified"
+msgstr "Bearbeitet"
+
+#: Template/Admin/Agencies/view.ctp:82 Template/Admin/Routes/view.ctp:88
+#: Template/Admin/Services/view.ctp:91 Template/Admin/Trips/view.ctp:171
+#: Template/Admin/Users/view.ctp:35
+msgid "Client"
+msgstr "Mandant"
+
+#: Template/Admin/Agencies/view.ctp:101
+msgid "Related Routes"
+msgstr "Zugeordnete Linien"
+
+#: Template/Admin/Agencies/view.ctp:119 Template/Admin/Routes/add.ctp:27
+#: Template/Admin/Routes/edit.ctp:27 Template/Admin/Routes/index.ctp:67
+#: Template/Admin/Routes/view.ctp:34
+msgid "Type"
+msgstr "Typ"
+
+#: Template/Admin/Agencies/view.ctp:120 Template/Admin/Clients/index.ctp:25
+#: Template/Admin/Clients/view.ctp:26 Template/Admin/Routes/add.ctp:28
+#: Template/Admin/Routes/edit.ctp:28 Template/Admin/Routes/index.ctp:34;68
+#: Template/Admin/Routes/view.ctp:38;140
+msgid "Shortname"
+msgstr "Kurzbezeichnung"
+
+#: Template/Admin/Agencies/view.ctp:121 Template/Admin/Clients/index.ctp:26
+#: Template/Admin/Clients/view.ctp:30 Template/Admin/Routes/add.ctp:29
+#: Template/Admin/Routes/edit.ctp:29 Template/Admin/Routes/index.ctp:37;69
+#: Template/Admin/Routes/view.ctp:42
+msgid "Longname"
+msgstr "Langbezeichnung"
+
+#: Template/Admin/Agencies/view.ctp:150
+msgid "No related routes found!"
+msgstr "Keine zugeordneten Linien gefunden!"
+
+#: Template/Admin/ApiLogs/index.ctp:9 Template/Admin/System/index.ctp:44
+#: Template/Admin/System/manual.ctp:111
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:68
+msgid "REST API"
+msgstr "REST API"
+
+#: Template/Admin/ApiLogs/index.ctp:18
+msgid "Request Statistics"
+msgstr "Statistik Anfragen"
+
+#: Template/Admin/ApiLogs/index.ctp:18;39
+msgid "last 8 days"
+msgstr "der letzten 8 Tage"
+
+#: Template/Admin/ApiLogs/index.ctp:29;78 Template/Admin/System/index.ctp:55
+msgid ""
+"RestAPI requests are not logged! Enable RestAPI request log to view this "
+"panel!"
+msgstr ""
+"Die REST-API Anfragen werde nicht aufgezeichnet! Aktivieren Sie die "
+"Aufzeichnung, um diesen Bereich anzuzeigen!"
+
+#: Template/Admin/ApiLogs/index.ctp:39
+msgid "Error Logs"
+msgstr "Fehler Logs"
+
+#: Template/Admin/ApiLogs/index.ctp:50 Template/Admin/Services/edit.ctp:68
+#: Template/Admin/Services/view.ctp:49
+msgid "Date"
+msgstr "Datum"
+
+#: Template/Admin/ApiLogs/index.ctp:51 Template/Admin/ApiLogs/view.ctp:41
+msgid "Response Code"
+msgstr "Response Code"
+
+#: Template/Admin/ApiLogs/index.ctp:52 Template/Admin/ApiLogs/view.ctp:29
+msgid "Endpoint"
+msgstr "Endpunkt"
+
+#: Template/Admin/ApiLogs/index.ctp:108
+msgid "Success Requests"
+msgstr "Erfolgreiche Anfragen"
+
+#: Template/Admin/ApiLogs/index.ctp:112
+msgid "Error Requests"
+msgstr "Fehlerhafte Anfragen"
+
+#: Template/Admin/ApiLogs/view.ctp:3
+msgid "View Log Entry"
+msgstr "Zeige Log-Eintrag"
+
+#: Template/Admin/ApiLogs/view.ctp:25
+msgid "Method"
+msgstr "Methode"
+
+#: Template/Admin/ApiLogs/view.ctp:33
+msgid "Query Params"
+msgstr "Query Parameter"
+
+#: Template/Admin/ApiLogs/view.ctp:37
+msgid "Request Data"
+msgstr "Anfragedaten"
+
+#: Template/Admin/ApiLogs/view.ctp:45
+msgid "Response Data"
+msgstr "Antwortdaten"
+
+#: Template/Admin/ApiLogs/view.ctp:49
+msgid "Exception"
+msgstr "Ausnahme"
+
+#: Template/Admin/Clients/add.ctp:3
+msgid "Add Client"
+msgstr "Neuer Mandant"
+
+#: Template/Admin/Clients/edit.ctp:3
+msgid "Edit Client"
+msgstr "Bearbeite Mandant"
+
+#: Template/Admin/Clients/index.ctp:62 Template/Admin/Clients/transfer.ctp:3
+msgid "Transfer Clientship"
+msgstr "Übertrage Eigentümerschaft"
+
+#: Template/Admin/Clients/transfer.ctp:15
+#: Template/Admin/Routes/view.ctp:127;139 Template/Admin/Trips/add.ctp:26
+#: Template/Admin/Trips/edit.ctp:26 Template/Admin/Trips/index.ctp:34;73;150
+#: Template/Admin/Trips/view.ctp:41
+msgid "Service"
+msgstr "Tagesart"
+
+#: Template/Admin/Clients/transfer.ctp:15 Template/Admin/Routes/add.ctp:34
+#: Template/Admin/Routes/edit.ctp:34 Template/Admin/Routes/index.ctp:66
+#: Template/Admin/Routes/view.ctp:30
+msgid "Agency"
+msgstr "Unternehmen"
+
+#: Template/Admin/Clients/transfer.ctp:15 Template/Admin/Trips/add.ctp:25
+#: Template/Admin/Trips/edit.ctp:25 Template/Admin/Trips/index.ctp:37;74
+#: Template/Admin/Trips/view.ctp:31
+msgid "Route"
+msgstr "Linie"
+
+#: Template/Admin/Clients/transfer.ctp:15
+msgid "Trip"
+msgstr "Fahrt"
+
+#: Template/Admin/Clients/transfer.ctp:15
+msgid "Entity Class"
+msgstr "Objekt-Klasse"
+
+#: Template/Admin/Clients/transfer.ctp:18
+msgid "Entity ID"
+msgstr "Objekt-ID"
+
+#: Template/Admin/Clients/transfer.ctp:24
+msgid "Override Associations"
+msgstr "Überschreibe Verknüpfungen"
+
+#: Template/Admin/Clients/transfer.ctp:25
+msgid ""
+"If you don't override associations, this can lead to incorrect behaviour! We "
+"recommend strictly to override associations!"
+msgstr ""
+"Wenn die Verknüpfungen nicht überschrieben werden, kann dies zu unerwartetem "
+"Verhalten führen! Es wird empfohlen, die Verknüpfungen zu überschreiben!"
+
+#: Template/Admin/Clients/transfer.ctp:26
+msgid "Don't Override"
+msgstr "Nicht überschreiben"
+
+#: Template/Admin/Clients/transfer.ctp:26
+msgid "Override"
+msgstr "Überschreiben"
+
+#: Template/Admin/Clients/view.ctp:3
+msgid "View Client"
+msgstr "Zeige Mandant"
+
+#: Template/Admin/Groups/add.ctp:11
+msgid "Add Group"
+msgstr "Neue Gruppe"
+
+#: Template/Admin/Groups/add.ctp:27 Template/Admin/Groups/edit.ctp:27
+#: Template/Admin/Groups/view.ctp:26
+msgid "Permissions"
+msgstr "Berechtigungen"
+
+#: Template/Admin/Groups/edit.ctp:11
+msgid "Edit Group"
+msgstr "Bearbeite Gruppe"
+
+#: Template/Admin/Groups/view.ctp:11
+msgid "View Group"
+msgstr "Zeige Gruppe"
+
+#: Template/Admin/Help/index.ctp:5
+msgid "Home"
+msgstr "Startseite"
+
+#: Template/Admin/Help/index.ctp:6
+msgid "Help"
+msgstr "Hilfe"
+
+#: Template/Admin/Help/index.ctp:8;12
+msgid "Help overview"
+msgstr "Handbuch Übersicht"
+
+#: Template/Admin/Help/index.ctp:13
+msgid "Overview about important features and FAQs"
+msgstr "Übersicht über wichtige Features und FAQs"
+
+#: Template/Admin/Help/index.ctp:17;32
+msgid "System info"
+msgstr "Systeminformation"
+
+#: Template/Admin/Help/index.ctp:26
+msgid "Latest features and updates"
+msgstr "Neueste Features und Updates"
+
+#: Template/Admin/Help/index.ctp:27
+msgid "Latest added features and changes"
+msgstr "Neueste Features und Änderungen"
+
+#: Template/Admin/Routes/add.ctp:7
+msgid "Add Route"
+msgstr "Neue Linie"
+
+#: Template/Admin/Routes/add.ctp:31 Template/Admin/Routes/edit.ctp:31
+#: Template/Admin/Routes/view.ctp:58 Template/Admin/Services/index.ctp:61
+#: Template/Admin/Stops/add.ctp:37 Template/Admin/Stops/edit.ctp:40
+msgid "Description"
+msgstr "Beschreibung"
+
+#: Template/Admin/Routes/add.ctp:37 Template/Admin/Routes/edit.ctp:37
+msgid "Color"
+msgstr "Farbe"
+
+#: Template/Admin/Routes/add.ctp:44 Template/Admin/Routes/edit.ctp:44
+msgid "Text Color"
+msgstr "Text-Farbe"
+
+#: Template/Admin/Routes/edit.ctp:7
+msgid "Edit Route"
+msgstr "Bearbeite Linie"
+
+#: Template/Admin/Routes/index.ctp:28
+msgid "Route ID"
+msgstr "Linien-ID"
+
+#: Template/Admin/Routes/index.ctp:31
+msgid "Route Type"
+msgstr "Linientyp"
+
+#: Template/Admin/Routes/view.ctp:8
+msgid "View Route"
+msgstr "Zeige Linie"
+
+#: Template/Admin/Routes/view.ctp:46
+msgid "Num Variations"
+msgstr "Anz. Varianten"
+
+#: Template/Admin/Routes/view.ctp:62
+msgid "Colors"
+msgstr "Farbschema"
+
+#: Template/Admin/Routes/view.ctp:105
+msgid "Related Trips"
+msgstr "Zugeordnete Fahrten"
+
+#: Template/Admin/Routes/view.ctp:121 Template/Admin/Trips/add.ctp:27
+#: Template/Admin/Trips/edit.ctp:27 Template/Admin/Trips/index.ctp:31
+#: Template/Admin/Trips/view.ctp:45
+msgid "Direction"
+msgstr "Richtung"
+
+#: Template/Admin/Routes/view.ctp:124;136 Template/Admin/Trips/view.ctp:37
+msgid "Variation"
+msgstr "Variante"
+
+#: Template/Admin/Routes/view.ctp:137 Template/Admin/Trips/add.ctp:126
+#: Template/Admin/Trips/edit.ctp:126 Template/Admin/Trips/index.ctp:71
+#: Template/Admin/Trips/view.ctp:135
+msgid "Start Time"
+msgstr "Startzeit"
+
+#: Template/Admin/Routes/view.ctp:138 Template/Admin/Trips/add.ctp:127
+#: Template/Admin/Trips/edit.ctp:127 Template/Admin/Trips/index.ctp:72
+#: Template/Admin/Trips/view.ctp:136
+msgid "End Time"
+msgstr "Endzeit"
+
+#: Template/Admin/Routes/view.ctp:141 Template/Admin/Trips/add.ctp:30
+#: Template/Admin/Trips/edit.ctp:30 Template/Admin/Trips/index.ctp:43;76;152
+#: Template/Admin/Trips/view.ctp:57
+msgid "Headsign"
+msgstr "Zieltext"
+
+#: Template/Admin/Routes/view.ctp:142 Template/Admin/Stops/add.ctp:38
+#: Template/Admin/Stops/edit.ctp:41;65 Template/Admin/Stops/index.ctp:62
+#: Template/Admin/Stops/view.ctp:51;85 Template/Admin/Trips/add.ctp:34
+#: Template/Admin/Trips/edit.ctp:34 Template/Admin/Trips/index.ctp:77
+#: Template/Admin/Trips/view.ctp:65
+msgid "Wheelchair"
+msgstr "Barrierefrei"
+
+#: Template/Admin/Routes/view.ctp:143 Template/Admin/Trips/add.ctp:38
+#: Template/Admin/Trips/edit.ctp:38 Template/Admin/Trips/index.ctp:78
+#: Template/Admin/Trips/view.ctp:77
+msgid "Bikes"
+msgstr "Fahrradmitnahme"
+
+#: Template/Admin/Routes/view.ctp:159;168 Template/Admin/Stops/add.ctp:39
+#: Template/Admin/Stops/edit.ctp:42;84 Template/Admin/Stops/index.ctp:74
+#: Template/Admin/Stops/view.ctp:54;98 Template/Admin/Trips/add.ctp:35;39
+#: Template/Admin/Trips/edit.ctp:35;39 Template/Admin/Trips/index.ctp:94;103
+#: Template/Admin/Trips/view.ctp:68;80
+msgid "N/A"
+msgstr "Keine Angabe"
+
+#: Template/Admin/Routes/view.ctp:161;170 Template/Admin/Stops/add.ctp:39
+#: Template/Admin/Stops/edit.ctp:42;86 Template/Admin/Stops/index.ctp:76
+#: Template/Admin/Stops/view.ctp:56;100 Template/Admin/Trips/add.ctp:35;39
+#: Template/Admin/Trips/edit.ctp:35;39 Template/Admin/Trips/index.ctp:96;105
+#: Template/Admin/Trips/view.ctp:70;82;126;127;146
+#: Template/Element/trips/stop-time.ctp:35;40
+msgid "Yes"
+msgstr "Ja"
+
+#: Template/Admin/Routes/view.ctp:163;172 Template/Admin/Stops/add.ctp:39
+#: Template/Admin/Stops/edit.ctp:42;88 Template/Admin/Stops/index.ctp:78
+#: Template/Admin/Stops/view.ctp:58;102 Template/Admin/Trips/add.ctp:35;39
+#: Template/Admin/Trips/edit.ctp:35;39 Template/Admin/Trips/index.ctp:98;107
+#: Template/Admin/Trips/view.ctp:72;84;126;127;146
+#: Template/Element/trips/stop-time.ctp:35;40
+msgid "No"
+msgstr "Nein"
+
+#: Template/Admin/Routes/view.ctp:188
+msgid "No related trips found!"
+msgstr "Keine zugeordneten Fahrten gefunden!"
+
+#: Template/Admin/Services/add.ctp:2
+msgid "Add Service"
+msgstr "Neue Tagesart"
+
+#: Template/Admin/Services/add.ctp:17 Template/Admin/Services/edit.ctp:17
+#: Template/Admin/Services/view.ctp:45
+msgid "Deviations"
+msgstr "Einzeltage"
+
+#: Template/Admin/Services/add.ctp:26
+msgid "Start Date"
+msgstr "Start-Datum"
+
+#: Template/Admin/Services/add.ctp:35
+msgid "End Date"
+msgstr "End-Datum"
+
+#: Template/Admin/Services/add.ctp:46 Template/Admin/Services/edit.ctp:40
+msgid "Monday"
+msgstr "Montag"
+
+#: Template/Admin/Services/add.ctp:49 Template/Admin/Services/edit.ctp:43
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: Template/Admin/Services/add.ctp:52 Template/Admin/Services/edit.ctp:46
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: Template/Admin/Services/add.ctp:55 Template/Admin/Services/edit.ctp:49
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: Template/Admin/Services/add.ctp:58 Template/Admin/Services/edit.ctp:52
+msgid "Friday"
+msgstr "Freitag"
+
+#: Template/Admin/Services/add.ctp:61 Template/Admin/Services/edit.ctp:55
+msgid "Saturday"
+msgstr "Samstag"
+
+#: Template/Admin/Services/add.ctp:64 Template/Admin/Services/edit.ctp:58
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: Template/Admin/Services/edit.ctp:2
+msgid "Edit Service"
+msgstr "Bearbeite Tagesart"
+
+#: Template/Admin/Services/edit.ctp:69 Template/Admin/Services/view.ctp:50
+msgid "Deviation"
+msgstr "Abweichung"
+
+#: Template/Admin/Services/index.ctp:28
+msgid "Service ID"
+msgstr "Tagesart-ID"
+
+#: Template/Admin/Services/view.ctp:2
+msgid "View Service"
+msgstr "Zeige Tagesart"
+
+#: Template/Admin/Services/view.ctp:28
+msgid "Start"
+msgstr "Start"
+
+#: Template/Admin/Services/view.ctp:32
+msgid "End"
+msgstr "Ende"
+
+#: Template/Admin/Services/view.ctp:36
+msgid "Service Days"
+msgstr "Verkehrstage"
+
+#: Template/Admin/Services/view.ctp:61
+#: Template/Element/services/exception.ctp:19
+msgid "additional"
+msgstr "zusätzlich"
+
+#: Template/Admin/Services/view.ctp:63
+#: Template/Element/services/exception.ctp:19
+msgid "exceptional"
+msgstr "nicht"
+
+#: Template/Admin/Shapes/add.ctp:2
+msgid "Add Shape"
+msgstr "Neuer Fahrweg"
+
+#: Template/Admin/Shapes/add.ctp:31 Template/Admin/Shapes/edit.ctp:31
+#: Template/Admin/Trips/add.ctp:28 Template/Admin/Trips/edit.ctp:28
+#: Template/Admin/Trips/view.ctp:49
+msgid "Shape"
+msgstr "Fahrweg"
+
+#: Template/Admin/Shapes/add.ctp:84;111 Template/Admin/Shapes/edit.ctp:83;107
+msgid "Click Strg+Point to continue the line."
+msgstr "Klicken Sie Strg+Punkt um die Linie fortzuführen."
+
+#: Template/Admin/Shapes/add.ctp:86
+msgid "Click on the map to start a new line."
+msgstr "Klicken Sie in die Karte, um eine neue Linie zu beginnen."
+
+#: Template/Admin/Shapes/add.ctp:99 Template/Admin/Shapes/edit.ctp:95
+msgid "Click on the map to continue line."
+msgstr "Klicken Sie in die Karte, um die Linie fortzuführen."
+
+#: Template/Admin/Shapes/add.ctp:101;106 Template/Admin/Shapes/edit.ctp:97;102
+msgid "Click on last point to finish line."
+msgstr "Klicken Sie auf den letzten Punkt, um die Linie zu beenden."
+
+#: Template/Admin/Shapes/edit.ctp:2
+msgid "Edit Shape"
+msgstr "Bearbeite Fahrweg"
+
+#: Template/Admin/Shapes/index.ctp:28
+msgid "Shape ID"
+msgstr "Fahrweg-ID"
+
+#: Template/Admin/Shapes/index.ctp:75 Template/Admin/Trips/index.ctp:116;168
+msgid "Copy"
+msgstr "Kopieren"
+
+#: Template/Admin/Shapes/view.ctp:2
+msgid "View Shape"
+msgstr "Zeige Fahrweg"
+
+#: Template/Admin/Stops/add.ctp:4
+msgid "Add Station"
+msgstr "Neue Station"
+
+#: Template/Admin/Stops/add.ctp:6
+msgid "Add Stop"
+msgstr "Neue Halteposition"
+
+#: Template/Admin/Stops/add.ctp:35 Template/Admin/Stops/edit.ctp:38
+#: Template/Admin/Stops/view.ctp:42
+msgid "Platform Code"
+msgstr "Steig"
+
+#: Template/Admin/Stops/add.ctp:41
+msgid "Stop Pair"
+msgstr "Haltepositionen"
+
+#: Template/Admin/Stops/add.ctp:42
+msgid "Create Stops"
+msgstr "Zwei Haltepositionen erzeugen"
+
+#: Template/Admin/Stops/add.ctp:46 Template/Admin/Stops/edit.ctp:45
+msgid "Position"
+msgstr "Position"
+
+#: Template/Admin/Stops/add.ctp:111 Template/Admin/Stops/edit.ctp:180
+msgid "Click on the map to set the position."
+msgstr "Klicken Sie in die Karte, um die Position zu setzen."
+
+#: Template/Admin/Stops/edit.ctp:4
+msgid "Edit Station"
+msgstr "Bearbeite Station"
+
+#: Template/Admin/Stops/edit.ctp:6
+msgid "Edit Stop"
+msgstr "Bearbeite Halteposition"
+
+#: Template/Admin/Stops/edit.ctp:28 Template/Admin/Stops/view.ctp:23
+msgid "Stops"
+msgstr "Haltepositionen"
+
+#: Template/Admin/Stops/edit.ctp:62 Template/Admin/Stops/index.ctp:60
+#: Template/Admin/Stops/view.ctp:33;82
+msgid "Code"
+msgstr "Code"
+
+#: Template/Admin/Stops/edit.ctp:64 Template/Admin/Stops/view.ctp:84
+msgid "Platform"
+msgstr "Steig"
+
+#: Template/Admin/Stops/index.ctp:26
+msgid "Stop ID"
+msgstr "Stations-ID"
+
+#: Template/Admin/Stops/index.ctp:29
+msgid "Stop Code"
+msgstr "Code"
+
+#: Template/Admin/Stops/index.ctp:32 Template/Admin/Trips/add.ctp:54
+#: Template/Admin/Trips/edit.ctp:54
+msgid "Stop Name"
+msgstr "Name"
+
+#: Template/Admin/Stops/view.ctp:4
+msgid "View Station"
+msgstr "Zeige Station"
+
+#: Template/Admin/Stops/view.ctp:6
+msgid "View Stop"
+msgstr "Zeige Halteposition"
+
+#: Template/Admin/Stops/view.ctp:47
+msgid "Desc"
+msgstr "Beschreibung"
+
+#: Template/Admin/Stops/view.ctp:64
+msgid "Num Stops"
+msgstr "Anz. Haltepositionen"
+
+#: Template/Admin/Stops/view.ctp:115
+msgid "No assigned stops where found!"
+msgstr "Keine zugeordneten Haltepositionen gefunden!"
+
+#: Template/Admin/System/index.ctp:9
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:5
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: Template/Admin/System/index.ctp:18
+msgid "Latest Features"
+msgstr "Neueste Features"
+
+#: Template/Admin/System/index.ctp:32
+msgid "Current Version"
+msgstr "Aktuelle Version"
+
+#: Template/Admin/System/index.ctp:65
+msgid "Data Errors"
+msgstr "Datenfehler"
+
+#: Template/Admin/System/index.ctp:75
+msgid "Level"
+msgstr "Level"
+
+#: Template/Admin/System/index.ctp:76
+msgid "Text"
+msgstr "Meldungstext"
+
+#: Template/Admin/System/index.ctp:84
+msgid "Info"
+msgstr "Info"
+
+#: Template/Admin/System/index.ctp:87
+msgid "Warning"
+msgstr "Warnung"
+
+#: Template/Admin/System/index.ctp:90 Template/Admin/Users/pwreset.ctp:11
+#: Template/Layout/error.ctp:35
+msgid "Error"
+msgstr "Fehler"
+
+#: Template/Admin/System/index.ctp:99
+msgid "Ignore"
+msgstr "Ignorieren"
+
+#: Template/Admin/System/index.ctp:108
+msgid "No data errors found."
+msgstr "Keine Datenfehler gefunden."
+
+#: Template/Admin/System/index.ctp:132
+msgid "Requests"
+msgstr "Anfragen"
+
+#: Template/Admin/System/license.ctp:3
+#: Template/Plugin/AdminLTE/Element/footer.ctp:6
+msgid "License Information"
+msgstr "Lizenzinformation"
+
+#: Template/Admin/System/license.ctp:9
+msgid "SYSTEM_LICENSE_INFO"
+msgstr ""
+"Ohne die nachfolgend genannten OpenSource-Projekte wäre diese Anwendung nie "
+"entstanden-Ein großes **Dankeschön** allen Entwicklern, welche ihre Projekte "
+"mit der großen OpenSource-Welt teilen! \n"
+"\n"
+"Hier erhalten Sie einen kategorisierten Überblick über alle OpenSource-"
+"Projekte, welche in dieser Anwendung zum Einsatz kommen.\n"
+"\n"
+"#### PHP-Komponenten\n"
+"\n"
+"Unter dem Namen *CakePHP* wird das PHP-Framework, welches als Grundgerüst "
+"für diese Anwendung dient, vertrieben.\n"
+"\n"
+"**[CakePHP - Core Version 3.8](https://www.cakephp.org/)**\n"
+"\n"
+"Copyright 2019 The Cake Developers - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"**cakephp/acl 0.5.2**\n"
+"\n"
+"Copyright CakePHP Community - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"**cakephp/authentication 1.4.1**\n"
+"\n"
+"Copyright CakePHP Community - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"**cakephp/authorization 1.2.0**\n"
+"\n"
+"Copyright CakePHP Community - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"**cakephp/bake 1.10.1**\n"
+"\n"
+"Copyright CakePHP Community - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"**cakephp/cakephp 3.7.9**\n"
+"\n"
+"Copyright CakePHP Community - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"**cakephp/migrations 2.3.0**\n"
+"\n"
+"Copyright CakePHP Community - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"**cakephp/plugin-installer 1.1.1**\n"
+"\n"
+"Copyright CakePHP Community - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"**dereuromark/cakephp-queue 4.1.0**\n"
+"\n"
+"Copyright Mark Story - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"**dereuromark/cakephp-tools 1.9.8**\n"
+"\n"
+"Copyright Mark Story - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"**firebase/php-jwt v5.0.0**\n"
+"\n"
+"Copyright Neuman Vong, Anant Narayanan - License: BSD 3 Clause\n"
+"\n"
+"---\n"
+"\n"
+"**friendsofcake/search 5.3.1**\n"
+"\n"
+"Copyright Christian Winther ADmad  - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"**ivanamat/cakephp3-markdown 5.3.1**\n"
+"\n"
+"Copyright Ivan Amat - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"**jeremyharris/cakephp-lazyload 2.1.0**\n"
+"\n"
+"Copyright Jeremy Harris - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"**maiconpinto/cakephp-adminlte-theme 1.1.0**\n"
+"\n"
+"Copyright Maicon Pinto - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"**mobiledetect/mobiledetectlib 2.8.34**\n"
+"\n"
+"Copyright Serban Ghita - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"**riesenia/cakephp-duplicatable v3.1.3**\n"
+"\n"
+"Copyright Tomas Saghy - License: MIT License\n"
+"\n"
+"---\n"
+"\n"
+"#### Lizenztexte\n"
+"\n"
+"**MIT-License**\n"
+"\n"
+"```\n"
+"Permission is hereby granted, free of charge, to any person obtaining a copy "
+"of this software and associated documentation files (the \"Software\"), to "
+"deal in the Software without restriction, including without limitation the "
+"rights to use, copy, modify, merge, publish, distribute, sublicense, and/or "
+"sell copies of the Software, and to permit persons to whom the Software is "
+"furnished to do so, subject to the following conditions:\n"
+"\n"
+"The above copyright notice and this permission notice shall be included in "
+"all copies or substantial portions of the Software.\n"
+"\n"
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR "
+"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, "
+"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE "
+"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER "
+"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING "
+"FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS "
+"IN THE SOFTWARE.\n"
+"```\n"
+"\n"
+"**Apache 2.0 License**\n"
+"\n"
+"```\n"
+"TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n"
+"\n"
+"1. Definitions.\n"
+"\n"
+"\"License\" shall mean the terms and conditions for use, reproduction, and "
+"distribution as defined by Sections 1 through 9 of this document.\n"
+"\n"
+"\"Licensor\" shall mean the copyright owner or entity authorized by the "
+"copyright owner that is granting the License.\n"
+"\n"
+"\"Legal Entity\" shall mean the union of the acting entity and all other "
+"entities that control, are controlled by, or are under common control with "
+"that entity. For the purposes of this definition, \"control\" means (i) the "
+"power, direct or indirect, to cause the direction or management of such "
+"entity, whether by contract or otherwise, or (ii) ownership of fifty percent "
+"(50%) or more of the outstanding shares, or (iii) beneficial ownership of "
+"such entity.\n"
+"\n"
+"\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising "
+"permissions granted by this License.\n"
+"\n"
+"\"Source\" form shall mean the preferred form for making modifications, "
+"including but not limited to software source code, documentation source, and "
+"configuration files.\n"
+"\n"
+"\"Object\" form shall mean any form resulting from mechanical transformation "
+"or translation of a Source form, including but not limited to compiled "
+"object code, generated documentation, and conversions to other media types.\n"
+"\n"
+"\"Work\" shall mean the work of authorship, whether in Source or Object "
+"form, made available under the License, as indicated by a copyright notice "
+"that is included in or attached to the work (an example is provided in the "
+"Appendix below).\n"
+"\n"
+"\"Derivative Works\" shall mean any work, whether in Source or Object form, "
+"that is based on (or derived from) the Work and for which the editorial "
+"revisions, annotations, elaborations, or other modifications represent, as a "
+"whole, an original work of authorship. For the purposes of this License, "
+"Derivative Works shall not include works that remain separable from, or "
+"merely link (or bind by name) to the interfaces of, the Work and Derivative "
+"Works thereof.\n"
+"\n"
+"\"Contribution\" shall mean any work of authorship, including the original "
+"version of the Work and any modifications or additions to that Work or "
+"Derivative Works thereof, that is intentionally submitted to Licensor for "
+"inclusion in the Work by the copyright owner or by an individual or Legal "
+"Entity authorized to submit on behalf of the copyright owner. For the "
+"purposes of this definition, \"submitted\" means any form of electronic, "
+"verbal, or written communication sent to the Licensor or its "
+"representatives, including but not limited to communication on electronic "
+"mailing lists, source code control systems, and issue tracking systems that "
+"are managed by, or on behalf of, the Licensor for the purpose of discussing "
+"and improving the Work, but excluding communication that is conspicuously "
+"marked or otherwise designated in writing by the copyright owner as \"Not a "
+"Contribution.\"\n"
+"\n"
+"\"Contributor\" shall mean Licensor and any individual or Legal Entity on "
+"behalf of whom a Contribution has been received by Licensor and subsequently "
+"incorporated within the Work.\n"
+"\n"
+"2. Grant of Copyright License. Subject to the terms and conditions of this "
+"License, each Contributor hereby grants to You a perpetual, worldwide, non-"
+"exclusive, no-charge, royalty-free, irrevocable copyright license to "
+"reproduce, prepare Derivative Works of, publicly display, publicly perform, "
+"sublicense, and distribute the Work and such Derivative Works in Source or "
+"Object form.\n"
+"\n"
+"3. Grant of Patent License. Subject to the terms and conditions of this "
+"License, each Contributor hereby grants to You a perpetual, worldwide, non-"
+"exclusive, no-charge, royalty-free, irrevocable (except as stated in this "
+"section) patent license to make, have made, use, offer to sell, sell, "
+"import, and otherwise transfer the Work, where such license applies only to "
+"those patent claims licensable by such Contributor that are necessarily "
+"infringed by their Contribution(s) alone or by combination of their "
+"Contribution(s) with the Work to which such Contribution(s) was submitted. "
+"If You institute patent litigation against any entity (including a cross-"
+"claim or counterclaim in a lawsuit) alleging that the Work or a Contribution "
+"incorporated within the Work constitutes direct or contributory patent "
+"infringement, then any patent licenses granted to You under this License for "
+"that Work shall terminate as of the date such litigation is filed.\n"
+"\n"
+"4. Redistribution. You may reproduce and distribute copies of the Work or "
+"Derivative Works thereof in any medium, with or without modifications, and "
+"in Source or Object form, provided that You meet the following conditions:\n"
+"\n"
+"    You must give any other recipients of the Work or Derivative Works a "
+"copy of this License; and\n"
+"    You must cause any modified files to carry prominent notices stating "
+"that You changed the files; and\n"
+"    You must retain, in the Source form of any Derivative Works that You "
+"distribute, all copyright, patent, trademark, and attribution notices from "
+"the Source form of the Work, excluding those notices that do not pertain to "
+"any part of the Derivative Works; and\n"
+"    If the Work includes a \"NOTICE\" text file as part of its distribution, "
+"then any Derivative Works that You distribute must include a readable copy "
+"of the attribution notices contained within such NOTICE file, excluding "
+"those notices that do not pertain to any part of the Derivative Works, in at "
+"least one of the following places: within a NOTICE text file distributed as "
+"part of the Derivative Works; within the Source form or documentation, if "
+"provided along with the Derivative Works; or, within a display generated by "
+"the Derivative Works, if and wherever such third-party notices normally "
+"appear. The contents of the NOTICE file are for informational purposes only "
+"and do not modify the License. You may add Your own attribution notices "
+"within Derivative Works that You distribute, alongside or as an addendum to "
+"the NOTICE text from the Work, provided that such additional attribution "
+"notices cannot be construed as modifying the License.\n"
+"\n"
+"    You may add Your own copyright statement to Your modifications and may "
+"provide additional or different license terms and conditions for use, "
+"reproduction, or distribution of Your modifications, or for any such "
+"Derivative Works as a whole, provided Your use, reproduction, and "
+"distribution of the Work otherwise complies with the conditions stated in "
+"this License.\n"
+"\n"
+"5. Submission of Contributions. Unless You explicitly state otherwise, any "
+"Contribution intentionally submitted for inclusion in the Work by You to the "
+"Licensor shall be under the terms and conditions of this License, without "
+"any additional terms or conditions. Notwithstanding the above, nothing "
+"herein shall supersede or modify the terms of any separate license agreement "
+"you may have executed with Licensor regarding such Contributions.\n"
+"\n"
+"6. Trademarks. This License does not grant permission to use the trade "
+"names, trademarks, service marks, or product names of the Licensor, except "
+"as required for reasonable and customary use in describing the origin of the "
+"Work and reproducing the content of the NOTICE file.\n"
+"\n"
+"7. Disclaimer of Warranty. Unless required by applicable law or agreed to in "
+"writing, Licensor provides the Work (and each Contributor provides its "
+"Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF "
+"ANY KIND, either express or implied, including, without limitation, any "
+"warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or "
+"FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining "
+"the appropriateness of using or redistributing the Work and assume any risks "
+"associated with Your exercise of permissions under this License.\n"
+"\n"
+"8. Limitation of Liability. In no event and under no legal theory, whether "
+"in tort (including negligence), contract, or otherwise, unless required by "
+"applicable law (such as deliberate and grossly negligent acts) or agreed to "
+"in writing, shall any Contributor be liable to You for damages, including "
+"any direct, indirect, special, incidental, or consequential damages of any "
+"character arising as a result of this License or out of the use or inability "
+"to use the Work (including but not limited to damages for loss of goodwill, "
+"work stoppage, computer failure or malfunction, or any and all other "
+"commercial damages or losses), even if such Contributor has been advised of "
+"the possibility of such damages.\n"
+"\n"
+"9. Accepting Warranty or Additional Liability. While redistributing the Work "
+"or Derivative Works thereof, You may choose to offer, and charge a fee for, "
+"acceptance of support, warranty, indemnity, or other liability obligations "
+"and/or rights consistent with this License. However, in accepting such "
+"obligations, You may act only on Your own behalf and on Your sole "
+"responsibility, not on behalf of any other Contributor, and only if You "
+"agree to indemnify, defend, and hold each Contributor harmless for any "
+"liability incurred by, or claims asserted against, such Contributor by "
+"reason of your accepting any such warranty or additional liability.\n"
+"\n"
+"END OF TERMS AND CONDITIONS\n"
+"\n"
+"```\n"
+"\n"
+"**BSD 3 Clause**\n"
+"\n"
+"```\n"
+"Redistribution and use in source and binary forms, with or without "
+"modification, are permitted provided that the following conditions are met:\n"
+"\n"
+"1. Redistributions of source code must retain the above copyright notice, "
+"this list of conditions and the following disclaimer.\n"
+"\n"
+"2. Redistributions in binary form must reproduce the above copyright notice, "
+"this list of conditions and the following disclaimer in the documentation "
+"and/or other materials provided with the distribution.\n"
+"\n"
+"3. Neither the name of the copyright holder nor the names of its "
+"contributors may be used to endorse or promote products derived from this "
+"software without specific prior written permission.\n"
+"\n"
+"THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS"
+"\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE "
+"IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE "
+"ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE "
+"LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR "
+"CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF "
+"SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS "
+"INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN "
+"CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) "
+"ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE "
+"POSSIBILITY OF SUCH DAMAGE.\n"
+"```"
+
+#: Template/Admin/System/manual.ctp:8
+msgid "User Manual"
+msgstr "Benutzerhandbuch"
+
+#: Template/Admin/System/manual.ctp:15
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:2
+msgid "General"
+msgstr "Allgemein"
+
+# Placeholder Text
+#: Template/Admin/System/manual.ctp:18
+msgid "MANUAL_GENERAL_INFO"
+msgstr ""
+"Vielen Dank, dass Sie **{0}** verwenden! In diesem Benutzerhandbuch erhalten "
+"Sie eine kurze Einführung in die einzelnen Funktionen, die Ihnen die "
+"Software bietet. Sollten Sie dennoch Fragen haben, so können Sie sich "
+"jederzeit an den Support wenden."
+
+# Placeholder Text
+#: Template/Admin/System/manual.ctp:30
+msgid "MANUAL_SYSTEM_INFO"
+msgstr ""
+"#### Grundsätzliche Systemfunktionen\n"
+"\n"
+"Das System von **{0}** besteht im Wesentlichen aus drei Teilen: Dem "
+"Hintergrundsystem zur Datenverwaltung (*{0}.Master*), dem Frontend (*{0}."
+"Info*), auf dem die gespeicherten Daten exemplarisch betrachtet und "
+"überprüft werden können und der Schnittstelle (*{0}.API*) zur Abfrage von "
+"Daten annähernd gleich mit dem GTFS-Format. Diese drei Komponenten gehören "
+"zur Grundausstattung von **{0}**.\n"
+"\n"
+"Wir empfehlen Ihnen dringend, sich vor der Arbeit mit **{0}** mit den "
+"Grundlagen von [GTFS-Daten](https://gtfs.org/) und dem Aufbau von "
+"Fahrplaninformationen zu befassen!\n"
+"\n"
+"#### Benutzer\n"
+"\n"
+"Benutzer sind alle Instanzen, welche sich am System anmelden und arbeiten "
+"können. Jeder Benutzer ist einer Gruppe und einem Mandanten zugeordnet, um "
+"ihn eindeutig identifizieren zu können.\n"
+"\n"
+"*Hinweis: Die hinterlegte E-Mailadresse muss systemweit eindeutig sein!*\n"
+"\n"
+"#### Gruppen\n"
+"\n"
+"Über Gruppen werden Berechtigungen für jeden Objekttyp verwaltet. Für jedes "
+"Objekt können die Berechtigungen *anzeigen*, *hinzufügen*, *bearbeiten* und "
+"*löschen* gesetzt oder explizit verboten werden. \n"
+"\n"
+"#### Mandanten\n"
+"\n"
+"Durch die Verwendung von Mandanten wird mehreren Unternehmen unabhängig "
+"voneinander die Arbeit am System ermöglicht. Jeder Mandant kann als "
+"\"Eigentümer\" eines Objektes betrachtet werden. Bestimmte Objekte sind fest "
+"mit ihrem Mandanten verknüpft und können ausschließlich von diesen angezeigt "
+"oder bearbeitet werden.\n"
+"\n"
+"#### Benutzerdefinierte Einstellungen\n"
+"\n"
+"Über einen Klick auf Ihren Benutzernamen in der rechten oberen Ecke der "
+"Kopfzeile öffnet sich ein Popup-Fenster. Hier haben Sie u.A. die "
+"Möglichkeit, sich vom System abzumelden und ferner einige benutzerdefinierte "
+"Einstellungen vorzunehmen. Beispielsweise können Sie ein anderes Farbschema "
+"wählen und die von Ihnen bevorzugte Sprache einstellen. Diese beziehen sich "
+"ausschließlich auf Ihr Benutzerprofil und haben keine Auswirkung auf die "
+"übrigen Profile.\n"
+"\n"
+"#### Hilfestellung\n"
+"\n"
+"Sollten Sie während der Arbeit mit **{0}** einmal Hilfe benötigen, klicken "
+"Sie auf den Rettungsring neben Ihrem Benutzernamen in der Kopfzeile. Dieser "
+"führt Sie stets zum passenden Eintrag in diesem Benutzerhandbuch."
+
+# Placeholder Text
+#: Template/Admin/System/manual.ctp:42
+msgid "MANUAL_STOPS_INFO"
+msgstr ""
+"Analog zu bereits existenten Fahrplanmodellen kommt ein Haltestellenmodell "
+"bestehend aus Haltestellen und Haltepositionen zur Verwendung.\n"
+"\n"
+"\n"
+"#### Haltestellen (Stationen)\n"
+"\n"
+"Eine Haltestelle beschreibt grundsätzlich eine komplette Station, wie sie "
+"auch in Fahrplanmedien dargestellt wird. Dies kann in etwa analog zu einem "
+"Bahnhof mit mehreren Bahnsteigen betrachtet werden. Normalerweise enthält "
+"jede Haltestelle mind. eine Halteposition. Während eine Haltestelle immer "
+"mit einem grünen \"H\" auf gelbem Grund dargestellt ist, werden die "
+"Haltepositionen als rote Dreiecke in der Karte angezeigt.\n"
+"\n"
+"\n"
+"#### Haltepositionen (Steige)\n"
+"\n"
+"In den Fahrplandaten wird für gewöhnlich nicht die Haltestelle selbst, "
+"sondern die Halteposition referenziert. Die Halteposition entspricht dem "
+"Punkt, an dem ein Fahrzeug mit der Fahrzeugspitze planmäßig zum Halten "
+"kommt. Dies ermöglicht in der Fahrplanauskunft ein exaktes Routing bis zum "
+"tatsächlichen Abfahrtsort der Fahrt.\n"
+"\n"
+"*Hinweis: Gemäß der GTFS-Spezifikation von Google sollten Sie ausschließlich "
+"Haltepositionen anstatt von Haltestellen im Fahrplan referenzieren!*\n"
+"\n"
+"**Erstellen und Bearbeiten von Haltestellen**\n"
+"\n"
+"Klicken Sie zum Erstellen einer neuen Haltestelle auf das blaue `+` rechts "
+"oben in der Übersichtsbox.\n"
+"\n"
+"Nachdem Sie die Eingabefelder ausgefüllt haben, klicken Sie mit der linken "
+"Maustaste in die Karte, um die GPS-Position der Haltestelle festzulegen.\n"
+"\n"
+"*Hinweis: Wenn für eine Haltestelle ein Code vergeben wird, so muss dieser "
+"systemweit eindeutig sein! Eine mehrfache Nennung desselben Codes wird vom "
+"System abgewiesen.*\n"
+"\n"
+"**Erstellen und Bearbeiten von Haltepositionen**\n"
+"\n"
+"Um eine Halteposition hinzuzufügen, wechseln Sie zunächst in den "
+"Bearbeitungs-Modus einer Haltestelle. Dies geschieht entweder durch Klicken "
+"auf den entsprechenden Button in der Übersichtstabelle oder alternativ auf "
+"den blauen Stift rechts oben in der Anzeigebox. Wechseln Sie anschließend "
+"zum Tab \"Haltepositionen\".\n"
+"\n"
+"Um eine neue Halteposition hinzuzufügen, klicken Sie auf das kleine `+` "
+"rechts oberhalb der Tabelle mit den Haltepositionen. Anschließend verfahren "
+"Sie analog zum Erstellen von Haltestellen.\n"
+"\n"
+"**Löschen von Haltepositionen**\n"
+"\n"
+"Genau wie das Hinzufügen von Haltepositionen kann das Löschen einer solchen "
+"nur dann erfolgen, wenn die sich die übergeordnete Haltestelle im "
+"Bearbeitungs-Modus befindet. Wechseln Sie ggf. in den Bearbeitungs-Modus und "
+"anschließend zum Tab \"Haltepositionen\".\n"
+"\n"
+"Klicken Sie anschließend auf den entsprechenden Button in der Tabelle mit "
+"den Haltepositionen."
+
+# Placeholder Text
+#: Template/Admin/System/manual.ctp:54
+msgid "MANUAL_SHAPES_INFO"
+msgstr ""
+"Graphische Fahrwege dienen im GTFS-Standard dazu, den Fahrtverlauf einer "
+"Fahrt durch eine Polyline auf der Karte darzustellen. Im Regelfall sollte "
+"jede Fahrt einen Fahrweg referenzieren.\n"
+"\n"
+"**Erstellen von Fahrwegen**\n"
+"\n"
+"Um einen neuen Fahrweg zu definieren, klicken Sie auf das blaue `+` rechts "
+"oben in der Übersichtsbox. Alternativ können Sie einen bestehenden Fahrweg "
+"kopieren und diesen dann entsprechend bearbeiten. \n"
+"\n"
+"Geben Sie dem Fahrweg einen aussagekräftigen Namen. Passenderweise wäre dies "
+"die Linienvariante oder alternativ der Code der jeweils ersten und letzten "
+"bedienten Haltestelle.\n"
+"\n"
+"Um einen Fahrweg definieren zu können, setzen Sie mindestens zwei Punkte "
+"durch Klicken auf der Karte. Wenn Sie den Fahrweg fertig definiert haben, "
+"klicken Sie einmalig mit der linken Maustaste auf den letzten Punkt der "
+"Polyline.\n"
+"\n"
+"**Bearbeiten von Fahrwegen**\n"
+"\n"
+"In einigen Fällen kann es sinnvoll sein, einen bestehenden Fahrweg zu "
+"bearbeiten. Klicken Sie hierzu auf den entsprechenden Button in der "
+"Übersichtstabelle.\n"
+"\n"
+"In der Karte finden Sie dann zunächst die bislang gespeicherte Polyline vor. "
+"Um diese fortzuführen, klicken Sie mit gedrückter `Strg`-Taste in die "
+"Karte. \n"
+"\n"
+"Umgekehrt können Sie einen Punkt der Polyline verschieben, indem Sie ihn mit "
+"gedrückter linker Maustaste über die Karte bewegen. Um einen Punkt zu "
+"löschen, klicken Sie ihn einmalig mit der linken Maustaste an."
+
+# Placeholder Text
+#: Template/Admin/System/manual.ctp:66
+msgid "MANUAL_SERVICES_INFO"
+msgstr ""
+"Tagesarten definieren Gültigkeitsregeln für Fahrten als Kalender. "
+"Grundsätzlich besteht jede Tagesart aus einem Start - und Enddatum, sowie "
+"ggf. mehreren definierten Ausnahmen. Zusätzlich wird zu jeder Tagesart "
+"festgelegt, an welchen Wochentagen diese verkehren.\n"
+"\n"
+"Da Tagesarten unabhängig auch für mehrere Unternehmen gelten können, werden "
+"diese nicht im Kontext eines Unternehmens, sondern unabhängig definiert.\n"
+"\n"
+"#### Beispielhafte Tagesarten\n"
+"\n"
+"Je nach Fahrplankonstruktion kann es erforderlich sein, mehrere Tagesarten "
+"für eine Linie zu definieren. Dies ist insbesondere dann der Fall, wenn "
+"montags bis freitags ein anderer Fahrplan als für Samstage und Sonntage "
+"gilt. In diesem Fall wären mindestens drei Tagesarten erforderlich, welche "
+"folgendermaßen definiert sein können:\n"
+"\n"
+" Bezeichnung \t| StartDatum \t| EndDatum   \t| Montag \t| Dienstag \t| "
+"Mittwoch \t| Donnerstag \t| Freitag \t| Samstag \t| Sonntag |\t\n"
+"-------------\t|------------\t|------------\t|--------\t|----------"
+"\t|----------\t|------------\t|---------\t|---------\t|---------\t\n"
+" Mo-Fr       \t| 15.12.2019 \t| 13.12.2020 \t| x      \t| x        \t| "
+"x        \t| x          \t| x       \t|         \t|        | \t\n"
+" Sa          \t| 15.12.2019 \t| 13.12.2020 \t|        \t|          "
+"\t|          \t|            \t|         \t| x       \t|         |\t\n"
+" So          \t| 15.12.2019 \t| 13.12.2020 \t|        \t|          "
+"\t|          \t|            \t|         \t|         \t| x       |\t\n"
+"\n"
+"Zusätzlich kann es sein, dass Schulferien aus dem regulären Mo-Fr - Fahrplan "
+"ausgeschlossen werden sollen. Entsprechend würde dies über die Definition "
+"einer Ausnahme erfolgen:\n"
+"\n"
+"| Bezeichnung \t| Datum      \t| Ausnahme       \t|\n"
+"|-------------\t|------------\t|----------------\t|\n"
+"| Mo-Fr       \t| 23.12.2019 \t| verkehrt nicht \t|\n"
+"| Mo-Fr       \t| 24.12.2019 \t| verkehrt nicht \t|\n"
+"| ...         \t| ...        \t| ...            \t|\n"
+"| Mo-Fr       \t| 06.01.2020 \t| verkehrt nicht \t|\n"
+"\n"
+"---\n"
+"Für bestimmte Verkehrsangebote wie z.B. Freizeitbahnen, welche nur an "
+"bestimmten Tagen verkehren, kann es sinnvoll sein, die Tagesarten "
+"ausschließlich basierend auf Einzeltagen zu definieren. Für diesen Fall "
+"sollten Sie eine Tagesart mit dem Start analog zum ersten Gültigkeitstag und "
+"dem Ende analog zum letzten Gültigkeitstag anlegen und die tatsächlichen "
+"Gültigkeitstage über Ausnahmen definieren:\n"
+"\n"
+"| Bezeichnung \t| StartDatum \t| EndDatum   \t| Montag \t| Dienstag \t| "
+"Mittwoch \t| Donnerstag \t| Freitag \t| Samstag \t| Sonntag \t|\n"
+"|-------------\t|------------\t|------------\t|--------\t|----------"
+"\t|----------\t|------------\t|---------\t|---------\t|---------\t|\n"
+"| s19_Albtal  \t| 01.01.2019 \t| 31.10.2019 \t|        \t|          "
+"\t|          \t|            \t|         \t|         \t|         \t|\n"
+"\n"
+"Die tatsächlichen Gültigkeitstage werden dann als Einzeltag definiert:\n"
+"\n"
+"| Bezeichnung \t| Datum      \t| Ausnahme            \t|\n"
+"|-------------\t|------------\t|---------------------\t|\n"
+"| s19_Albtal  \t| 01.05.2019 \t| verkehrt zusätzlich \t|\n"
+"| s19_Albtal  \t| 26.05.2019 \t| verkehrt zusätzlich \t|\n"
+"| ...         \t| ...        \t| ...                 \t|\n"
+"| s19_Albtal  \t| 31.10.2019 \t| verkehrt zusätzlich \t|"
+
+# Placeholder Text
+#: Template/Admin/System/manual.ctp:78
+msgid "MANUAL_AGENCIES_INFO"
+msgstr ""
+"Als (Verkehrs -) Unternehmen werden alle Unternehmen definiert, von denen "
+"Daten im System hinterlegt sind. Die Informationen, welche im Bezug auf ein "
+"Unternehmen gespeichert werden, haben ausschließlich informellen Charakter "
+"und keine Auswirkung auf die Fahrplandaten selbst.\n"
+"\n"
+"Wichtig beim Erstellen eines Unternehmens ist die Angabe einer gültigen URL, "
+"um es einem Endbenutzer zu ermöglichen, selbstständig nach weitergehenden "
+"Informationen zu suchen. \n"
+"\n"
+"Hilfreich kann zudem die Angabe einer Tarif-URL sein, mit deren Hilfe der "
+"Benutzer schnell die in Frage kommenden Fahrpreise ermitteln können soll."
+
+# Placeholder Text
+#: Template/Admin/System/manual.ctp:90
+msgid "MANUAL_ROUTES_INFO"
+msgstr ""
+"Eine Linie beschreibt eine Menge von Fahrten, die in regelmäßigen Abständen "
+"auf demselben Abschnitt verkehren. Jeder Linie ist ein Linientyp und ein "
+"Farbschema zugeordnet, welches z.B. in Fahrplanaushängen und Netzplänen, "
+"sowie der graphischen Darstellung von Fahrten der entsprechenden Linie "
+"Verwendung findet.\n"
+"\n"
+"Optional kann jeder Linie zudem eine Langbezeichnung, eine Beschreibung und "
+"eine URL für weitergehende Informationen zugewiesen werden. Eine "
+"Beschreibung sollte sinnvollerweise dann bereitgestellt werden, wenn es sich "
+"bei der Linie um ein Angebot handelt, welches nicht mit dem konventionellen "
+"ÖPNV-Angebot vergleichbar ist. Denkbar wären u.A. Gelegenheitsverkehre, "
+"Sonder - und Freizeitverkehre. Für den Fall, dass eine Linie eine eigene URL "
+"definiert, sollte diese die URL des übergeordneten Unternehmens "
+"überschreiben.\n"
+"\n"
+"#### Linienvarianten\n"
+"\n"
+"Zu einer Linie gehören in der Regel mehrere Linienvarianten. Eine "
+"Linienvariante beschreibt den tatsächlichen Fahrweg, welcher von einer Fahrt "
+"im Kontext der Linie zurückgelegt wird. Konkret handelt es sich um z.B. um "
+"verkürzte Verstärkerfahrten, sowie Ein - und Aussetzfahrten, die nicht exakt "
+"dem Standardfahrweg der Linie entsprechen. Die Linienvarianten werden "
+"automatisch aus der innerhalb einer Linie definierten Fahrten errechnet und "
+"haben keinen Einfluss auf die Fahrplaninformationen. Für eine Linie mit "
+"Fahrten in Hin- und Rückrichtung gibt es folglich mindestens zwei "
+"Linienvarianten. \n"
+"\n"
+"Die Anzahl der existierenden Linienvarianten wird in der Übersicht für jede "
+"Linie angezeigt. Innerhalb der Linienansicht können Fahrten auch nach der "
+"Linienvariante gefiltert werden."
+
+# Placeholder Text
+#: Template/Admin/System/manual.ctp:102
+msgid "MANUAL_TRIPS_INFO"
+msgstr ""
+"Eine Fahrt stellt in der Fahrplaninformation die feinste Einheit dar. Einer "
+"Fahrt werden jeweils alle wichtigen Informationen wie *Zieltext*, *Fahrt-"
+"Nummer* und Informationen zur *Barrierefreiheit* und *Fahrradmitnahme* "
+"zugeordnet.\n"
+"\n"
+"#### Durchbindungen\n"
+"\n"
+"In bestimmten Fällen sollen zwei Fahrten als Durchbindung definiert werden. "
+"In der Auskunft bedeutet dies, dass zwei Fahrten von demselben Fahrzeug "
+"durchgeführt werden kann und der Fahrgast zwischen den Fahrten nicht "
+"umsteigen muss. Um eine Durchbindung zwischen zwei Fahrten zu definieren, "
+"muss diesen Fahrten jeweils dieselbe *Block-ID* zugewiesen werden. *Hinweis: "
+"Die Block-ID sollte nicht zwangsläufig mit betrieblichen Fahrzeugumläufen in "
+"Verbindung gebracht werden!*\n"
+"\n"
+"#### Abfahrtszeiten\n"
+"\n"
+"Abfahrtszeiten weisen einer Fahrt ihre entsprechenden Haltestellen zu. Jede "
+"Fahrt besteht aus mindestens zwei Abfahrtszeiten.\n"
+"\n"
+"Um eine Haltestelle hinzuzufügen, geben Sie im Eingabefeld oben rechts die "
+"Bezeichnung oder den Code der Haltestelle ein und klicken anschließend auf "
+"`Hinzufügen`. \n"
+"\n"
+"**Hinzufügen und Bearbeiten von Abfahrtszeiten**\n"
+"\n"
+"Wechseln Sie zunächst in den Bearbeitungs-Modus der Fahrt. Im Tab "
+"\"Abfahrtszeiten\" sehen Sie alle bislang existenten Abfahrtszeiten. Um eine "
+"neue Abfahrtszeit hinzuzufügen, geben Sie die Bezeichnung der Haltestelle im "
+"Textfeld rechts oben ein. Im erscheinenden DropDown-Menü wählen Sie die "
+"richtige Haltestelle aus und klicken anschließend auf \"Hinzufügen\". Ein "
+"entsprechender Eintrag für die Haltestelle wurde hinzugefügt.\n"
+"\n"
+"Sie können die Abfahrtszeiten im Bearbeitungs-Modus einer Fahrt in ihrer "
+"Reihenfolge verschieben, sowie neue Fahrten hinzufügen. Klicken Sie dazu "
+"jeweils auf die nach oben bzw. unten weisenden Pfeile in der Liste.\n"
+"\n"
+"Für jede Abfahrtszeit können Sie die *Ankunft* und *Abfahrt* im Format **HH:"
+"mm:ss** exakt festlegen. In der Praxis können die Sekunden hierbei i.d.R. "
+"vernachlässigt werden. Für den Fall, dass die Abfahrts - und Ankunftszeit "
+"gleich sind, geben Sie zweimal dieselbe Uhrzeit ein. *Hinweis: Die "
+"Abfahrtszeiten dürfen sich nie überlappen!*\n"
+"\n"
+"In den Spalten *Einstieg* und *Ausstieg* können Sie verschiedene Regelungen "
+"zum Ein - und Ausstieg an der entsprechenden Haltestelle festlegen. "
+"Grundsätzlich ist der Ein - und Ausstieg an jeder Haltestelle möglich. Um "
+"die Fahrplaninformationen detaillierter gestalten zu können, sollten Sie bei "
+"der ersten Haltestelle den *Ausstieg* jedoch auf **Nein**, sowie analog dazu "
+"an der letzten Haltestelle den *Einstieg* auf **Nein** setzen. Für den Fall, "
+"dass ein Halt nur bei Bedarf bedient wird, wählen Sie den Wert **Bedarf** "
+"aus.\n"
+"\n"
+"#### Taktzeiten\n"
+"\n"
+"Bestimmte Fahrten verkehren regelmäßig zu bestimmten Taktzeiten. Für jede "
+"angelegte Taktzeit ist ein Start - und ein Endzeitpunkt, sowie ein "
+"Taktabstand (Headway) in Minuten definiert. Zusätzlich kann festgelegt "
+"werden, ob es sich bei diesen Angaben um exakte Fahrzeiten oder ungefähre "
+"Fahrzeiten handelt. Insbesondere bei Freizeitbahnen oder im Bedarfsverkehr "
+"lässt sich diese Option sinnvoll einsetzen.\n"
+"\n"
+"**Erstellen und Bearbeiten von Taktzeiten**\n"
+"\n"
+"Wechseln Sie zunächst in den Bearbeitungs-Modus der Fahrt. Im Tab "
+"\"Taktzeiten\" sehen Sie alle bislang existenten Taktzeiten. Um eine "
+"Taktzeit hinzuzufügen, klicken Sie auf das blaue `+` rechts oben. Ein "
+"entsprechender Eintrag für die Taktzeit wird hinzugefügt. *Hinweis: Die "
+"Taktzeiten dürfen sich nie überlappen!*"
+
+# Placeholder Text
+#: Template/Admin/System/manual.ctp:114
+msgid "MANUAL_REST_INFO"
+msgstr ""
+"Über die REST API erhalten Sie auch von außerhalb des Systems einen "
+"Lesezugriff auf die enthaltenen Daten mit Feldern analog zum [GTFS-Standard]"
+"(https://gtfs.org/). Weitere Informationen erhalten Sie in der [allgemeinen "
+"Dokumentation zur REST API]({0})."
+
+#: Template/Admin/System/privacy.ctp:3
+#: Template/Api/OpenTransportApi/index.ctp:60
+msgid "Privacy Information"
+msgstr "Datenschutz"
+
+# Placeholder Text
+#: Template/Admin/System/privacy.ctp:9
+#: Template/Api/OpenTransportApi/index.ctp:61 Template/Frontend/index.ctp:229
+msgid "SYSTEM_PRIVACY_INFO"
+msgstr ""
+"Nachfolgende Erläuterungen informieren Sie über die Art, den Umfang und den "
+"Zweck der Erhebung und Verwendung personenbezogener Daten durch den "
+"Betreiber.\n"
+"\n"
+"Da diese Anwendung regelmäßig an den aktuellsten Stand der Technik angepasst "
+"wird, können sich die Bestimmungen dieser Datenschutzinformation jederzeit "
+"ändern. Wir empfehlen Ihnen daher, sich diese Information regelmäßig "
+"durchzulesen.\n"
+"\n"
+"Begriffsbestimmungen wie z.B. \"personenbezogene Daten\" und \"Verarbeitung"
+"\" finden Sie in Art. 4 DSGVO.\n"
+"\n"
+"### Zugriffsdaten\n"
+"\n"
+"Der Betreiber dieser Anwendung speichert bei Ihrem Zugriff auf die Webseite "
+"sog. \"Server-Logfiles\", welche Informationen über Ihren Zugriff enthalten. "
+"Konkret handelt es sich um folgende Informationen:\n"
+"\n"
+"* Besuchte Seite\n"
+"* Datum/Uhrzeit des Zugriffs\n"
+"* Menge der ausgetauschten Daten\n"
+"* Quelle, von der aus Sie auf die Seite gelangt sind\n"
+"* Verwendeter Browser/Betriebssystem\n"
+"* IP-Adresse\n"
+"\n"
+"Rechtsgrund für die Erhebung dieser Daten ist ein berechtigtes Interesse "
+"gem. Art. 6 Abs. 1 lit. f. DSGVO, da diese Informationen benötigt werden, um "
+"einen Missbrauch der Anwendung auszuschließen.\n"
+"\n"
+"### Cookies\n"
+"\n"
+"Zur Nutzung speichert diese Anwendung Cookies auf Ihrem Endgerät. Bei "
+"Cookies handelt es sich um kleine Textdateien, welche im Browser Ihres "
+"Endgerätes abgelegt werden. \n"
+"\n"
+"Rechtsgrund für die Verwendung von Cookies ist ein berechtigtes Interesse "
+"gem. Art. 6 Abs. 1 lit. f. DSGVO, da diese zur Speicherung von temporären "
+"Session- und Anmeldeinformationen benötigt werden.\n"
+"\n"
+"### Kartenansicht OpenStreetMap\n"
+"\n"
+"Zur Darstellung von Karten wird der Dienst *[OpenStreetMap](https://www."
+"openstreetmap.org/)* eingesetzt. Die Kartendaten werden in Echtzeit von den "
+"Servern von *OpenStreetMap* abgerufen, was automatisch bedeutet, dass "
+"dieselben personenbezogenen Daten wie im Abschnitt \"Zugriffsdaten\" an "
+"*OpenStreetMap* übermittelt werden. Da der Betreiber dieser Anwendung keine "
+"Kontrolle über die Handhabung der Daten bei *OpenStreetMap* hat, kann dieser "
+"keine präzisen Informationen zur Verarbeitung der Daten durch "
+"*OpenStreetMap* bereitstellen. Informationen zur den an *OpenStreetMap* "
+"übermittelten personenbezogenen Daten erfragen Sie bitte direkt bei "
+"*OpenStreetMap*.\n"
+"\n"
+"Rechtsgrund für die Einbindung der Karten ist ein berechtigtes Interesse "
+"gem. Art. 6 Abs. 1 lit. f. DSGVO, da dies zur Grundfunktion der Anwendung "
+"erforderlich ist.\n"
+"\n"
+"### Geocoding\n"
+"\n"
+"Als **Geocoding** wird der Vorgang bezeichnet, bei dem eine Orts- oder "
+"Adresseingabe in GPS-Koordinaten umgewandelt wird. Diese Anwendung verwendet "
+"zum Geocoding den *ArgGIS REST API* -  Dienst der Firma *[Esri](https://www."
+"esri.com/de-de/home)*. Immer dann, wenn Sie in der Karte nach einem Ort "
+"suchen, werden dieselben personenbezogenen Daten wie im Abschnitt "
+"\"Zugriffsdaten\" an *Esri* übermittelt. Da der Betreiber dieser Anwendung "
+"keine Kontrolle über die Handhabung der Daten bei *Esri* hat, kann dieser "
+"keine präzisen Informationen zur Verarbeitung der Daten durch *Esri* "
+"bereitstellen. Informationen zu den an *Esri* übermittelten "
+"personenbezogenen Daten erfragen Sie bitte direkt bei *Esri*.\n"
+"\n"
+"Rechtsgrund für die Einbindung des Geocoding - Dienstes ist ein berechtigtes "
+"Interesse gem. Art. 6 Abs. 1 lit. f. DSGVO, da dies zur Grundfunktion der "
+"Anwendung erforderlich ist.\n"
+"\n"
+"### SSL-Zertifikat\n"
+"\n"
+"Diese Anwendung nutzt ein gültiges SSL-Zertifikat zur Übertragung der Daten "
+"zwischen dem Server und Ihrem Browser. Dadurch wird ein Abfangen und "
+"Mitlesen der Daten durch Dritte verhindert. Ob ein SSL-Zertifikat gültig ist "
+"und verwendet wird, erkennen Sie in Ihrem Browser an einer entsprechenden "
+"Meldung. Bei modernen Browsern handelt es sich meist um ein grünes Schloss "
+"neben der Adresszeile. Zudem weisen moderne Browser Sie aktiv darauf hin, "
+"wenn kein SSL-Zertifikat verwendet oder dieses abgelaufen ist.\n"
+"\n"
+"### Rechte\n"
+"\n"
+"Sie haben als Nutzer dieser Anwendung das Recht, eine kostenlose Auskunft "
+"über Ihre gespeicherten Daten zu erhalten. Sie haben außerdem das Recht auf "
+"Berichtigung falscher Daten und auf die Verarbeitungseinschränkung oder "
+"Löschung Ihrer personenbezogenen Daten. Falls zutreffend, können Sie auch "
+"Ihr Recht auf Datenportabilität geltend machen. Sollten Sie annehmen, dass "
+"Ihre Daten unrechtmäßig verarbeitet wurden, können Sie eine Beschwerde bei "
+"der zuständigen Aufsichtsbehörde einreichen. \n"
+"\n"
+"### Löschung\n"
+"\n"
+"Sofern Ihr Wunsch nicht mit einer gesetzlichen Pflicht zur Aufbewahrung von "
+"Daten (z. B. Vorratsdatenspeicherung) kollidiert, haben Sie ein Anrecht auf "
+"Löschung Ihrer Daten. Von uns gespeicherte Daten werden, sollten sie für "
+"ihre Zweckbestimmung nicht mehr vonnöten sein und es keine gesetzlichen "
+"Aufbewahrungsfristen geben, gelöscht. Falls eine Löschung nicht durchgeführt "
+"werden kann, da die Daten für zulässige gesetzliche Zwecke erforderlich "
+"sind, erfolgt eine Einschränkung der Datenverarbeitung. In diesem Fall "
+"werden die Daten gesperrt und nicht für andere Zwecke verarbeitet.\n"
+"\n"
+"### Widerspruch\n"
+"\n"
+"Nutzer dieser Anwendung können von ihrem Widerspruchsrecht Gebrauch machen "
+"und der Verarbeitung ihrer personenbezogenen Daten zu jeder Zeit "
+"widersprechen.\n"
+"\n"
+"### Kontakt\n"
+"\n"
+"Bei Rückfragen können Sie jederzeit unter der E-Mailadresse [{0}](mailto:"
+"{0}) den Betreiber der Anwendung kontaktieren."
+
+#: Template/Admin/Trips/add.ctp:2
+msgid "Add Trip"
+msgstr "Neue Fahrt"
+
+#: Template/Admin/Trips/add.ctp:17 Template/Admin/Trips/edit.ctp:17
+#: Template/Admin/Trips/view.ctp:96
+msgid "Stop Times"
+msgstr "Abfahrtszeiten"
+
+#: Template/Admin/Trips/add.ctp:18 Template/Admin/Trips/edit.ctp:18
+msgid "Graphic Times"
+msgstr "Bildfahrplan"
+
+#: Template/Admin/Trips/add.ctp:19 Template/Admin/Trips/edit.ctp:19
+#: Template/Admin/Trips/view.ctp:132
+msgid "Frequencies"
+msgstr "Taktzeiten"
+
+#: Template/Admin/Trips/add.ctp:27;28 Template/Admin/Trips/edit.ctp:27;28
+#: Template/Admin/Trips/index.ctp:150
+msgid "Select..."
+msgstr "Auswählen ..."
+
+#: Template/Admin/Trips/add.ctp:29 Template/Admin/Trips/edit.ctp:29
+#: Template/Admin/Trips/index.ctp:40;75;151 Template/Admin/Trips/view.ctp:53
+msgid "Trip Shortname"
+msgstr "Fahrt-Nummer"
+
+#: Template/Admin/Trips/add.ctp:31 Template/Admin/Trips/edit.ctp:31
+#: Template/Admin/Trips/view.ctp:61
+msgid "Block ID"
+msgstr "Block ID"
+
+#: Template/Admin/Trips/add.ctp:57 Template/Admin/Trips/edit.ctp:57
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: Template/Admin/Trips/add.ctp:66 Template/Admin/Trips/edit.ctp:66
+#: Template/Admin/Trips/view.ctp:101
+msgid "Stop"
+msgstr "Station"
+
+#: Template/Admin/Trips/add.ctp:67 Template/Admin/Trips/edit.ctp:67
+#: Template/Admin/Trips/view.ctp:102
+msgid "Arrival Time"
+msgstr "Ankunft"
+
+#: Template/Admin/Trips/add.ctp:68 Template/Admin/Trips/edit.ctp:68
+#: Template/Admin/Trips/view.ctp:103
+msgid "Departure Time"
+msgstr "Abfahrt"
+
+#: Template/Admin/Trips/add.ctp:69 Template/Admin/Trips/edit.ctp:69
+#: Template/Admin/Trips/view.ctp:104
+msgid "Entry"
+msgstr "Einstieg"
+
+#: Template/Admin/Trips/add.ctp:70 Template/Admin/Trips/edit.ctp:70
+#: Template/Admin/Trips/view.ctp:105
+msgid "Exit"
+msgstr "Ausstieg"
+
+#: Template/Admin/Trips/add.ctp:108;378 Template/Admin/Trips/edit.ctp:108;407
+msgid "Graph Zoomlevel {0}%"
+msgstr "Zoomstufe {0}%"
+
+#: Template/Admin/Trips/add.ctp:128 Template/Admin/Trips/edit.ctp:128
+#: Template/Admin/Trips/view.ctp:137
+msgid "Headway"
+msgstr "Taktabstand"
+
+#: Template/Admin/Trips/add.ctp:129 Template/Admin/Trips/edit.ctp:129
+#: Template/Admin/Trips/view.ctp:138
+msgid "Exact Times"
+msgstr "Exakte Fahrzeiten"
+
+#: Template/Admin/Trips/edit.ctp:2
+msgid "Edit Trip"
+msgstr "Bearbeite Fahrt"
+
+#: Template/Admin/Trips/index.ctp:28
+msgid "Trip ID"
+msgstr "Fahrt-ID"
+
+#: Template/Admin/Trips/index.ctp:146
+msgid "Copy Options"
+msgstr "Optionen"
+
+#: Template/Admin/Trips/index.ctp:155
+msgid "Reference"
+msgstr "Referenz"
+
+#: Template/Admin/Trips/index.ctp:159
+msgid "Stop Order"
+msgstr "Haltefolge"
+
+#: Template/Admin/Trips/index.ctp:160
+msgid "Leave"
+msgstr "Beibehalten"
+
+#: Template/Admin/Trips/index.ctp:160
+msgid "Reverse"
+msgstr "Umkehren"
+
+#: Template/Admin/Trips/view.ctp:8
+msgid "View Trip"
+msgstr "Zeige Fahrt"
+
+#: Template/Admin/Trips/view.ctp:22
+msgid "Travel Times"
+msgstr "Fahrzeiten"
+
+#: Template/Admin/Trips/view.ctp:126;127
+#: Template/Element/trips/stop-time.ctp:35;40
+msgid "Demand"
+msgstr "Bei Bedarf"
+
+#: Template/Admin/Users/add.ctp:3
+msgid "Add User"
+msgstr "Neuer Benutzer"
+
+#: Template/Admin/Users/add.ctp:27 Template/Admin/Users/pwreset.ctp:5
+msgid "Password (Match)"
+msgstr "Passwort (Wiederholung)"
+
+#: Template/Admin/Users/add.ctp:32
+msgid "Registration E-Mail"
+msgstr "Registrierungs-E-Mail"
+
+#: Template/Admin/Users/add.ctp:33
+msgid "Don't Send"
+msgstr "Nicht senden"
+
+#: Template/Admin/Users/add.ctp:33
+msgid "Send"
+msgstr "Senden"
+
+#: Template/Admin/Users/edit.ctp:3
+msgid "Edit User"
+msgstr "Bearbeite Benutzer"
+
+#: Template/Admin/Users/edit.ctp:39 Template/Admin/Users/pwchange.ctp:3
+#: Template/Admin/Users/settings.ctp:139
+msgid "Change Password"
+msgstr "Passwortänderung"
+
+#: Template/Admin/Users/login.ctp:2
+msgid "Login Form"
+msgstr "Anmeldung"
+
+#: Template/Admin/Users/login.ctp:3 Template/Admin/Users/pwforgot.ctp:3
+#: Template/Admin/Users/view.ctp:26 Template/Install/database.ctp:22
+#: Template/Install/email.ctp:22 Template/Install/user.ctp:20
+msgid "Username"
+msgstr "Benutzername"
+
+#: Template/Admin/Users/login.ctp:4 Template/Admin/Users/pwreset.ctp:4
+#: Template/Install/database.ctp:23 Template/Install/email.ctp:23
+#: Template/Install/user.ctp:22
+msgid "Password"
+msgstr "Passwort"
+
+#: Template/Admin/Users/login.ctp:5
+msgid "Forgot your password?"
+msgstr "Passwort vergessen?"
+
+#: Template/Admin/Users/login.ctp:7
+msgid "Login"
+msgstr "Anmelden"
+
+#: Template/Admin/Users/pwchange.ctp:13;17
+msgid "New Password"
+msgstr "Neues Passwort"
+
+#: Template/Admin/Users/pwchange.ctp:16
+msgid "Old Password"
+msgstr "Altes Passwort"
+
+#: Template/Admin/Users/pwchange.ctp:18
+msgid "New Password (Match)"
+msgstr "Neues Passwort (Wiederholung)"
+
+#: Template/Admin/Users/pwchange.ctp:31
+msgid "Security Hint"
+msgstr "Sicherheitshinweis"
+
+#: Template/Admin/Users/pwchange.ctp:34
+msgid ""
+"To ensure the system security, your password should comply with the "
+"following requirements"
+msgstr ""
+"Um die Systemsicherheit zu gewährleisten, sollte das Passwort folgende "
+"Bedingungen erfüllen"
+
+#: Template/Admin/Users/pwchange.ctp:36
+msgid "your password should use at least 8 characters"
+msgstr "verwenden Sie mindestens 8 Zeichen"
+
+#: Template/Admin/Users/pwchange.ctp:37
+msgid "mix upper-case with lower-case letters and other special chars"
+msgstr "mischen Sie Groß- und Kleinbuchstaben und andere Sonderzeichen"
+
+#: Template/Admin/Users/pwchange.ctp:38
+msgid "do not use any kind of content related words"
+msgstr ""
+"nutzen Sie keine Wörter im Zusammenhand mit diesem System oder die "
+"Rückschlüsse auf Sie zulassen"
+
+#: Template/Admin/Users/pwforgot.ctp:4
+msgid "Proceed"
+msgstr "Weiter"
+
+#: Template/Admin/Users/pwreset.ctp:7
+msgid "Change"
+msgstr "Ändern"
+
+#: Template/Admin/Users/pwreset.ctp:12
+msgid "The supplied token seems to be invalid!"
+msgstr "Das übermittelte Token ist ungültig!"
+
+#: Template/Admin/Users/settings.ctp:8
+msgid "User Settings"
+msgstr "Benutzereinstellungen"
+
+#: Template/Admin/Users/settings.ctp:34
+msgid "Date Format"
+msgstr "Datums-Format"
+
+#: Template/Admin/Users/settings.ctp:54
+msgid "Time Format"
+msgstr "Zeit-Format"
+
+#: Template/Admin/Users/settings.ctp:89
+msgid "Preferred Language"
+msgstr "Bevorzugte Sprache"
+
+#: Template/Admin/Users/settings.ctp:103
+msgid "Max. Results / Page"
+msgstr "Max. Ergebnisse / Seite"
+
+#: Template/Admin/Users/settings.ctp:112
+msgid "Blue"
+msgstr "Blau"
+
+#: Template/Admin/Users/settings.ctp:113
+msgid "Blue Light"
+msgstr "Blau Light"
+
+#: Template/Admin/Users/settings.ctp:114
+msgid "Yellow"
+msgstr "Gelb"
+
+#: Template/Admin/Users/settings.ctp:115
+msgid "Yellow Light"
+msgstr "Gelb Light"
+
+#: Template/Admin/Users/settings.ctp:116
+msgid "Green"
+msgstr "Grün"
+
+#: Template/Admin/Users/settings.ctp:117
+msgid "Green Light"
+msgstr "Grün Light"
+
+#: Template/Admin/Users/settings.ctp:118
+msgid "Purple"
+msgstr "Violett"
+
+#: Template/Admin/Users/settings.ctp:119
+msgid "Purple Light"
+msgstr "Violett Light"
+
+#: Template/Admin/Users/settings.ctp:120
+msgid "Red"
+msgstr "Rot"
+
+#: Template/Admin/Users/settings.ctp:121
+msgid "Red Light"
+msgstr "Rot Light"
+
+#: Template/Admin/Users/settings.ctp:122
+msgid "Minimal Black"
+msgstr "Minimal Dunkel"
+
+#: Template/Admin/Users/settings.ctp:123
+msgid "Minimal Light"
+msgstr "Minimal Hell"
+
+#: Template/Admin/Users/settings.ctp:132
+msgid "Theme"
+msgstr "Theme"
+
+#: Template/Admin/Users/view.ctp:3
+msgid "View User"
+msgstr "Zeige Benutzer"
+
+#: Template/Admin/Users/view.ctp:30
+msgid "Email"
+msgstr "E-Mail"
+
+#: Template/Admin/Users/view.ctp:41
+msgid "Group"
+msgstr "Gruppe"
+
+# Placeholder Text
+#: Template/Api/OpenTransportApi/index.ctp:49
+msgid "REST_API_INFO_TEXT"
+msgstr ""
+"# {0}  REST API\n"
+"\n"
+"Die {0} REST API ermöglicht einen strukturierten Zugriff auf enthaltene "
+"Daten weitestgehend analog zum GTFS-Standard. Bei einigen Datentypen sind "
+"zusätzliche Felder vorhanden, welche hier eingehend beschrieben werden.\n"
+"\n"
+"Informationen über die übrigen Felder und deren Bedeutung erhalten Sie in "
+"der allgemeinen [GTFS-Referenz](https://gtfs.org/reference/static).\n"
+"\n"
+"## Allgemeine Information\n"
+"\n"
+"Der Endpunkt für die {0} API kann unter\n"
+"\n"
+"`https://{yourdomain}/api` \n"
+"\n"
+"erreicht werden. Grundsätzlich sollten alle Anfragen\n"
+"über HTTPS erfolgen um ein Abfangen der Verbindung durch Dritte zu "
+"verhindern.\n"
+"\n"
+"Das Anfordern von Ressourcen erfolgt auf Basis eines Bezeichners, eines "
+"Selektors und eines Formats. Weitere Parameter sind je nach Selektor "
+"erforderlich oder optional anzugeben.\n"
+"\n"
+"## Verfügbare Ressourcen\n"
+"\n"
+"Der **Bezeichner** definiert, welche Ressource von der API angefragt werden "
+"soll. Mögliche Ressourcen sind:\n"
+"\n"
+"| Name | Ressource |\n"
+"| --- | ----------- |\n"
+"| stops | Haltestellen |\n"
+"| routes | Linien |\n"
+"| trips | Fahrten |\n"
+"\n"
+"## Mögliche Selektoren\n"
+"\n"
+"Über den **Selektor** und die entsprechenden Parameter wird die Auswahl der "
+"entsprechenden Ressource eingeschränkt. Für jede Ressource stehen mehrere "
+"mögliche Selektoren zur Verfügung:\n"
+"\n"
+"| Resource | Name | Beschreibung |\n"
+"| --- | ----------- | --- |\n"
+"| stops | byStopId | selektiert eine Haltestelle anhand der eindeutigen Stop-"
+"ID |\n"
+"| stops | byLatLon | selektiert Haltestellen anhand von Geokoordinaten im "
+"Format WGS84 |\n"
+"| stops | byStopCodeOrStopName | selektiert Haltestellen anhand ihrer "
+"Bezeichnung oder ihres Codes |\n"
+"| routes | byRouteId| selektiert eine Linie anhand ihrer eindeutigen Route-"
+"ID |\n"
+"| routes | byRouteName | selektiert Linien anhand ihrer Bezeichnung |\n"
+"| trips | byTripId | selektiert eine Fahrt anhand  ihrer eundeutigen Trip-ID "
+"|\n"
+"| trips | byRouteId | selektiert alle Fahrten anhand der Route-ID |\n"
+"| trips | byBlockId | selektiert alle Fahrten desselben Blocks (als "
+"Durchbindung) |\n"
+"| trips | byStopId | selektiert alle Fahrten, welche an einer Haltestelle "
+"verkehren |\n"
+"\n"
+"## Obligatorische Parameter\n"
+"\n"
+"Zu jedem dieser Selektoren sind weitere zwingend Parameter erforderlich:\n"
+"\n"
+"| Selektor | Parameter | Beschreibung |\n"
+"| --- | --- | --- |\n"
+"| byStopId | stopId | eindeutige Stop-ID zum Referenzieren einer Haltestelle "
+"|\n"
+"| byLatLon | refLat | Breitengrad eines Standorts |\n"
+"| byLatLon | refLon | Längengrand eines Standorts im Format WGS84 |\n"
+"| byStopCodeOrStopName | stopCode / stopName | Bezeichnung oder Code der "
+"gesuchten Haltestelle |\n"
+"| byRouteId | routeId | eindeutige Route-ID zum Referenzieren einer Linie |\n"
+"| byRouteName | routeName | Bezeichnung der gesuchten Linie |\n"
+"| byTripId | tripId | eindeutige Trip-ID zum Referenzieren einer einzelnen "
+"Fahrt |\n"
+"| byBlockId | blockId | einideutige Block-ID zum Referenzieren eines Fahrten-"
+"Blocks |\n"
+"\n"
+"## Optionale Parameter\n"
+"\n"
+"Optional können weitere Parameter angegeben werden, um das Suchergebnis "
+"weiter einzugrenzen:\n"
+"\n"
+"| Selektor | Parameter | Default | Beschreibung | \n"
+"| --- | --- | --- | --- |\n"
+"| stops/byLatLon | refDistance | 10 | Suchradius in [km], in dem nach "
+"Ergebnissen gesucht wird |\n"
+"| stops/byLatLon, stops/byStopId, stops/byStopCodeOrStopName | "
+"wheelchairEnabled | false | Ausschließlich barrierefreie Stationen |\n"
+"| trips/byTripId,trips/byRouteId, trips/byBlockId,trips/byStopId | date | "
+"null | Datum im Format YYYY-mm-dd, an dem nach einer Fahrt gesucht wird |\n"
+"| trips/byTripId,trips/byRouteId, trips/byBlockId,trips/byStopId | time | "
+"akt. Uhrzeit | Uhrzeit im Format HH:mm:ss, für die nach einer Fahrt gesucht "
+"wird |\n"
+"| trips/byTripId,trips/byRouteId, trips/byBlockId,trips/byStopId | "
+"wheelchairEnabled | false | Ausschließlich barrierefreie Fahrten |\n"
+"| trips/byTripId,trips/byRouteId, trips/byBlockId,trips/byStopId | "
+"bikesEnabled | false | Ausschließlich Fahrten mit Fahrradmitnahme |\n"
+"| trips/byStopId | arrivals | 1 | Eingrenzung für Ankünfte und endende "
+"Fahrten an einer Haltestelle |\n"
+"| trips/byStopId | departures | 1 | Eingrenzung für Abfahrten an einer "
+"Haltestelle |\n"
+"\n"
+"Die API unterstützt als **Format** zur Kommunikation die Standards JSON und "
+"XML.\n"
+"\n"
+"## Zusätzliche Felder\n"
+"\n"
+"Neben den standardmäßig in der GTFS-Spezifizierung enthaltenen Feldern sind "
+"in einigen Objekten zusätzliche Felder enthalten:\n"
+"\n"
+"| Ressource | Feld | Beschreibung |\n"
+"| --- | --- | --- |\n"
+"| stops | stop_distance | Enthält die Distanz zum Referenzpunkt in [km] "
+"*Hinweis: Dieses Feld ist nur bei einer Anfrage über den Selektor byLatLon "
+"enthalten!* |\n"
+"| trips | start_time | Startzeit der Fahrt analog zur ersten Abfahrtszeit |\n"
+"| trips | end_time | Endzeit der Fahrt analog zur letzten Ankunftszeit |\n"
+"\n"
+"## Anfragestruktur\n"
+"\n"
+"Alle Anfragen werden über die Methode `GET` entsprechend der nachfolgenden "
+"Standardstruktur an die API gesandt:\n"
+"\n"
+"`/api/{resource}/{selektor}.{format}?{params}`\n"
+"\n"
+"Die API liefert daraufhin die ermittelten Ergebnisse im gewünschten Format. "
+"Liefert die API eine leere Ergebnismenge, so wurden keine passenden "
+"Ergebnisse gefunden.\n"
+"\n"
+"## Antwortstruktur\n"
+"\n"
+"Abhängig von der jeweiligen Anfrage liefert die API einige "
+"Statusinformationen sowie eine Ergebnismenge. Die Bezeichnung der "
+"Ergebnismenge hängt von der angefragten Ressource ab.\n"
+"Grundlegend kann die Antwortstruktur nach folgendem Schema angenommen "
+"werden:\n"
+"\n"
+"```\n"
+"'{\n"
+"  \"status\": 200,\n"
+"  \"message\": \"OK\",\n"
+"  \"result\": {\n"
+"    \"stops\":[],\n"
+"    \"routes\":[],\n"
+"    \"trips\":[]\n"
+"  }\n"
+"}'\n"
+"```\n"
+"\n"
+"## Fehlerbehandlung\n"
+"\n"
+"Tritt während der Verarbeitung der Anfrage ein Fehler auf, wird dieser von "
+"der internen Fehlerbehandlung abgefangen. Anstatt der zuvor erläuterten "
+"Antwortstruktur liefert die API im Fehlerfall eine Antwort entsprechend dem "
+"folgenden Schema:\n"
+"\n"
+"```\n"
+"'{\n"
+"  \"status\": 500,\n"
+"  \"message\": \"Unknown finder method \\\"abc\\\"\"\n"
+"}'\n"
+"```\n"
+"\n"
+"## Beispiele\n"
+"\n"
+"Die nachfolgenden Beispiele dienen als Referenz zur Nutzung der API. "
+"Beachten Sie bitte, dass die Ergebnisse sich je nach zu Grunde liegenden "
+"Daten unterscheiden!\n"
+"\n"
+"### Haltestellen nach GPS-Position\n"
+"\n"
+"Typischerweise wird diese Anfrage genutzt, um alle Haltestellen um einen "
+"bestimmten Punkt auf einer Karte anzuzeigen. Hier werden alle Haltestellen "
+"im Umkreis von 50km um den Punkt (48.000 / 08.000) geladen.\n"
+"\n"
+"**Anfrage**\n"
+"\n"
+"`GET`\n"
+"\n"
+"`https://{yourdomain}/api/stops/byLatLon.json?"
+"lat=48.000&lon=08.000&radius=50`\n"
+"\n"
+"**Antwort**\n"
+"\n"
+"```\n"
+"'{\n"
+"  \"status\": 200,\n"
+"  \"message\": \"OK\",\n"
+"  \"result\": {\n"
+"    \"stops\": [{\n"
+"      \"stop_distance\": \"0\",\n"
+"      \"stop_id\": 4,\n"
+"      \"stop_code\": \"TPH\",\n"
+"      \"stop_name\": \"Pforzheim Hbf\",\n"
+"      \"stop_desc\": \"\",\n"
+"      \"stop_lat\": 48.893993628411,\n"
+"      \"stop_lon\": 8.7031084299088,\n"
+"      \"location_type\": \"1\",\n"
+"      \"parent_station\": \"\",\n"
+"      \"platform_code\": \"\",\n"
+"      \"wheelchair_boarding\": \"1\"\n"
+"    }, {\n"
+"      \"stop_distance\": \"8.988290555422704\",\n"
+"      \"stop_id\": 43,\n"
+"      \"stop_code\": \"TNE\",\n"
+"      \"stop_name\": \"Neuenbürg (Enz)\",\n"
+"      \"stop_desc\": \"\",\n"
+"      \"stop_lat\": 48.849138900895,\n"
+"      \"stop_lon\": 8.6009377241135,\n"
+"      \"location_type\": \"1\",\n"
+"      \"parent_station\": \"\",\n"
+"      \"platform_code\": \"\",\n"
+"      \"wheelchair_boarding\": \"1\"\n"
+"    }, {\n"
+"      \"stop_distance\": \"18.079551953364195\",\n"
+"      \"stop_id\": 27,\n"
+"      \"stop_code\": \"RETZ\",\n"
+"      \"stop_name\": \"Etzenrot\",\n"
+"      \"stop_desc\": \"\",\n"
+"      \"stop_lat\": 48.914283048681,\n"
+"      \"stop_lon\": 8.45767557621,\n"
+"      \"location_type\": \"1\",\n"
+"      \"parent_station\": \"\",\n"
+"      \"platform_code\": \"\",\n"
+"      \"wheelchair_boarding\": \"1\"\n"
+"    }]\n"
+"  }\n"
+"}'\n"
+"```\n"
+"\n"
+"### Haltestellen nach Bezeichung\n"
+"\n"
+"Um die Haltestellen für eine Verbindungsauskunft zu ermitteln, können die "
+"Haltestellen nach ihrer Bezeichnung oder ihrem Code gesucht werden. "
+"Nachfolgend werden alle Haltestellen, deren Bezeichnung \"Karlsruhe\" "
+"enthält, geladen.\n"
+"\n"
+"**Anfrage**\n"
+"\n"
+"`GET`\n"
+"\n"
+"`https://{yourdomain}/api/stops/byStopNameOrStopCode.json?"
+"stopName=Karlsruhe` \n"
+"\n"
+"**Antwort**\n"
+"\n"
+"```\n"
+"'{\n"
+"  \"status\": 200,\n"
+"  \"message\": \"OK\",\n"
+"  \"result\": {\n"
+"    \"stops\": [{\n"
+"      \"stop_id\": 5,\n"
+"      \"stop_code\": \"RK\",\n"
+"      \"stop_name\": \"Karlsruhe Hbf\",\n"
+"      \"stop_desc\": \"\",\n"
+"      \"stop_lat\": 48.993605550793,\n"
+"      \"stop_lon\": 8.4020465612412,\n"
+"      \"location_type\": \"1\",\n"
+"      \"parent_station\": \"\",\n"
+"      \"platform_code\": \"\",\n"
+"      \"wheelchair_boarding\": \"1\"\n"
+"    }, {\n"
+"      \"stop_id\": 7,\n"
+"      \"stop_code\": \"RKV\",\n"
+"      \"stop_name\": \"Karlsruhe Hbf Vorplatz\",\n"
+"      \"stop_desc\": \"\",\n"
+"      \"stop_lat\": 48.994365492397,\n"
+"      \"stop_lon\": 8.3996647596359,\n"
+"      \"location_type\": \"1\",\n"
+"      \"parent_station\": \"\",\n"
+"      \"platform_code\": \"\",\n"
+"      \"wheelchair_boarding\": \"2\"\n"
+"    }]\n"
+"  }\n"
+"}'\n"
+"```\n"
+"\n"
+"### Linien nach Bezeichnung\n"
+"\n"
+"Linien lassen sich gezielt nach ihrer Bezeichnung ermitteln. Die "
+"nachfolgende Anfrage ermittelt alle Linien, welche in ihrer Bezeichnung die "
+"Nummer \"204\" enhalten.\n"
+"\n"
+"**Anfrage**\n"
+"\n"
+"`GET`\n"
+"\n"
+"`https://{yourdomain}/api/routes/byRouteName.json?routeName=204`\n"
+"\n"
+"**Antwort**\n"
+"\n"
+"```\n"
+"'{\n"
+"  \"status\": 200,\n"
+"  \"message\": \"OK\",\n"
+"  \"result\": {\n"
+"    \"routes\": [{\n"
+"      \"route_id\": 9,\n"
+"      \"route_short_name\": \"Stadtbus 204\",\n"
+"      \"route_long_name\": \"Geroldsau - Merkur (Bergbahn)\",\n"
+"      \"route_desc\": \"\",\n"
+"      \"route_type\": 3,\n"
+"      \"route_url\": \"\",\n"
+"      \"route_color\": \"#ff7b00\",\n"
+"      \"route_text_color\": \"#ffffff\",\n"
+"      \"agency\": {\n"
+"        \"agency_id\": 8,\n"
+"        \"agency_name\": \"Stadtwerke Baden-Baden\",\n"
+"        \"agency_url\": \"https:\\/\\/www.stadtwerke-baden-baden.de\",\n"
+"        \"agency_timezone\": \"Europe\\/Berlin\",\n"
+"        \"agency_lang\": \"de\",\n"
+"        \"agency_phone\": \"+49 7243 677 750\",\n"
+"        \"agency_fare_url\": \"\"\n"
+"      }\n"
+"    }]\n"
+"  }\n"
+"}'\n"
+"```\n"
+"\n"
+"### Fahrten an einer Haltestelle\n"
+"\n"
+"Abfahrtstafeln an Bahnhöfen stellen ein Standard-Informationsmedium dar. "
+"Folgende Anfrage ermittelt alle Abfahrten an der Haltestelle mit der ID 5 am "
+"24.12.2019 ab 14:30 Uhr.\n"
+"\n"
+"**Anfrage**\n"
+"\n"
+"`GET`\n"
+"\n"
+"`https://{yourdomain}/api/trips/byStopId.json?"
+"stopId=5&date=2019-12-24&time=14:30:00&arrivals=0`\n"
+"\n"
+"**Antwort**\n"
+"\n"
+"```\n"
+"'{\n"
+"  \"status\": 200,\n"
+"  \"message\": \"OK\",\n"
+"  \"result\": {\n"
+"    \"trips\": [{\n"
+"      \"start_time\": \"18:08:00\",\n"
+"      \"end_time\": \"18:35:00\",\n"
+"      \"trip_id\": 145,\n"
+"      \"trip_headsign\": \"111 Rastatt Bf\",\n"
+"      \"trip_short_name\": \"99997\",\n"
+"      \"direction_id\": \"0\",\n"
+"      \"block_id\": \"\",\n"
+"      \"wheelchair_accessible\": \"1\",\n"
+"      \"bikes_allowed\": \"1\",\n"
+"      \"frequencies\": [{\n"
+"        \"id\": 15,\n"
+"        \"trip_id\": 145,\n"
+"        \"start_time\": \"18:08:00\",\n"
+"        \"end_time\": \"20:08:00\",\n"
+"        \"headway_secs\": 3600,\n"
+"        \"exact_times\": \"1\",\n"
+"        \"flags\": 0,\n"
+"        \"created\": \"19:05:00\",\n"
+"        \"modified\": \"19:05:00\"\n"
+"      }],\n"
+"      \"stop_times\": [{\n"
+"        \"arrival_time\": \"18:08:00\",\n"
+"        \"departure_time\": \"18:08:00\",\n"
+"        \"pickup_type\": \"0\",\n"
+"        \"drop_off_type\": \"1\",\n"
+"        \"stop\": {\n"
+"          \"stop_id\": 8,\n"
+"          \"stop_code\": \"RKDU\",\n"
+"          \"stop_name\": \"Karlsruhe-Durlach\",\n"
+"          \"stop_desc\": \"\",\n"
+"          \"stop_lat\": 49.002094686517,\n"
+"          \"stop_lon\": 8.4622621536255,\n"
+"          \"location_type\": \"1\",\n"
+"          \"parent_station\": \"\",\n"
+"          \"platform_code\": \"\",\n"
+"          \"wheelchair_boarding\": \"1\"\n"
+"        }\n"
+"      }],\n"
+"      \"route\": {\n"
+"        \"route_id\": 7,\n"
+"        \"route_short_name\": \"Linie 111\",\n"
+"        \"route_long_name\": \"(TestLinie) TPH - RKDU - RK - RRA\",\n"
+"        \"route_desc\": \"TestRoute\",\n"
+"        \"route_type\": 0,\n"
+"        \"route_url\": \"https:\\/\\/www.test-linie.de\",\n"
+"        \"route_color\": \"#850909\",\n"
+"        \"route_text_color\": \"#ffffff\",\n"
+"        \"agency\": {\n"
+"          \"agency_id\": 6,\n"
+"          \"agency_name\": \"Test-Verkehrs-Gesellschaft mbH\",\n"
+"          \"agency_url\": \"https:\\/\\/www.svtest02.info\",\n"
+"          \"agency_timezone\": \"Europe\\/Berlin\",\n"
+"          \"agency_lang\": \"de\",\n"
+"          \"agency_phone\": \"\",\n"
+"          \"agency_fare_url\": \"\"\n"
+"        }\n"
+"      }\n"
+"    }]\n"
+"  }\n"
+"}'\n"
+"```\n"
+"\n"
+"### Fahrtdetails\n"
+"\n"
+"Um weitere Details einer Fahrt anzuzeigen, können sämtliche Informationen zu "
+"einer Fahrt anhand der Fahrt-ID ermittelt werden. Die folgende Anfrage "
+"demonstriert dies für die Fahrt mit der ID 64.\n"
+"\n"
+"**Anfrage**\n"
+"\n"
+"`GET`\n"
+"\n"
+"`https://{yourdomain}/api/trips/byTripId.json?tripId=64`\n"
+"\n"
+"**Antwort**\n"
+"\n"
+"```\n"
+"'{\n"
+"  \"status\": 200,\n"
+"  \"message\": \"OK\",\n"
+"  \"result\": {\n"
+"    \"trips\": [{\n"
+"      \"start_time\": \"06:57:00\",\n"
+"      \"end_time\": \"07:04:00\",\n"
+"      \"trip_id\": 64,\n"
+"      \"trip_headsign\": \"E Brahmsplatz\",\n"
+"      \"trip_short_name\": \"\",\n"
+"      \"direction_id\": \"0\",\n"
+"      \"block_id\": \"\",\n"
+"      \"wheelchair_accessible\": \"1\",\n"
+"      \"bikes_allowed\": \"1\",\n"
+"      \"shape\": null,\n"
+"      \"frequencies\": [],\n"
+"      \"stop_times\": [{\n"
+"        \"arrival_time\": \"06:57:00\",\n"
+"        \"departure_time\": \"06:57:00\",\n"
+"        \"pickup_type\": \"0\",\n"
+"        \"drop_off_type\": \"1\",\n"
+"        \"stop\": {\n"
+"          \"stop_id\": 50,\n"
+"          \"stop_code\": \"MLB\",\n"
+"          \"stop_name\": \"Malschbach\",\n"
+"          \"stop_desc\": \"\",\n"
+"          \"stop_lat\": 48.722371011134,\n"
+"          \"stop_lon\": 8.242267370224,\n"
+"          \"location_type\": \"1\",\n"
+"          \"parent_station\": \"\",\n"
+"          \"platform_code\": null,\n"
+"          \"wheelchair_boarding\": \"1\"\n"
+"        }\n"
+"      }, {\n"
+"        \"arrival_time\": \"06:58:00\",\n"
+"        \"departure_time\": \"06:58:00\",\n"
+"        \"pickup_type\": \"0\",\n"
+"        \"drop_off_type\": \"0\",\n"
+"        \"stop\": {\n"
+"          \"stop_id\": 79,\n"
+"          \"stop_code\": \"MLBS1\",\n"
+"          \"stop_name\": \"Malschbacher Straße\",\n"
+"          \"stop_desc\": \"\",\n"
+"          \"stop_lat\": 48.724720819728,\n"
+"          \"stop_lon\": 8.2475513219833,\n"
+"          \"location_type\": \"0\",\n"
+"          \"parent_station\": \"51\",\n"
+"          \"platform_code\": \"\",\n"
+"          \"wheelchair_boarding\": \"1\"\n"
+"        }\n"
+"      }, {\n"
+"        \"arrival_time\": \"06:59:00\",\n"
+"        \"departure_time\": \"06:59:00\",\n"
+"        \"pickup_type\": \"0\",\n"
+"        \"drop_off_type\": \"0\",\n"
+"        \"stop\": {\n"
+"          \"stop_id\": 81,\n"
+"          \"stop_code\": \"GSC1\",\n"
+"          \"stop_name\": \"Schule\",\n"
+"          \"stop_desc\": \"\",\n"
+"          \"stop_lat\": 48.72758361587,\n"
+"          \"stop_lon\": 8.2494342327118,\n"
+"          \"location_type\": \"0\",\n"
+"          \"parent_station\": \"52\",\n"
+"          \"platform_code\": null,\n"
+"          \"wheelchair_boarding\": \"1\"\n"
+"        }\n"
+"      }, {\n"
+"        \"arrival_time\": \"07:00:00\",\n"
+"        \"departure_time\": \"07:00:00\",\n"
+"        \"pickup_type\": \"0\",\n"
+"        \"drop_off_type\": \"0\",\n"
+"        \"stop\": {\n"
+"          \"stop_id\": 83,\n"
+"          \"stop_code\": \"GHM1\",\n"
+"          \"stop_name\": \"Heschmattweg\",\n"
+"          \"stop_desc\": \"\",\n"
+"          \"stop_lat\": 48.729795182392,\n"
+"          \"stop_lon\": 8.2539081573486,\n"
+"          \"location_type\": \"0\",\n"
+"          \"parent_station\": \"53\",\n"
+"          \"platform_code\": null,\n"
+"          \"wheelchair_boarding\": \"1\"\n"
+"        }\n"
+"      }, {\n"
+"        \"arrival_time\": \"07:01:00\",\n"
+"        \"departure_time\": \"07:01:00\",\n"
+"        \"pickup_type\": \"0\",\n"
+"        \"drop_off_type\": \"0\",\n"
+"        \"stop\": {\n"
+"          \"stop_id\": 85,\n"
+"          \"stop_code\": \"GSS1\",\n"
+"          \"stop_name\": \"Schmiekrankweg\",\n"
+"          \"stop_desc\": \"\",\n"
+"          \"stop_lat\": 48.732095108395,\n"
+"          \"stop_lon\": 8.2572501897812,\n"
+"          \"location_type\": \"0\",\n"
+"          \"parent_station\": \"54\",\n"
+"          \"platform_code\": null,\n"
+"          \"wheelchair_boarding\": \"1\"\n"
+"        }\n"
+"      }, {\n"
+"        \"arrival_time\": \"07:02:00\",\n"
+"        \"departure_time\": \"07:02:00\",\n"
+"        \"pickup_type\": \"0\",\n"
+"        \"drop_off_type\": \"0\",\n"
+"        \"stop\": {\n"
+"          \"stop_id\": 87,\n"
+"          \"stop_code\": \"GSM1\",\n"
+"          \"stop_name\": \"Geroldsauer Mühle\",\n"
+"          \"stop_desc\": \"\",\n"
+"          \"stop_lat\": 48.734992865373,\n"
+"          \"stop_lon\": 8.255415558815,\n"
+"          \"location_type\": \"0\",\n"
+"          \"parent_station\": \"55\",\n"
+"          \"platform_code\": null,\n"
+"          \"wheelchair_boarding\": \"1\"\n"
+"        }\n"
+"      }, {\n"
+"        \"arrival_time\": \"07:03:00\",\n"
+"        \"departure_time\": \"07:03:00\",\n"
+"        \"pickup_type\": \"0\",\n"
+"        \"drop_off_type\": \"0\",\n"
+"        \"stop\": {\n"
+"          \"stop_id\": 89,\n"
+"          \"stop_code\": \"HHW1\",\n"
+"          \"stop_name\": \"Höllhäuserweg\",\n"
+"          \"stop_desc\": \"\",\n"
+"          \"stop_lat\": 48.739309116742,\n"
+"          \"stop_lon\": 8.2578402757645,\n"
+"          \"location_type\": \"0\",\n"
+"          \"parent_station\": \"56\",\n"
+"          \"platform_code\": null,\n"
+"          \"wheelchair_boarding\": \"1\"\n"
+"        }\n"
+"      }, {\n"
+"        \"arrival_time\": \"07:04:00\",\n"
+"        \"departure_time\": \"07:04:00\",\n"
+"        \"pickup_type\": \"1\",\n"
+"        \"drop_off_type\": \"0\",\n"
+"        \"stop\": {\n"
+"          \"stop_id\": 91,\n"
+"          \"stop_code\": \"BRP11\",\n"
+"          \"stop_name\": \"Brahmsplatz\",\n"
+"          \"stop_desc\": \"\",\n"
+"          \"stop_lat\": 48.744166225261,\n"
+"          \"stop_lon\": 8.2596158981323,\n"
+"          \"location_type\": \"0\",\n"
+"          \"parent_station\": \"57\",\n"
+"          \"platform_code\": \"\",\n"
+"          \"wheelchair_boarding\": \"1\"\n"
+"        }\n"
+"      }],\n"
+"      \"route\": {\n"
+"        \"route_id\": 9,\n"
+"        \"route_short_name\": \"Stadtbus 204\",\n"
+"        \"route_long_name\": \"Geroldsau - Merkur (Bergbahn)\",\n"
+"        \"route_desc\": \"\",\n"
+"        \"route_type\": 3,\n"
+"        \"route_url\": \"\",\n"
+"        \"route_color\": \"#ff7b00\",\n"
+"        \"route_text_color\": \"#ffffff\",\n"
+"        \"agency\": {\n"
+"          \"agency_id\": 8,\n"
+"          \"agency_name\": \"Stadtwerke Baden-Baden\",\n"
+"          \"agency_url\": \"https:\\/\\/www.stadtwerke-baden-baden.de\",\n"
+"          \"agency_timezone\": \"Europe\\/Berlin\",\n"
+"          \"agency_lang\": \"de\",\n"
+"          \"agency_phone\": \"+49 7243 677 750\",\n"
+"          \"agency_fare_url\": \"\"\n"
+"        }\n"
+"      },\n"
+"      \"service\": {\n"
+"        \"service_id\": 19,\n"
+"        \"start_date\": \"2019-12-15\",\n"
+"        \"end_date\": \"2020-06-13\",\n"
+"        \"monday\": \"1\",\n"
+"        \"tuesday\": \"1\",\n"
+"        \"wednesday\": \"1\",\n"
+"        \"thursday\": \"1\",\n"
+"        \"friday\": \"1\",\n"
+"        \"saturday\": \"0\",\n"
+"        \"sunday\": \"0\",\n"
+"        \"service_exceptions\": [{\n"
+"          \"date\": \"2019-12-23\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2019-12-24\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2019-12-25\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2019-12-26\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2019-12-27\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2019-12-30\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2019-12-31\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-01-01\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-01-02\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-01-03\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-04-06\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-04-07\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-04-08\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-04-09\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-04-10\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-04-13\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-04-14\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-04-15\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-04-16\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-04-17\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-06-02\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-06-03\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-06-04\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-06-05\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-06-08\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-06-09\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-06-10\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-06-11\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }, {\n"
+"          \"date\": \"2020-06-12\",\n"
+"          \"exception_type\": \"2\"\n"
+"        }]\n"
+"      }\n"
+"    }]\n"
+"  }\n"
+"}'\n"
+"```\n"
+"\n"
+"## Weitere Hinweise\n"
+"\n"
+"Für die Benutzung der {0} API gelten einige Besonderheiten, welche im "
+"folgenden Abschnitt beschrieben werden.\n"
+"\n"
+"### Haltestellen\n"
+"\n"
+"Beim Anfragen von Ressourcen vom Typ **stops** werden grundsätzlich nur die "
+"übergeordneten Haltestellen ausgegeben. Haltepositionen und sonstige, "
+"untergeordnete Punkte fließen nicht in die Ergebnismenge mit ein.\n"
+"\n"
+"### Fahrtdetails\n"
+"\n"
+"Bei der Anfrage von Ressourcen des Typs **trips** werden grundsätzlich nicht "
+"alle Informationen, welche im Zusammenhang mit einer Fahrt gespeichert sind, "
+"in die Ergebnismenge aufgenommen. Dies gilt insbesondere für Objekte vom Typ "
+"*Shape*, da diese die zu übertragende Datenmenge nur unnötig aufblähen.\n"
+"Um zu einer Fahrt alle Details zu erhalten, muss diese über den Selektor "
+"*byTripId* mit ihrer jeweils eindeutigen ID angefragt werden. Nur über "
+"diesen Selektor wird garantiert, dass alle Informationen vollständig "
+"enthalten sind.\n"
+"\n"
+"### Fahrten mit Taktzeiten\n"
+"\n"
+"Bestimmte Fahrpläne können mit Fahrten, welchen eine oder mehrere Taktzeiten "
+"zugewiesen ist, modelliert werden. Da in diesem Fall nicht jede einzelne "
+"Fahrt eine eindeutige ID hat, muss in solch einem Fall bei der Anfrage "
+"zusätzlich das Datum und die planmäßige Abfahrtszeit der Fahrt angegeben "
+"werden, um die korrekten Informationen zu ermitteln."
+
+#: Template/Api/OpenTransportApi/index.ctp:70
+#: Template/Frontend/index.ctp:228;252
+#: Template/Plugin/AdminLTE/Element/footer.ctp:6
+msgid "Privacy"
+msgstr "Datenschutz"
+
+#: Template/Element/modal/delete-confirm.ctp:6
+msgid "Confirmation"
+msgstr "Bestätigung"
+
+#: Template/Element/modal/delete-confirm.ctp:9
+msgid "Are you sure you want to delete this item? This cannot be undone!"
+msgstr ""
+"Sind Sie sicher, dass Sie dieses Objekt löschen möchten? Dieser Vorgang kann "
+"nicht rückgängig gemacht werden!"
+
+#: Template/Element/permissions/permissions-add.ctp:14
+#: Template/Element/permissions/permissions-edit.ctp:20
+#: Template/Element/permissions/permissions-view.ctp:20
+msgid "Create"
+msgstr "Erstellen"
+
+# E-Mail Template
+#: Template/Email/html/users_pwreset.ctp:7
+msgid "EMAIL_HTML_USERS_PWRESET"
+msgstr ""
+"Sehr geehrte(r) {0} Benutzer(in),\n"
+"\n"
+"Sie haben ein neues Passworts angefordert für Ihren {0} Account angefordert. "
+"Um Ihr Passwort selbständig zurückzusetzen,\n"
+"klicken Sie auf folgenden Link:\n"
+"\n"
+"[{1}]({1})\n"
+"\n"
+"Sollten Sie kein neues Passwort angefordert haben, können Sie diese E-Mail "
+"einfach ignorieren.\n"
+"\n"
+"Für weitere Fragen steht Ihnen der Support gerne zur Verfügung.\n"
+"\n"
+"Mit freundlichen Grüßen\vIhr {0} Support"
+
+# E-Mail Template
+#: Template/Email/html/users_registration.ctp:7
+msgid "EMAIL_HTML_USERS_REGISTRATION"
+msgstr ""
+"Sehr geehrte(r) {0} Benutzer(in),\n"
+"\n"
+"ein neuer Benutzeraccount in {0} wurde für Sie erstellt. Bitte klicken Sie "
+"auf den folgenden Link, um Ihren Account zu aktivieren:\n"
+"\n"
+"[{1}]({1})\n"
+"\n"
+"Nach erfolgter Aktivierung können Sie sich mit folgenden initialen "
+"Zugangsdaten anmelden:\n"
+"\n"
+"Benutzername: {2} - Passwort: {3}\n"
+"\n"
+"*Hinweis: Aus Sicherheitsgründen sollten Sie das Passwort nach erstmaliger "
+"Anmeldung unbedingt ändern!*\n"
+"\n"
+"Mit freundlichen Grüßen\n"
+"Ihr {0} Support"
+
+# E-Mail Template
+#: Template/Email/text/users_pwreset.ctp:2
+msgid "EMAIL_TEXT_USERS_PWRESET"
+msgstr ""
+"Sehr geehrte(r) {0} Benutzer(in),\n"
+"\n"
+"Sie haben ein neues Passworts angefordert für Ihren {0} Account angefordert. "
+"Um Ihr Passwort selbständig zurückzusetzen,\n"
+"öffnen Sie bitte folgenden Link in Ihrem Browser:\n"
+"\n"
+"{1}\n"
+"\n"
+"Sollten Sie kein neues Passwort angefordert haben, können Sie diese E-Mail "
+"einfach ignorieren.\n"
+"\n"
+"Für weitere Fragen steht Ihnen der Support gerne zur Verfügung.\n"
+"\n"
+"Mit freundlichen Grüßen\vIhr {0} Support"
+
+# E-Mail Template
+#: Template/Email/text/users_registration.ctp:2
+msgid "EMAIL_TEXT_USERS_REGISTRATION"
+msgstr ""
+"Sehr geehrte(r) {0} Benutzer(in),\n"
+"\n"
+"ein neuer Benutzeraccount in {0} wurde für Sie erstellt. Bitte öffnen Sie "
+"folgenden Link in Ihrem Browser, um Ihren Account zu aktivieren:\n"
+"\n"
+"{1}\n"
+"\n"
+"Nach erfolgter Aktivierung können Sie sich mit folgenden initialen "
+"Zugangsdaten anmelden:\n"
+"\n"
+"Benutzername: {2} - Passwort: {3}\n"
+"\n"
+"*Hinweis: Aus Sicherheitsgründen sollten Sie das Passwort nach erstmaliger "
+"Anmeldung unbedingt ändern!*\n"
+"\n"
+"Mit freundlichen Grüßen\n"
+"Ihr {0} Support"
+
+#: Template/Frontend/index.ctp:111
+msgid "Map"
+msgstr "Karte"
+
+#: Template/Frontend/index.ctp:112;153
+msgid "Search"
+msgstr "Suche"
+
+#: Template/Frontend/index.ctp:113
+msgid "Alerts"
+msgstr "Verkehrsmeldungen"
+
+#: Template/Frontend/index.ctp:123
+msgid "Overview Map"
+msgstr "Übersichtskarte"
+
+#: Template/Frontend/index.ctp:124;150;213
+msgid "Route Search"
+msgstr "Liniensuche"
+
+#: Template/Frontend/index.ctp:125;217
+msgid "Service Alerts"
+msgstr "Verkehrsmeldungen"
+
+#: Template/Frontend/index.ctp:126
+msgid "Current Location"
+msgstr "Aktuelle Position"
+
+#: Template/Frontend/index.ctp:145;205
+msgid "Departures"
+msgstr "Abfahrten"
+
+#: Template/Frontend/index.ctp:152
+msgid "Route Name"
+msgstr "Linien-Bezeichnung"
+
+#: Template/Frontend/index.ctp:159;209;544
+msgid "Trip Details"
+msgstr "Fahrt-Details"
+
+#: Template/Frontend/index.ctp:166
+msgid "There are no currently active service alerts"
+msgstr "Derzeit gibt es keine aktiven Verkehrsmeldungen"
+
+#: Template/Frontend/index.ctp:168
+msgid "Reload"
+msgstr "Aktualisieren"
+
+#: Template/Frontend/index.ctp:172;221
+#: Template/Plugin/AdminLTE/Element/nav-top.ctp:192
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: Template/Frontend/index.ctp:173
+msgid ""
+"Set up your preferences for searching, map display and application behaviour "
+"here."
+msgstr ""
+"Steuern Sie Ihre Präferenzen zur Suche auf der Karte und dem Verhalten der "
+"App hier."
+
+#: Template/Frontend/index.ctp:177
+msgid "Search Preferences"
+msgstr "Sucheinstellungen"
+
+#: Template/Frontend/index.ctp:180
+msgid "Wheelchair Accessible"
+msgstr "Barrierefrei"
+
+#: Template/Frontend/index.ctp:182
+msgid "Bikes Allowed"
+msgstr "Fahrradmitnahme"
+
+#: Template/Frontend/index.ctp:186
+msgid "Map Display"
+msgstr "Kartenanzeige"
+
+#: Template/Frontend/index.ctp:189
+msgid "Stops / POIs"
+msgstr "Haltestellen / POIs"
+
+#: Template/Frontend/index.ctp:191
+msgid "Vehicle Positions"
+msgstr "Fahrzeugpositionen"
+
+#: Template/Frontend/index.ctp:199
+msgid "Application Info"
+msgstr "App-Info"
+
+#: Template/Frontend/index.ctp:200
+msgid ""
+"Thank your for using {0} application! In this section you can find some "
+"basic instructions."
+msgstr ""
+"Vielen Dank, dass Sie {0} verwenden! Hier finden Sie einige Benutzerhinweise."
+
+#: Template/Frontend/index.ctp:201
+msgid "Map View"
+msgstr "Kartenansicht"
+
+# Placeholder Text
+#: Template/Frontend/index.ctp:203
+msgid "FRONTEND_INFO_TEXT_MAP_VIEW"
+msgstr ""
+"In der Kartenansicht finden Sie eine Karte basierend auf *OpenStreetMap*, "
+"welche alle Stationen zeigt, an denen Sie in ein Fahrzeug ein- oder "
+"aussteigen können. Sie können eine Abfahrtstafel für diese Station anzeigen, "
+"indem Sie auf das Symbol klicken."
+
+# Placeholder Text
+#: Template/Frontend/index.ctp:207
+msgid "FRONTEND_INFO_TEXT_DEPARTURES"
+msgstr ""
+"Die Abfahrtstafel zeigt alle an der ausgewählten Station abfahrenden Fahrten "
+"für die aktuelle Uhrzeit. Die Fahrten sind nach ihrer Abfahrtszeit sortiert. "
+"*Hinweis: Fahrten, welche an der ausgewählten Station enden, werden nicht "
+"angezeigt!*"
+
+# Placeholder Text
+#: Template/Frontend/index.ctp:211
+msgid "FRONTEND_INFO_TEXT_TRIP_DETAILS"
+msgstr ""
+"Sie können alle Details zu einer Fahrt betrachten, indem Sie auf die "
+"entsprechende Fahrt klicken. Die gezeigten Details beinhalten alle Ankunfts- "
+"und Abfahrtszeiten, sowie Informationen über die Barrierefreiheit und die "
+"Fahrradmitnahme. Wenn die Ankunftszeit der Abfahrtszeit entspricht, wird "
+"ausschließlich die Ankunftszeit dargestellt."
+
+# Placeholder Text
+#: Template/Frontend/index.ctp:215
+msgid "FRONTEND_INFO_TEXT_ROUTE_SEARCH"
+msgstr ""
+"Die Liniensuche ermöglich es Ihnen, nach einer bestimmten Linie anhand ihrer "
+"Bezeichnung zu suchen. Sie können alle zum aktuellen Zeitpunkt verkehrenden "
+"Fahrten einer Linie anzeigen lassen, indem Sie auf eine Linie klicken."
+
+# Placeholder Text
+#: Template/Frontend/index.ctp:219
+msgid "FRONTEND_INFO_TEXT_SERVICE_ALERTS"
+msgstr "Coming Soon"
+
+# Placeholder Text
+#: Template/Frontend/index.ctp:223
+msgid "FRONTEND_INFO_TEXT_SETTINGS"
+msgstr ""
+"Sie können einige grundlegende Einstellungen, wie z.B. ob Sie ein "
+"barrierefreies Fahrzeug oder eine Fahrradmitnahme benötigen, in der App "
+"festlegen. Zudem können Sie das Laden von Stationen in der Karte aktivieren "
+"oder deaktivieren."
+
+#: Template/Frontend/index.ctp:242
+msgid "Close"
+msgstr "Schließen"
+
+#: Template/Frontend/index.ctp:251
+msgid "Information"
+msgstr "Information"
+
+#: Template/Frontend/index.ctp:289;293
+msgid "OK"
+msgstr "OK"
+
+#: Template/Frontend/index.ctp:364;367
+msgid "Location Error"
+msgstr "Fehler"
+
+#: Template/Frontend/index.ctp:364
+msgid "An error occurred while requesting your current location!"
+msgstr "Beim Ermitteln der GPS-Position ist ein Fehler aufgetreten!"
+
+#: Template/Frontend/index.ctp:367
+msgid "Geolocation is not supported by this browser!"
+msgstr "Die Ermittlung der GPS-Position ist mit diesem Gerät nicht möglich!"
+
+#: Template/Frontend/index.ctp:422;533
+msgid "departs every "
+msgstr "verkehrt alle "
+
+#: Template/Frontend/index.ctp:465
+msgid "No matching trip results found!"
+msgstr "Keine passenden Fahrten gefunden!"
+
+#: Template/Frontend/index.ctp:491
+msgid "Trip Overview"
+msgstr "Fahrt-Übersicht"
+
+#: Template/Frontend/index.ctp:499
+msgid "No matching route results found!"
+msgstr "Keine passenden Linien gefunden!"
+
+#: Template/Frontend/index.ctp:552
+msgid "No departure results found!"
+msgstr "Keine Abfahrten befunden!"
+
+#: Template/Install/conclusion.ctp:12 Template/Install/database.ctp:12
+#: Template/Install/email.ctp:12 Template/Install/index.ctp:11
+#: Template/Install/user.ctp:12
+msgid "Installation"
+msgstr "Installation"
+
+#: Template/Install/conclusion.ctp:12
+msgid "Conclusion"
+msgstr "Zusammenfassung"
+
+#: Template/Install/conclusion.ctp:16
+msgid "Great! The installation ran successfully."
+msgstr ""
+"Herzlichen Glückwunsch! Die Installation wurde erfolgreich abgeschlossen."
+
+#: Template/Install/conclusion.ctp:23
+msgid "Finish & Login"
+msgstr "Fertigstellen & Anmelden"
+
+#: Template/Install/database.ctp:12
+msgid "Database"
+msgstr "Datenbank"
+
+#: Template/Install/database.ctp:17
+msgid ""
+"To store your data anywhere we need access to a database. Please enter "
+"credentials for your database here."
+msgstr ""
+"Um Ihre Daten speichern zu können, wird ein Datenbankzugriff benötigt. Bitte "
+"geben Sie Ihre Datenbank-Zugangsdaten hier ein."
+
+#: Template/Install/database.ctp:20 Template/Install/email.ctp:20
+msgid "Host"
+msgstr "Host"
+
+#: Template/Install/database.ctp:21 Template/Install/email.ctp:21
+msgid "Port"
+msgstr "Port"
+
+#: Template/Install/database.ctp:24
+msgid "Database Name"
+msgstr "Datenbank"
+
+#: Template/Install/database.ctp:28 Template/Install/email.ctp:29
+#: Template/Install/index.ctp:114 Template/Install/user.ctp:26
+msgid "Next"
+msgstr "Weiter"
+
+#: Template/Install/email.ctp:12
+msgid "SMPT / E-Mail"
+msgstr "SMPT Setup / E-Mail"
+
+#: Template/Install/email.ctp:17
+msgid ""
+"If you want to send emails, you must enter your SMTP credentials here. You "
+"can also skip this part of installation and change the credentials in the "
+"config file manually."
+msgstr ""
+"Wenn Sie aus E-Mails aus dem System heraus versenden wollen, benötigen wir "
+"Ihre SMTP-Zugangsdaten. Sie können diesen Schritt auch überspringen und "
+"später manuell in der Konfigurationsdatei bearbeiten."
+
+#: Template/Install/email.ctp:28
+msgid "Skip"
+msgstr "Überspringen"
+
+#: Template/Install/index.ctp:11
+msgid "Requirements"
+msgstr "Voraussetzungen"
+
+#: Template/Install/index.ctp:16
+msgid ""
+"Welcome to **{0}** installation! This wizard will guide you through the "
+"whole installation process."
+msgstr ""
+"Willkommen zur **{0}** Installation! Dieser Wizard wird Sie durch die "
+"Installation begleiten."
+
+#: Template/Install/index.ctp:54
+msgid "installed PHP version >= 5.6"
+msgstr "PHP >= 5.6 installiert"
+
+#: Template/Install/index.ctp:58
+msgid "installed CakePHP core >= 3.8"
+msgstr "CakePHP >= 3.8 installiert"
+
+#: Template/Install/index.ctp:62;66;71;79;87;95
+msgid "extension {0} for PHP loaded"
+msgstr "PHP-Erweiterung {0} geladen!"
+
+#: Template/Install/index.ctp:73;81;89;97
+msgid "extension {0} for PHP NOT loaded"
+msgstr "PHP-Erweiterung {0} NICHT geladen!"
+
+#: Template/Install/index.ctp:103
+msgid "function set_time_limit not locked"
+msgstr "Funktion set_time_limit freigegeben"
+
+#: Template/Install/index.ctp:105
+msgid ""
+"function set_time_limit is locked! Current max execution time limit is {0} "
+"seconds"
+msgstr ""
+"Die Funktion set_time_limit ist vom System gesperrt! Die aktuelle max. "
+"Ausführungszeit beträgt {0} Sekunden"
+
+#: Template/Install/user.ctp:12
+msgid "Admin User"
+msgstr "Administrator"
+
+#: Template/Install/user.ctp:17
+msgid ""
+"You have to create at least one admin user! Enter your preferred credentials "
+"in the boxes below."
+msgstr ""
+"Sie müssen einen Administrator erstellen, um sich am System anzumelden. "
+"Bitte geben Sie Ihre gewünschten Zugangsdaten ein."
+
+#: Template/Install/user.ctp:21
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr "Zurück"
+
+#: Template/Layout/Email/html/default.ctp:23
+msgid "System Email"
+msgstr "System E-Mail"
+
+#: Template/Plugin/AdminLTE/Element/nav-top.ctp:195
+msgid "Logout"
+msgstr "Abmelden"
+
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:28
+msgid "Data Management"
+msgstr "Datenverwaltung"
+
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:31
+msgid "Network"
+msgstr "Netzdaten"
+
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:45
+msgid "Trip Data"
+msgstr "Fahrplandaten"
+
+#: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:65
+msgid "Data Exchange"
+msgstr "Datenaustausch"
+
+#~ msgid ""
+#~ "Great! The installation ran successfully. To prevent security issues on "
+#~ "your system, you should delete the **/compose** directory immediately!"
+#~ msgstr ""
+#~ "Wunderbar! Die Installation ist erfolgreich abgeschlossen. Um "
+#~ "Sicherheitslücken in Ihrem System zu vermeiden, sollten Sie umgehend das "
+#~ "**/compose**-Verzeichnis löschen!"
+
+#~ msgid "The requested address {0} was not found on this server."
+#~ msgstr "Die angefragte Adresse {0} wurde auf dem Server nicht gefunden."
+
+#~ msgid "An Internal Error Has Occurred"
+#~ msgstr "Es ist ein interner Fehler aufgetreten"
+
+#~ msgid "FRONTEND_PRIVACY_INFO"
+#~ msgstr ""
+#~ "Als Betreiber der {0} Dienste nehmen wir den Schutz Ihrer persönlichen "
+#~ "Daten sehr ernst! In diesem Bereich finden Sie alle wichtigen "
+#~ "Informationen, wie die von uns erhobenen Daten verarbeitet werden.\n"
+#~ "\n"
+#~ "**Kartenansicht**\n"
+#~ "Die Kartenansicht verwendet zur Darstellung der Karte den Dienst "
+#~ "*OpenStreetMap*. Dies bedeutet insbesondere, dass immer dann, wenn Sie "
+#~ "die Karte scrollen oder verschieben, eine Anfrage an die Server von "
+#~ "*OpenStreetMap* gestellt wird. Bitte seien Sie sich im Klaren darüber, "
+#~ "dass wir keinen Einfluss auf die Verarbeitung Ihrer Daten durch "
+#~ "*OpenStreetMap* haben! Weitere Informationen über die von *OpenStreetMap* "
+#~ "erhobenen Daten fragen Sie bitte beim Anbieter selbst nach.\n"
+#~ "\n"
+#~ "**API**\n"
+#~ "Immer dann, wenn Sie mit der App interagieren und neue Informationen "
+#~ "anfordern, sendet diese eine Anfrage an unsere API. Bei diesen "
+#~ "Informationen handelt es sich insbesondere um:\n"
+#~ "\n"
+#~ "IP-Adresse\n"
+#~ "Betriebssystem - und Browserversion\n"
+#~ "\n"
+#~ "Diese Informationen werden nicht länger gespeichert, als die Anfrage an "
+#~ "unsere API dauert. Sobald die Verbindung beendet wird, werden auch diese "
+#~ "Daten gelöscht.\n"
+#~ "\n"
+#~ "**SSL-Zertifikat**\n"
+#~ "Um sicherzustellen, dass die übermittelten Informationen nicht von "
+#~ "Dritten abgefangen und gelesen werden können, verwenden wir ein SSL-"
+#~ "Zertifikat. Sie können in Ihrem Browser jederzeit an einem zu meist "
+#~ "grünen Schloss in der Adresszeile erkennen, dass ein aktives SSL-"
+#~ "Zertifikat verwendet wird.\n"
+#~ "\n"
+#~ "Sollten Sie weitere Fragen haben, können Sie uns jederzeit per E-Mail an "
+#~ "{1} kontaktieren! Wir sind bemüht, Ihre Anfrage innerhalb von 72 Stunden "
+#~ "zu beantworten."
+
+#~ msgid "Search For ..."
+#~ msgstr "Suche ..."
+
+#~ msgid "Short Name"
+#~ msgstr "Kurzbezeichnung"
+
+#~ msgid "Long Name"
+#~ msgstr "Langbezeichnung"
