@@ -25,22 +25,32 @@ If you want to use all features without any limitations, the following packages 
 *   Enabled `simplexml` PHP extension
 *   Callable `set_time_limit` function
 
+![Web Installer](images/Screenshot_InstallationRequirements.PNG)
+
 ### Database 
 To store your data anywhere, *OpenTransport* needs access to your database. Enter your database credentials in the upcoming form.
+
+![Web Installer](images/Screenshot_InstallationDatabase.PNG)
 
 ### SMTP / E-Mail
 If you want to send emails from your app, you need to enter your SMTP credentials in the form below. You can also skip
 this installation step and enter your credentials in the config file later manually.
 
+![Web Installer](images/Screenshot_InstallationEmail.PNG)
+
 ### Admin User
 To logon in the backend system, you need to create an admin user. Enter your desired credentials, this will create an admin user for you.
+
+![Web Installer](images/Screenshot_InstallationAdmin.PNG)
 
 ### Conclusion
 After running the install wizard, you'll find a conclusion which states the correct installation. Take a look about and check
 whether you can find any error or not. If you're fine with the installation, click `Finish & Login`.
 
+![Web Installer](images/Screenshot_InstallationConclusion.PNG)
+
 ## Configuration Files
-You can find several configuration files in your [config](../config/) directory. If you want to edit them manually, you should know what you're
+You can find several configuration files in your [config](../config) directory. If you want to edit them manually, you should know what you're
 doing here and always take backup of the files, since this can lead to critical issues.
 
 *   `app.php` - This file contains basic settings for the whole application. It is highly discouraged to change the entries since this
