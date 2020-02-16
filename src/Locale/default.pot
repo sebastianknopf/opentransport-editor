@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2020-02-13 21:03+0000\n"
+"POT-Creation-Date: 2020-02-16 15:26+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,11 +14,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Controller/InstallController.php:116
+#: Controller/InstallController.php:115
 msgid "Unable to connect to the database server!"
 msgstr ""
 
-#: Controller/InstallController.php:205
+#: Controller/InstallController.php:206
 msgid "Unable to save admin user!"
 msgstr ""
 
@@ -1484,15 +1484,6 @@ msgstr ""
 msgid "Requests"
 msgstr ""
 
-#: Template/Admin/System/license.ctp:3
-#: Template/Plugin/AdminLTE/Element/footer.ctp:6
-msgid "License Information"
-msgstr ""
-
-#: Template/Admin/System/license.ctp:9
-msgid "SYSTEM_LICENSE_INFO"
-msgstr ""
-
 #: Template/Admin/System/manual.ctp:8
 msgid "User Manual"
 msgstr ""
@@ -2114,7 +2105,7 @@ msgid "Database Name"
 msgstr ""
 
 #: Template/Install/database.ctp:28
-#: Template/Install/email.ctp:29
+#: Template/Install/email.ctp:30
 #: Template/Install/index.ctp:114
 #: Template/Install/user.ctp:26
 msgid "Next"
@@ -2128,7 +2119,11 @@ msgstr ""
 msgid "If you want to send emails, you must enter your SMTP credentials here. You can also skip this part of installation and change the credentials in the config file manually."
 msgstr ""
 
-#: Template/Install/email.ctp:28
+#: Template/Install/email.ctp:24
+msgid "E-Mail Sender"
+msgstr ""
+
+#: Template/Install/email.ctp:29
 msgid "Skip"
 msgstr ""
 

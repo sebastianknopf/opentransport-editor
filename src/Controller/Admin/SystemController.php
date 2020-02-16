@@ -87,14 +87,6 @@ class SystemController extends AdminController
     }
 
     /**
-     * License method.
-     */
-    public function license()
-    {
-        // do simply nothing and load template here ... it's a static one!
-    }
-
-    /**
      * Privacy method.
      */
     public function privacy()
