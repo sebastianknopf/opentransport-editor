@@ -26,11 +26,11 @@ return [
             /*
              * The following keys are used in SMTP transports:
              */
-            'host' => 'smtp.one.com',
+            'host' => '',
             'port' => 587,
             'timeout' => 30,
-            'username' => 'noreply@svtest02.info',
-            'password' => '0xFF255b',
+            'username' => '',
+            'password' => '',
             'client' => null,
             'tls' => true,
             'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),

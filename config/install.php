@@ -3,6 +3,6 @@
 return [
     'Install' => [
         'currentStep' => 'index',
-        'done' => 'true'
+        'done' => 'false'
     ]
 ];
