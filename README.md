@@ -25,8 +25,7 @@ your credentials for the FTP access and your database. To get an actual package 
 2.  If you don't want to use Composer, you also can download the whole package from [php-download.com](https://www.php-download.com) searching for `opentransport/editor`. Take a
     look into their user guide, to see how it works in general.
 
-Once you've created the PHP package for *OpenTransport* Editor, you can upload the whole chunk of files to your webserver using the FTP client.
-After that, type your desired address in the browser to start the web installer. See the [installation guide](/docs/INSTALL.md) for more information.
+See the [installation guide](/docs/INSTALL.md) for more information and installation steps.
 
 ## Beginner Guide
 
