@@ -21,6 +21,7 @@ $this->loadHelper('Markdown.Markdown');
             <?= $this->Form->control('email.port', ['label' => __('Port'), 'default' => Configure::read('EmailTransport.smtp.port')]) ?>
             <?= $this->Form->control('email.username', ['label' => __('Username'), 'default' => Configure::read('EmailTransport.smtp.username')]) ?>
             <?= $this->Form->control('email.password', ['label' => __('Password'), 'default' => Configure::read('EmailTransport.smtp.password')]) ?>
+            <?= $this->Form->control('email.from', ['label' => __('E-Mail Sender'), 'default' => Configure::read('Email.default.from')]) ?>
         </p>
     </div>
     <div class="box-footer no-border">

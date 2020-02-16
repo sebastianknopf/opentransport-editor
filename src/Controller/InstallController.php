@@ -6,7 +6,6 @@ use Cake\Core\Configure;
 use Cake\Datasource\ConnectionManager;
 use Cake\Event\Event;
 use Cake\Log\Log;
-use Cake\Utility\Security;
 use Migrations\Migrations;
 
 class InstallController extends BaseController
@@ -162,13 +161,15 @@ class InstallController extends BaseController
             $mailHost = $this->getRequest()->getData('email.host');
             $mailPort = $this->getRequest()->getData('email.port');
             $mailUsername = $this->getRequest()->getData('email.username');
-            $mailPassword = $this->getRequest()->getData('email.passwort');
+            $mailPassword = $this->getRequest()->getData('email.password');
+            $mailSenderAddr = $this->getRequest()->getData('email.from');
 
             $tmpConfig = [
                 'host' => $mailHost,
                 'port' => $mailPort,
                 'username' => $mailUsername,
-                'password' => $mailPassword
+                'password' => $mailPassword,
+                'from' => $mailSenderAddr
             ];
 
             // update default email configuration
