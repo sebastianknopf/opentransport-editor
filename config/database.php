@@ -16,12 +16,12 @@ return [
             'className' => \Cake\Database\Connection::class,
             'driver' => \Cake\Database\Driver\Mysql::class,
             'persistent' => false,
-            'port' => '3306',
+            'port' => env('DATABASE_PORT', '3306'),
             'timezone' => 'UTC',
-            'host' => 'localhost',
-            'username' => 'root',
-            'password' => '',
-            'database' => 'opentransport',
+            'host' => env('DATABASE_HOST', 'localhost'),
+            'username' => env('DATABASE_USERNAME', 'root'),
+            'password' => env('DATABASE_PASSWORD', ''),
+            'database' => env('DATABASE_DBNAME', 'opentransport'),
 
             /**
              * For MariaDB/MySQL the internal default changed from utf8 to utf8mb4, aka full utf-8 support, in CakePHP 3.6

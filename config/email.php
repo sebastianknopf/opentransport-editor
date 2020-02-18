@@ -26,11 +26,11 @@ return [
             /*
              * The following keys are used in SMTP transports:
              */
-            'host' => '',
-            'port' => 587,
+            'host' => env('SMTP_HOST', ''),
+            'port' => env('SMPT_PORT', 587),
             'timeout' => 30,
-            'username' => '',
-            'password' => '',
+            'username' => env('SMTP_USERNAME', ''),
+            'password' => env('SMTP_PASSWORD', ''),
             'client' => null,
             'tls' => true,
             'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
@@ -48,7 +48,7 @@ return [
     'Email' => [
         'default' => [
             'transport' => 'smtp',
-            'from' => 'noreply@svtest02.info',
+            'from' => env('EMAIL_SENDER', ''),
             'charset' => 'utf-8',
             'headerCharset' => 'utf-8',
             'emailFormat' => 'both'

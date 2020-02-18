@@ -2,12 +2,11 @@
 
 After you created the complete application package using Composer or PHP-Download, you should set your
 environment specific variables. Take a look into `/config/.env.default` file to do this.
-If you want to set some environment variables, you should rename the file `/config/.env.default` to `/config/.env` to 
-take effect in the application. See the comments in the file for more instructions.
+You don't need to rename the file, the web installer will to everything required for you.
 
 When your setup is down, you can upload the whole application by using your FTP client.
 
-## Web Install Wizard
+## Web Installer
 After you uploaded the whole application on your server open the app in your web browser. The installation wizard will start and guide you through the whole installation.
 
 ### Requirements
@@ -58,9 +57,9 @@ doing here and always take backup of the files, since this can lead to critical 
     
 *   `auth.php` - See basic authentication and authorization settings here.
 
-*   `database.php` - This file contains your database credentials. You can change them manually here if you need to.
+*   `database.php` - This file contains your database credentials.
 
-*   `email.php` - Contains email transport settings ans SMTP credentials. Change them here if you need to.
+*   `email.php` - Contains email transport settings ans SMTP credentials.
 
 *   `install.php` - DO NEVER MODIFY THIS FILE! It contains your installations status.
 

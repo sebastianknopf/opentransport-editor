@@ -6,6 +6,7 @@ use Cake\Core\Configure;
 use Cake\Datasource\ConnectionManager;
 use Cake\Event\Event;
 use Cake\Log\Log;
+use Cake\Utility\Security;
 use Migrations\Migrations;
 
 class InstallController extends BaseController
@@ -72,6 +73,7 @@ class InstallController extends BaseController
             Log::info('extension simplexml: ' . (extension_loaded('simplexml') ? 'OK' : 'WARNING'), ['scope' => 'install']);
             Log::info('set_time_limit callable: ' . (strpos(ini_get('disable_functions'), 'set_time_limit') === false ? 'YES' : 'NO'), ['scope' => 'install']);
 
+            $this->writeEnvConfigFile(['SECURITY_SALT' => Security::randomString()]);
             $this->writePhpConfigFile('install', ['currentStep' => 'database']);
             $this->redirect(['action' => 'database']);
         }
@@ -118,8 +120,14 @@ class InstallController extends BaseController
             }
 
             // update default database configuration
-            Log::info('Writing database configuration file (/config/database.php)', ['scope' => 'install']);
-            $this->writePhpConfigFile('database', $tmpConfig);
+            Log::info('Writing database configuration variables', ['scope' => 'install']);
+            $this->writeEnvConfigFile([
+                'DATABASE_HOST' => $dbHost,
+                'DATABASE_PORT' => $dbPort,
+                'DATABASE_USERNAME' => $dbUsername,
+                'DATABASE_PASSWORD' => $dbPassword,
+                'DATABASE_DBNAME' => $dbDatabaseName
+            ]);
 
             $migrations = new Migrations();
             try {
@@ -164,17 +172,15 @@ class InstallController extends BaseController
             $mailPassword = $this->getRequest()->getData('email.password');
             $mailSenderAddr = $this->getRequest()->getData('email.from');
 
-            $tmpConfig = [
-                'host' => $mailHost,
-                'port' => $mailPort,
-                'username' => $mailUsername,
-                'password' => $mailPassword,
-                'from' => $mailSenderAddr
-            ];
-
             // update default email configuration
-            Log::info('Writing email configuration file (/config/email.php)', ['scope' => 'install']);
-            $this->writePhpConfigFile('email', $tmpConfig);
+            Log::info('Writing email configuration variables', ['scope' => 'install']);
+            $this->writeEnvConfigFile([
+                'SMTP_HOST' => $mailHost,
+                'SMTP_PORT' => $mailPort,
+                'SMTP_USERNAME' => $mailUsername,
+                'SMTP_PASSWORD' => $mailPassword,
+                'EMAIL_SENDER' => $mailSenderAddr
+            ]);
 
             $this->writePhpConfigFile('install', ['currentStep' => 'user']);
             $this->redirect(['action' => 'user']);
@@ -251,5 +257,34 @@ class InstallController extends BaseController
         }
 
         return file_put_contents(CONFIG . $fileName, $content);
+    }
+
+    /**
+     * Writes data to an .env file to be read by the configuration files. If there exists
+     * no .env file, the .env.default file will be used as template. Disable this behaviour
+     * by setting $checkDefault parameter to false.
+     *
+     * @param array $data The variables to override in the ENV file
+     * @param bool $checkDefault Whether to lookup a default file
+     * @return bool|int Whether the file has been written
+     */
+    private function writeEnvConfigFile($data = [], $checkDefault = true)
+    {
+        $envFileName = CONFIG . '.env';
+        if (!file_exists($envFileName) && $checkDefault) {
+            $envFileName .= '.default';
+        }
+
+        $envFileContent = file_get_contents($envFileName);
+
+        foreach ($data as $field => $value) {
+            $envFileContent = preg_replace(
+                str_replace('__FIELD__', $field, '/(#?)(.*__FIELD__\=\").*(\".*)/'),
+                '${2}' . addslashes($value) . '${3}',
+                $envFileContent
+            );
+        }
+
+        return file_put_contents(CONFIG . '.env', $envFileContent);
     }
 }
