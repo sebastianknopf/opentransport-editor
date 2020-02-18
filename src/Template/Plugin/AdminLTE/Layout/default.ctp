@@ -94,7 +94,8 @@
             size: "3px"
         }).css("width", "100%");
 
-        var a = $('a[href="<?= \Cake\Routing\Router::url(['controller' => $this->getRequest()->getParam('controller')]) ?>"]');
+        // only access links with an element of type 'li' as parent!
+        var a = $('li > a[href="<?= \Cake\Routing\Router::url(['controller' => $this->getRequest()->getParam('controller'), 'action' => 'index']) ?>"]');
         if (!a.parent().hasClass('treeview') && !a.parent().hasClass('btn') && !a.parent().parent().hasClass('pagination')) {
             a.parent().addClass('active').parents('.treeview').addClass('active');
         }
