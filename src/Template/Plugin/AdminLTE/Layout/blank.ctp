@@ -7,6 +7,8 @@
         <title><?php echo Configure::read('Theme.title'); ?></title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <!-- Facivon -->
+        <link rel="icon" type="image/x-icon" href="<?= $this->Url->image('favicon.ico') ?>" />
         <!-- Bootstrap 3.3.7 -->
         <?php echo $this->Html->css('AdminLTE./bower_components/bootstrap/dist/css/bootstrap.min'); ?>
         <!-- Font Awesome -->
