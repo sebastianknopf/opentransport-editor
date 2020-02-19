@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenTransport - Deutsch\n"
-"POT-Creation-Date: 2020-02-16 15:26+0000\n"
-"PO-Revision-Date: 2020-02-16 16:27+0100\n"
+"POT-Creation-Date: 2020-02-19 15:42+0000\n"
+"PO-Revision-Date: 2020-02-19 16:43+0100\n"
 "Last-Translator: \n"
 "Language-Team: sebastianknopf (@github)\n"
 "Language: de\n"
@@ -13,11 +13,11 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: Controller/InstallController.php:115
+#: Controller/InstallController.php:117
 msgid "Unable to connect to the database server!"
 msgstr "Verbindung zum Datenbank-Server fehlgeschlagen!"
 
-#: Controller/InstallController.php:206
+#: Controller/InstallController.php:220
 msgid "Unable to save admin user!"
 msgstr "Der Administrator konnte nicht gespeichert werden!"
 
@@ -3206,7 +3206,7 @@ msgid "Database Name"
 msgstr "Datenbank"
 
 #: Template/Install/database.ctp:28 Template/Install/email.ctp:30
-#: Template/Install/index.ctp:114 Template/Install/user.ctp:26
+#: Template/Install/index.ctp:114 Template/Install/user.ctp:29
 msgid "Next"
 msgstr "Weiter"
 
@@ -3287,6 +3287,14 @@ msgstr ""
 #: Template/Install/user.ctp:21
 msgid "E-Mail"
 msgstr "E-Mail"
+
+#: Template/Install/user.ctp:25
+msgid "Webmaster Contact Address"
+msgstr "Webmaster Kontakt-Adresse"
+
+#: Template/Install/user.ctp:25
+msgid "for e.g. webmaster@localhost.de"
+msgstr "z.B. webmaster@localhost.de"
 
 #: Template/Layout/error.ctp:43
 msgid "Back"

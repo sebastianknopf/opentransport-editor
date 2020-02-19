@@ -205,6 +205,14 @@ class InstallController extends BaseController
             $user->group_id = 1;
 
             if ($this->Users->save($user)) {
+                // process webmaster contact address if available
+                $contactEmailAddress = $this->getRequest()->getData('contact');
+                if (!empty($contactEmailAddress)) {
+                    $this->writeEnvConfigFile([
+                        'APP_ADMIN_EMAIL' => $contactEmailAddress
+                    ]);
+                }
+
                 $this->writePhpConfigFile('install', ['currentStep' => 'conclusion']);
                 $this->redirect(['action' => 'conclusion']);
             } else {

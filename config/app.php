@@ -49,7 +49,7 @@ return [
         'name' => env('APP_NAME', 'OpenTransport'),
         'version' => '0.9.0',
         'base' => env('APP_BASE', ''),
-        'email' => 'email@opentransport.org',
+        'email' => env('APP_ADMIN_EMAIL', 'webmaster@localhost.de'),
         'dir' => 'src',
         'webroot' => 'webroot',
         'wwwRoot' => WWW_ROOT,

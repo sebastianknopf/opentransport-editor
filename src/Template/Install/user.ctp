@@ -21,6 +21,9 @@ $this->loadHelper('Markdown.Markdown');
             <?= $this->Form->control('email', ['label' => __('E-Mail')]) ?>
             <?= $this->Form->control('password', ['label' => __('Password')]) ?>
         </p>
+        <p>
+            <?= $this->Form->control('contact', ['label' => __('Webmaster Contact Address'), 'placeholder' => __('for e.g. webmaster@localhost.de')]) ?>
+        </p>
     </div>
     <div class="box-footer no-border">
         <?= $this->Form->submit(__('Next'), ['class' => 'pull-right btn btn-success']) ?>

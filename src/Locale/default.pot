@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2020-02-16 15:26+0000\n"
+"POT-Creation-Date: 2020-02-19 15:42+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,11 +14,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Controller/InstallController.php:115
+#: Controller/InstallController.php:117
 msgid "Unable to connect to the database server!"
 msgstr ""
 
-#: Controller/InstallController.php:206
+#: Controller/InstallController.php:220
 msgid "Unable to save admin user!"
 msgstr ""
 
@@ -2107,7 +2107,7 @@ msgstr ""
 #: Template/Install/database.ctp:28
 #: Template/Install/email.ctp:30
 #: Template/Install/index.ctp:114
-#: Template/Install/user.ctp:26
+#: Template/Install/user.ctp:29
 msgid "Next"
 msgstr ""
 
@@ -2169,6 +2169,14 @@ msgstr ""
 
 #: Template/Install/user.ctp:21
 msgid "E-Mail"
+msgstr ""
+
+#: Template/Install/user.ctp:25
+msgid "Webmaster Contact Address"
+msgstr ""
+
+#: Template/Install/user.ctp:25
+msgid "for e.g. webmaster@localhost.de"
 msgstr ""
 
 #: Template/Layout/error.ctp:43
