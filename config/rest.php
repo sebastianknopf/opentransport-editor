@@ -14,7 +14,7 @@ return [
             'allowOrigins' => '*',
             'allowHeaders' => ['Content-Type, Authorization, Accept, Origin'],
             'allowMethods' => ['GET', 'POST', 'OPTIONS'],
-            'maxAge' => 2628000
+            'maxAge' => 691200 // 8 days
         ]
     ]
 ];

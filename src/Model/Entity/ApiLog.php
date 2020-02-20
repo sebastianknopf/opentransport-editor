@@ -60,7 +60,7 @@ class ApiLog extends Entity
                 'query_params' => json_encode($request->getQueryParams()),
                 'request_data' => $request->getBody()->getContents(),
                 'response_code' => $response->getStatusCode(),
-                'response_data' => $response->getBody()->getContents(),
+                'response_data' => $response->body(),
                 'exception' => $exception
             ];
 

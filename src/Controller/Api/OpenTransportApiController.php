@@ -4,17 +4,14 @@ namespace App\Controller\Api;
 
 use App\Controller\BaseController;
 use App\Model\Entity\ApiLog;
-use App\Utility\LocaleList;
 use App\View\RestView;
 use Authentication\Identifier\IdentifierInterface;
-use Cake\Controller\Controller;
 use Cake\Core\Configure;
 use Cake\Event\Event;
 use Cake\Http\Exception\BadRequestException;
 use Cake\Http\Exception\UnauthorizedException;
 use Cake\I18n\FrozenDate;
 use Cake\I18n\FrozenTime;
-use Cake\I18n\I18n;
 use Cake\Utility\Security;
 use Cake\Utility\Xml;
 use Firebase\JWT\JWT;
@@ -126,13 +123,15 @@ class OpenTransportApiController extends BaseController
         }
 
         // return ready build response with CORS enabled
-        return $this->response->cors($this->request)
+        $this->response = $this->response->cors($this->request)
             ->allowOrigin(Configure::read('RestAPI.CORS.allowOrigins'))
             ->allowMethods(Configure::read('RestAPI.CORS.allowMethods'))
             ->allowHeaders(Configure::read('RestAPI.CORS.allowHeaders'))
             ->maxAge(Configure::read('RestAPI.CORS.maxAge'))
             ->allowCredentials(['true'])
             ->build();
+
+        return $this->response;
     }
 
     /**
