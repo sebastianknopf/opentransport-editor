@@ -51,7 +51,7 @@ return [
         'preferredLocale' => false,
         'defaultTimezone' => env('APP_DEFAULT_TIMEZONE', 'UTC'),
         'name' => env('APP_NAME', 'OpenTransport'),
-        'version' => '0.9.3',
+        'version' => '0.9.4',
         'base' => env('APP_BASE', ''),
         'email' => env('APP_ADMIN_EMAIL', 'webmaster@localhost.de'),
         'dir' => 'src',
