@@ -31,8 +31,8 @@ class GitHubApiClient
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 
-        if (Configure::read('App.repositoryCredentials') !== false && is_array(Configure::read('App.repositoryCredentials'))) {
-            curl_setopt($ch, CURLOPT_USERPWD, implode(":", Configure::read('App.repositoryCredentials')));
+        if (Configure::read('App.repositoryCredentials') !== false) {
+            curl_setopt($ch, CURLOPT_USERPWD, Configure::read('App.repositoryCredentials'));
         }
 
         // need to set user agent due too GitHubs API restrictions
