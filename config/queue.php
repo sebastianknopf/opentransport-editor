@@ -13,7 +13,7 @@ return [
         'exitwhennothingtodo' => false,
         'defaultworkertimeout' => 1800,
         'defaultworkerretries' => 3,
-        'workermaxruntime' => env('DEBUG', false) === false ? 3600 : 120,
+        'workermaxruntime' => 120,
         'workertimeout' => 86400,
         'cleanuptimeout' => 86400
     ]

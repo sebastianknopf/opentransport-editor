@@ -38,6 +38,7 @@ $currentUpdateJobId = $this->SystemUpdate->getCurrentUpdateJobId();
                         <span id="lblUpdateJobStatus"></span> <?= $this->Html->image('AjaxLoader.gif', ['alt' => 'Ajax Loader', 'id' => 'imgUpdateStatusLoading', 'width' => 20, 'height' => 20]) ?>
                         <?php endif; ?>
                         <?= $this->Form->postLink(__('Run Update'), [], ['class' => 'btn btn-warning' . ($currentUpdateJobId != null ? ' disabled' : null), 'id' => 'lnkRunUpdate']); ?>
+                        <?= $this->Html->link(__('Close'), ['action' => 'index'], ['class' => 'btn btn-default', 'style' => 'display:none', 'id' => 'lnkCloseUpdate']); ?>
                     </div>
                 </div>
                 <?php endif; ?>
@@ -68,8 +69,8 @@ $currentUpdateJobId = $this->SystemUpdate->getCurrentUpdateJobId();
                         case updateJob.completed:
                             $('#lblUpdateJobStatus').remove();
                             $('#imgUpdateStatusLoading').remove();
-                            $('#lnkRunUpdate').removeClass('disabled');
-                            window.location.reload();
+                            $('#lnkRunUpdate').remove();
+                            $('#lnkCloseUpdate').show();
                             break;
 
                         default:
