@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenTransport - Deutsch\n"
-"POT-Creation-Date: 2020-02-19 15:42+0000\n"
-"PO-Revision-Date: 2020-02-19 16:43+0100\n"
+"POT-Creation-Date: 2020-02-23 18:48+0000\n"
+"PO-Revision-Date: 2020-02-23 19:50+0100\n"
 "Last-Translator: \n"
 "Language-Team: sebastianknopf (@github)\n"
 "Language: de\n"
@@ -223,14 +223,22 @@ msgstr ""
 "Die Station konnte nicht gelöscht werden! Sie wird noch von anderen Objekten "
 "referenziert."
 
-#: Controller/Admin/SystemController.php:19 Template/Admin/System/manual.ctp:27
+#: Controller/Admin/SystemController.php:21 Template/Admin/System/manual.ctp:27
 #: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:11
 msgid "System"
 msgstr "System"
 
-#: Controller/Admin/SystemController.php:74
+#: Controller/Admin/SystemController.php:80
 msgid "The message could not be ignored!"
 msgstr "Die Meldung konnte nicht ignoriert werden!"
+
+#: Controller/Admin/SystemController.php:97
+msgid "The system update has been started!"
+msgstr "Das System-Update wurde gestartet!"
+
+#: Controller/Admin/SystemController.php:99
+msgid "The system update is running yet!"
+msgstr "Das System-Update läuft bereits!"
 
 #: Controller/Admin/TripsController.php:45 Template/Admin/System/manual.ctp:99
 #: Template/Admin/Trips/index.ctp:10
@@ -480,62 +488,62 @@ msgstr "Die Passwörter stimmen nicht überein!"
 msgid "The password is invalid!"
 msgstr "Das Passwort ist ungültig!"
 
-#: Shell/Task/QueueDataMonitorTask.php:96
+#: Shell/Task/QueueDataMonitorTask.php:95
 msgid "stop #{0} does not specify a platform code"
 msgstr "Die Haltepositionen #{0} definiert keinen Steig"
 
-#: Shell/Task/QueueDataMonitorTask.php:100
+#: Shell/Task/QueueDataMonitorTask.php:99
 msgid "stop #{0} is never used in any trip"
 msgstr "Die Station #{0} wird in keiner Fahrt referenziert"
 
-#: Shell/Task/QueueDataMonitorTask.php:118
+#: Shell/Task/QueueDataMonitorTask.php:117
 msgid "shape #{0} is never used in any trip"
 msgstr "Der Fahrweg #{0} wird in keiner Fahrt referenziert"
 
-#: Shell/Task/QueueDataMonitorTask.php:137
+#: Shell/Task/QueueDataMonitorTask.php:136
 msgid "service #{0} is never used in any trip"
 msgstr "Die Tagesart #{0} wird in keiner Fahrt referenziert"
 
-#: Shell/Task/QueueDataMonitorTask.php:144
+#: Shell/Task/QueueDataMonitorTask.php:143
 msgid "service exception #{0} causes a conflict with another service exception"
 msgstr ""
 "Die Einzeltagesart #{0} steht im Konflikt mit einer anderen Einzeltagesart"
 
-#: Shell/Task/QueueDataMonitorTask.php:166
+#: Shell/Task/QueueDataMonitorTask.php:165
 msgid "agency #{0} has no routes assigned"
 msgstr "Das Unternehmen #{0} besitzt keine Linien"
 
-#: Shell/Task/QueueDataMonitorTask.php:184
+#: Shell/Task/QueueDataMonitorTask.php:183
 msgid "route #{0} has no trips assigned"
 msgstr "Die Linie #{0} besitzt keine Fahrten"
 
-#: Shell/Task/QueueDataMonitorTask.php:189
+#: Shell/Task/QueueDataMonitorTask.php:188
 msgid "route #{0} uses a mismatching color scheme"
 msgstr "Die Linie #{0} verwendet ein ungünstiges Farbschema"
 
-#: Shell/Task/QueueDataMonitorTask.php:209
+#: Shell/Task/QueueDataMonitorTask.php:208
 msgid "trip #{0} does not specify a short name"
 msgstr "Die Fahrt #{0} definiert keine Fahrt-Nummer"
 
-#: Shell/Task/QueueDataMonitorTask.php:213
+#: Shell/Task/QueueDataMonitorTask.php:212
 msgid "trip #{0} does not specify a shape"
 msgstr "Die Fahrt #{0} definiert keinen Fahrweg"
 
-#: Shell/Task/QueueDataMonitorTask.php:223
+#: Shell/Task/QueueDataMonitorTask.php:222
 msgid "two or more stop times in trip #{0} are overlapping each other"
 msgstr ""
 "Zwei oder mehr Fahrzeiten in der Fahrt #{0} überlappen sich gegenseitig"
 
-#: Shell/Task/QueueDataMonitorTask.php:228;232
+#: Shell/Task/QueueDataMonitorTask.php:227;231
 msgid "two or more stop times in trip #{0} are inconsistent"
 msgstr "Zwei oder mehr Fahrzeiten in der Fahrt #{0} sind inkonsistent"
 
-#: Shell/Task/QueueDataMonitorTask.php:242
+#: Shell/Task/QueueDataMonitorTask.php:241
 msgid "two or more frequencies in trip #{0} are overlapping each other"
 msgstr ""
 "Zwei oder mehr Taktzeiten in der Fahrt #{0} überlappen sich gegenseitig"
 
-#: Shell/Task/QueueDataMonitorTask.php:247
+#: Shell/Task/QueueDataMonitorTask.php:246
 msgid "two or more frequencies in trip #{0} are inconsistent"
 msgstr "Zwei oder mehr Taktzeiten in der Fahrt #{0} sind inkonsistent"
 
@@ -658,7 +666,7 @@ msgstr "Anwenden"
 #: Template/Admin/Groups/index.ctp:26 Template/Admin/Routes/index.ctp:71
 #: Template/Admin/Routes/view.ctp:144 Template/Admin/Services/index.ctp:62
 #: Template/Admin/Shapes/index.ctp:61 Template/Admin/Stops/index.ctp:63
-#: Template/Admin/Stops/view.ctp:86 Template/Admin/System/index.ctp:77
+#: Template/Admin/Stops/view.ctp:86 Template/Admin/System/index.ctp:78
 #: Template/Admin/Trips/add.ctp:71 Template/Admin/Trips/edit.ctp:71
 #: Template/Admin/Trips/index.ctp:79 Template/Admin/Users/index.ctp:28
 msgid "Actions"
@@ -774,7 +782,7 @@ msgstr "Langbezeichnung"
 msgid "No related routes found!"
 msgstr "Keine zugeordneten Linien gefunden!"
 
-#: Template/Admin/ApiLogs/index.ctp:9 Template/Admin/System/index.ctp:44
+#: Template/Admin/ApiLogs/index.ctp:9 Template/Admin/System/index.ctp:45
 #: Template/Admin/System/manual.ctp:111
 #: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:68
 msgid "REST API"
@@ -788,7 +796,7 @@ msgstr "Statistik Anfragen"
 msgid "last 8 days"
 msgstr "der letzten 8 Tage"
 
-#: Template/Admin/ApiLogs/index.ctp:29;78 Template/Admin/System/index.ctp:55
+#: Template/Admin/ApiLogs/index.ctp:29;78 Template/Admin/System/index.ctp:56
 msgid ""
 "RestAPI requests are not logged! Enable RestAPI request log to view this "
 "panel!"
@@ -1283,53 +1291,72 @@ msgstr "Anz. Haltepositionen"
 msgid "No assigned stops where found!"
 msgstr "Keine zugeordneten Haltepositionen gefunden!"
 
-#: Template/Admin/System/index.ctp:9
+#: Template/Admin/System/index.ctp:11
 #: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:5
 msgid "Dashboard"
 msgstr "Dashboard"
 
-#: Template/Admin/System/index.ctp:18
-msgid "Latest Features"
-msgstr "Neueste Features"
+#: Template/Admin/System/index.ctp:20 Template/Admin/System/update.ctp:10
+msgid "System Update"
+msgstr "System Update"
 
-#: Template/Admin/System/index.ctp:32
-msgid "Current Version"
-msgstr "Aktuelle Version"
+#: Template/Admin/System/index.ctp:27 Template/Admin/System/update.ctp:31
+msgid ""
+"Currently all system components are up to date! No need to update anything."
+msgstr ""
+"Momentan sind alle System-Komponenten aktuell! Es ist kein Update "
+"erforderlich."
 
-#: Template/Admin/System/index.ctp:65
+#: Template/Admin/System/index.ctp:29
+msgid ""
+"There's a system update available for some components! Click the button to "
+"see the update details."
+msgstr ""
+"Es ist ein System-Update für einige Komponenten verfügbar! Klicken Sie auf "
+"den Button, um weitere Details anzuzeigen."
+
+#: Template/Admin/System/index.ctp:34
+msgid "Current version is {0}, latest is {1}"
+msgstr "Aktuelle Version {0}, neueste Version {1}"
+
+#: Template/Admin/System/index.ctp:36
+msgid "See Update"
+msgstr "Update Anzeigen"
+
+#: Template/Admin/System/index.ctp:66
 msgid "Data Errors"
 msgstr "Datenfehler"
 
-#: Template/Admin/System/index.ctp:75
+#: Template/Admin/System/index.ctp:76
 msgid "Level"
 msgstr "Level"
 
-#: Template/Admin/System/index.ctp:76
+#: Template/Admin/System/index.ctp:77
 msgid "Text"
 msgstr "Meldungstext"
 
-#: Template/Admin/System/index.ctp:84
+#: Template/Admin/System/index.ctp:85
 msgid "Info"
 msgstr "Info"
 
-#: Template/Admin/System/index.ctp:87
+#: Template/Admin/System/index.ctp:88
 msgid "Warning"
 msgstr "Warnung"
 
-#: Template/Admin/System/index.ctp:90 Template/Admin/Users/pwreset.ctp:11
+#: Template/Admin/System/index.ctp:91 Template/Admin/Users/pwreset.ctp:11
 #: Template/Layout/error.ctp:35
 msgid "Error"
 msgstr "Fehler"
 
-#: Template/Admin/System/index.ctp:99
+#: Template/Admin/System/index.ctp:100
 msgid "Ignore"
 msgstr "Ignorieren"
 
-#: Template/Admin/System/index.ctp:108
+#: Template/Admin/System/index.ctp:109
 msgid "No data errors found."
 msgstr "Keine Datenfehler gefunden."
 
-#: Template/Admin/System/index.ctp:132
+#: Template/Admin/System/index.ctp:133
 msgid "Requests"
 msgstr "Anfragen"
 
@@ -1829,6 +1856,18 @@ msgstr ""
 "\n"
 "Bei Rückfragen können Sie jederzeit unter der E-Mailadresse [{0}](mailto:"
 "{0}) den Betreiber der Anwendung kontaktieren."
+
+#: Template/Admin/System/update.ctp:19
+msgid "Recent Updates"
+msgstr "Aktuelle Updates"
+
+#: Template/Admin/System/update.ctp:26
+msgid "by"
+msgstr "von"
+
+#: Template/Admin/System/update.ctp:40
+msgid "Run Update"
+msgstr "Update Ausführen"
 
 #: Template/Admin/Trips/add.ctp:2
 msgid "Add Trip"
@@ -3323,6 +3362,12 @@ msgstr "Fahrplandaten"
 #: Template/Plugin/AdminLTE/Element/aside/sidebar-menu.ctp:65
 msgid "Data Exchange"
 msgstr "Datenaustausch"
+
+#~ msgid "Latest Features"
+#~ msgstr "Neueste Features"
+
+#~ msgid "Current Version"
+#~ msgstr "Aktuelle Version"
 
 #~ msgid "License Information"
 #~ msgstr "Lizenzinformation"

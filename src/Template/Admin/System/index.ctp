@@ -3,6 +3,8 @@
 use Cake\Core\Configure;
 use Cake\I18n\FrozenDate;
 
+$this->loadHelper('SystemUpdate');
+
 ?>
 <section class="content-header">
     <h1>
@@ -15,27 +17,26 @@ use Cake\I18n\FrozenDate;
         <div class="col-lg-6 col-md-12">
             <div class="box">
                 <div class="box-header">
-                    <h3 class="box-title"><?= __('Latest Features') ?></h3>
+                    <h3 class="box-title"><?= __('System Update') ?></h3>
                     <div class="box-tools pull-right">
                         <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
                     </div>
                 </div>
                 <div class="box-body">
-                    <ul class="list-group list-group-unbordered">
-                        <li class="list-group-item">
-                            <b>Version 0.9.0</b>
-                            <span class="pull-right">
-                                basic trip editing based on pure GTFS data
-                            </span>
-                        </li>
-                        <li class="list-group-item">
-                            <b><?= __('Current Version') ?></b>
-                            <span class="pull-right">
-                                <?= Configure::read('App.version') ?>
-                            </span>
-                        </li>
-                    </ul>
+                    <?php if (!$this->SystemUpdate->isUpdateAvailable()): ?>
+                    <div class="alert alert-success"><?= __('Currently all system components are up to date! No need to update anything.') ?></div>
+                    <?php else: ?>
+                    <div class="alert alert-warning"><?= __('There\'s a system update available for some components! Click the button to see the update details.') ?></div>
+                    <?php endif; ?>
                 </div>
+                <?php if ($this->SystemUpdate->isUpdateAvailable()): ?>
+                <div class="box-footer">
+                    <b><?= __('Current version is {0}, latest is {1}', Configure::read('App.version'), $this->SystemUpdate->getLatestVersion()) ?></b>
+                    <span class="pull-right">
+                        <?= $this->Html->link(__('See Update'), ['controller' => 'System', 'action' => 'update'], ['class' => 'btn btn-default']) ?>
+                    </span>
+                </div>
+                <?php endif; ?>
             </div>
         </div>
         <div class="col-lg-6 col-md-12">

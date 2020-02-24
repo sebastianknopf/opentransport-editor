@@ -18,6 +18,10 @@ class SystemController extends AdminController
     {
         $this->set('title', __('System'));
 
+        if ($this->request->getParam('action') == 'startQueueWorker') {
+            $this->getEventManager()->off($this->Csrf);
+        }
+
         return parent::beforeFilter($event);
     }
 
@@ -76,6 +80,25 @@ class SystemController extends AdminController
         }
 
         return $this->redirect(['action' => 'index']);
+    }
+
+    /**
+     * Update method.
+     */
+    public function update()
+    {
+        if ($this->request->is(['post', 'put', 'patch'])) {
+            $this->loadModel('Queue.QueuedJobs');
+
+            if (!$this->QueuedJobs->isQueued('SystemUpdate', 'SystemUpdate')) {
+                $this->QueuedJobs->createJob('SystemUpdate', [], ['reference' => 'SystemUpdate']);
+                $this->Flash->success(__('The system update has been started!'));
+            } else {
+                $this->Flash->error(__('The system update is running yet!'));
+            }
+
+            return $this->redirect(['controller' => 'System', 'action' => 'update']);
+        }
     }
 
     /**

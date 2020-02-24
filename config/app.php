@@ -15,6 +15,8 @@ return [
      * Configure basic information about the application.
      *
      * - namespace - The namespace to find app classes under.
+     * - repository - The GitHub repository where the projec is located.
+     * - repositoryCredentials - Your own GitHub credentials as array [username, password]. Set to false, if no credentials available.
      * - defaultLocale - The default locale for translation, formatting currencies and numbers, date and time.
      * - preferredLocale - The locale to use preferred as default. Set to false to auto-detect the locale from user agent data.
      * - encoding - The encoding used for HTML + database connections.
@@ -42,12 +44,14 @@ return [
      */
     'App' => [
         'namespace' => 'App',
+        'repository' => 'https://api.github.com/repos/sebastianknopf/opentransport-editor',
+        'repositoryCredentials' => false,
         'encoding' => env('APP_ENCODING', 'UTF-8'),
         'defaultLocale' => env('APP_DEFAULT_LOCALE', 'de'),
         'preferredLocale' => false,
         'defaultTimezone' => env('APP_DEFAULT_TIMEZONE', 'UTC'),
         'name' => env('APP_NAME', 'OpenTransport'),
-        'version' => '0.9.3',
+        'version' => '0.9.0',
         'base' => env('APP_BASE', ''),
         'email' => env('APP_ADMIN_EMAIL', 'webmaster@localhost.de'),
         'dir' => 'src',

@@ -33,19 +33,13 @@ use Cake\Cache\Cache;
 use Cake\Console\ConsoleErrorHandler;
 use Cake\Core\Configure;
 use Cake\Core\Configure\Engine\PhpConfig;
-use Cake\Core\Plugin;
 use Cake\Database\Type;
 use Cake\Datasource\ConnectionManager;
 use Cake\Error\ErrorHandler;
 use Cake\Http\ServerRequest;
-use Cake\I18n\Date;
-use Cake\I18n\FrozenDate;
-use Cake\I18n\FrozenTime;
-use Cake\I18n\Time;
 use Cake\Log\Log;
 use Cake\Mailer\Email;
 use Cake\Mailer\TransportFactory;
-use Cake\Utility\Inflector;
 use Cake\Utility\Security;
 
 /**
@@ -138,10 +132,8 @@ if ($isCli) {
  * Redirect to a HTTPS url, if this is required.
  */
 if (Configure::read('App.useHttps')) {
-    $httpHost = $_SERVER['HTTP_HOST'];
-
-    if (isset($httpHost) && !isset($_SERVER['HTTPS'])) {
-        header('Location: https://' . $httpHost . $_SERVER['REQUEST_URI']);
+    if (isset($_SERVER['HTTP_HOST']) && !isset($_SERVER['HTTPS'])) {
+        header('Location: https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
     }
 }
 
@@ -157,11 +149,10 @@ if (!Configure::read('App.fullBaseUrl')) {
         $s = 's';
     }
 
-    $httpHost = $_SERVER['HTTP_HOST'];
-    if (isset($httpHost)) {
-        Configure::write('App.fullBaseUrl', 'http' . $s . '://' . $httpHost);
+    if (isset($_SERVER['HTTP_HOST'])) {
+        Configure::write('App.fullBaseUrl', 'http' . $s . '://' . $_SERVER['HTTP_HOST']);
     }
-    unset($httpHost, $s);
+    unset($s);
 }
 
 Cache::setConfig(Configure::consume('Cache'));

@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\Shell\Task;
 
 use App\Model\Entity\Message;

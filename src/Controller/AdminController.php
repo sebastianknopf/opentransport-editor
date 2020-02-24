@@ -2,10 +2,8 @@
 
 namespace App\Controller;
 
-use App\Controller\AppController;
-use App\Utility\LocaleList;
-use Cake\Console\ShellDispatcher;
-use Cake\Controller\Controller;
+use Authentication\Identifier\IdentifierInterface;
+use Authentication\IdentityInterface;
 use Cake\Core\Configure;
 use Cake\Event\Event;
 use Cake\I18n\Date;
@@ -14,6 +12,8 @@ use Cake\I18n\FrozenTime;
 use Cake\I18n\I18n;
 use Cake\I18n\Time;
 use Cake\Routing\Router;
+use Cake\Utility\Security;
+use Firebase\JWT\JWT;
 
 /**
  * Admin Application Controller
@@ -21,6 +21,10 @@ use Cake\Routing\Router;
  */
 class AdminController extends AppController
 {
+    /**
+     * @var IdentityInterface|null The current authenticated identity
+     */
+    private $Identity = null;
 
     /**
      * Initialization hook method.
@@ -39,10 +43,10 @@ class AdminController extends AppController
         /*
          * Load user dependent settings from database and write to Configure.
          */
-        $identity = $this->Authentication->getIdentity();
-        if ($identity != null) {
+        $this->Identity = $this->Authentication->getIdentity();
+        if ($this->Identity != null) {
             $this->loadModel('UserSettings');
-            $userSettings = $this->UserSettings->findByUserId($identity->id);
+            $userSettings = $this->UserSettings->findByUserId($this->Identity->id);
 
             foreach ($userSettings as $userSetting) {
                 Configure::write($userSetting->name, $userSetting->value);
@@ -62,6 +66,33 @@ class AdminController extends AppController
             // set controller default locale
             I18n::setLocale(Configure::read('App.defaultLocale'));
         }
+
+        // trigger deferred queue worker task by calling the corresponding method in ajax controller
+        // be aware, that this request emulates a new session! A authentication token is always needed
+        // to identify the user calling the worker task!
+        // Note that the curl request is killed after 800ms to ensure short loading times when the worker
+        // script does not run immediately.
+        register_shutdown_function(function () {
+            $ch = curl_init();
+
+            $accessToken = JWT::encode([IdentifierInterface::CREDENTIAL_JWT_SUBJECT => ['id' => $this->Identity != null ? $this->Identity->id : 0]], Security::getSalt());
+            $startQueueWorkerUrl = Router::url(['controller' => 'Ajax', 'action' => 'startQueueWorker', '?' => ['token' => $accessToken]], true);
+
+            curl_setopt($ch, CURLOPT_URL, $startQueueWorkerUrl);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($ch, CURLOPT_POST, true);
+            curl_setopt($ch, CURLOPT_TIMEOUT_MS, 800);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, [
+                'User-Agent: ' . Configure::read('App.name'),
+            ]);
+
+            if (!empty(session_id())) {
+                session_write_close();
+            }
+
+            curl_exec($ch);
+            curl_close($ch);
+        });
     }
 
     /**
@@ -79,10 +110,6 @@ class AdminController extends AppController
         $this->Security->setConfig([
             'unlockedActions' => ['delete']
         ]);
-
-        // start a runworker to work with queued tasks
-        $dispatcher = new ShellDispatcher();
-        $dispatcher->run(['cake', 'queue', 'runworker']);
     }
 
     /**

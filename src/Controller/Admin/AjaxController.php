@@ -3,11 +3,10 @@
 namespace App\Controller\Admin;
 
 
-use App\Controller\BaseController;
-use App\Model\Entity\Service;
-use App\Model\Entity\Trip;
+use Cake\Console\ShellDispatcher;
 use Cake\Controller\Controller;
-use Cake\Event\Event;
+use Cake\Core\Configure;
+use Cake\ORM\TableRegistry;
 
 /**
  * Internal controller for AJAX calls from admin backend.
@@ -26,6 +25,7 @@ class AjaxController extends Controller
     {
         parent::initialize();
 
+        $this->loadComponent('Authentication.Authentication');
         $this->loadComponent('RequestHandler');
     }
 
@@ -134,5 +134,73 @@ class AjaxController extends Controller
 
         $this->RequestHandler->renderAs($this, 'json');
         $this->set('_serialize', 'message');
+    }
+
+    /**
+     * Creates an information about all jobs. If only certain jobs
+     * should be queried, specify one or more job comma-separated job IDs.
+     *
+     * @param null $jobIds The job IDs to request
+     */
+    public function jobStatus($jobIds = null)
+    {
+        $jobIds = $jobIds != null ? explode(',', $jobIds) : [];
+        $jobsTable = TableRegistry::getTableLocator()->get('Queue.QueuedJobs');
+
+        $incompleteTasks = $jobsTable->find();
+        if (count($jobIds) > 0) {
+            $incompleteTasks->where(['QueuedJobs.id' => $jobIds], ['QueuedJobs.id' => 'integer[]']);
+        }
+
+        $queuedJobs = [];
+        foreach ($incompleteTasks->toArray() as $jobInfo) {
+            array_push($queuedJobs, [
+                'id' => $jobInfo->id,
+                'type' => $jobInfo->job_type,
+                'pending' => $jobInfo->fetched == null,
+                'running' => $jobInfo->fetched != null && $jobInfo->completed == null,
+                'completed' => $jobInfo->completed != null,
+                'failed' => $jobInfo->failed > 0,
+                'progress' => $jobInfo->progress,
+                'status' => $jobInfo->status
+            ]);
+        }
+
+        $this->set('result', ['queuedJobs' => $queuedJobs]);
+
+        $this->RequestHandler->renderAs($this, 'json');
+        $this->set('_serialize', 'result');
+    }
+
+    /**
+     *
+     */
+    public function startQueueWorker()
+    {
+        $this->request->allowMethod(['post', 'put', 'patch']);
+
+        ignore_user_abort(true);
+
+        if (!empty(session_id())) {
+            session_write_close();
+        }
+
+        if (is_callable('fastcgi_finish_request')) {
+            fastcgi_finish_request();
+        } else {
+            http_response_code(200);
+            header('Connection: close');
+            header('Content-Length: 0');
+            header('Content-Encoding: none');
+
+            ob_end_flush();
+            ob_flush();
+            flush();
+        }
+
+        if ($this->request->hasHeader('User-Agent') && $this->request->getHeader('User-Agent')[0] == Configure::read('App.name')) {
+            $dispatcher = new ShellDispatcher();
+            $dispatcher->run(['cake', 'queue', 'runworker']);
+        }
     }
 }
